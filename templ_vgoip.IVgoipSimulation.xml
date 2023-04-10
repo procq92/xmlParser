@@ -1,0 +1,354 @@
+<obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00" class-name="vgoip.IVgoipSimulation" nom="VGoIP-Simu-00">
+	  <fv nom="adresseIPScriptAudit" val="null" />
+	  <fv nom="alarmeCarteTemp">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeCarteTemp.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeCarteTemp.Etat température en entrée" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeCarteTemp" nom="Etat température en entrée">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCpuState">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeCpuState.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeCpuState.Etat charge CPU" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeCpuState" nom="Etat charge CPU">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCpuTemp">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeCpuTemp.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeCpuTemp.Etat température CPU" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeCpuTemp" nom="Etat température CPU">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatAdministratif">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeEtatAdministratif.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeEtatAdministratif.Etat administratif" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeEtatAdministratif" nom="Etat administratif">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatLigneVie">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeEtatLigneVie.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeEtatLigneVie.Etat ligne de vie" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeEtatLigneVie" nom="Etat ligne de vie">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatOccupationDisque">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeEtatOccupationDisque.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeEtatOccupationDisque.Etat occupation disque racine" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeEtatOccupationDisque" nom="Etat occupation disque racine">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeInetdStatus">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeInetdStatus.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeInetdStatus.Etat Inetd" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeInetdStatus" nom="Etat Inetd">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeMemStateReal">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeMemStateReal.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeMemStateReal.Etat mémoire vive" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeMemStateReal" nom="Etat mémoire vive">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeNtpdStatus">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeNtpdStatus.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeNtpdStatus.Etat Ntp" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeNtpdStatus" nom="Etat Ntp">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeSyslogStatus">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeSyslogStatus.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeSyslogStatus.Etat Syslog" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeSyslogStatus" nom="Etat Syslog">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeVgcomStatus">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeVgcomStatus.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeVgcomStatus.Etat VG-COM" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeVgcomStatus" nom="Etat VG-COM">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeVgsupStatus">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.alarmeVgsupStatus.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeVgsupStatus.Etat VG-SUP" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$alarmeVgsupStatus" nom="Etat VG-SUP">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="altIpAddressSupervisedHost" val="null" />
+	  <fv nom="cheminScriptAudit" val="/usr/libexec/action-cmoip/Auditer_version.sh" />
+	  <fv nom="cmoipLocal" ref="null" />
+	  <fv nom="cnxVgoipJ1nonUtilise" val="false" />
+	  <fv nom="cnxVgoipJ2nonUtilise" val="false" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="coreFileNameRegExpr" val=".*" />
+	  <fv nom="coreNumber" val="1" />
+	  <fv nom="cpuLoadAlertLevel" val="70" />
+	  <fv nom="cpuLoadCriticalLevel" val="80" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="eqId" val="0" />
+	  <fv nom="eqtType" enum="null" />
+
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="eth0">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.eth0.port.IPortEthernetSnmp$vgoip.IVgoipSimulation$eth0.J6" class-name="port.IPortEthernetSnmp$vgoip.IVgoipSimulation$eth0" nom="J6">
+	      <fv nom="alarmeEtatPort">
+	        <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.eth0.port.IPortEthernetSnmp$vgoip.IVgoipSimulation$eth0.J6.alarmeEtatPort.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$eth0.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$eth0.alarmeEtatPort" nom="Etat port">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="etatInit" enum="1" />
+
+	      <fv nom="indexSaisie" val="1" />
+	      <fv nom="indexSaisieHide" val="1" />
+	      <fv nom="internalName" val="eth0" />
+	      <fv nom="nomCourt" val="Port" />
+	      <fv nom="nonUtilise" val="false" />
+	      <fv nom="portReference" ref="null" />
+	      <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	      <fv nom="rechercheIndex" val="true" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="eth1">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.eth1.portcla.IInterfaceReseauMiae$vgoip.IVgoipSimulation$eth1.eth1" class-name="portcla.IInterfaceReseauMiae$vgoip.IVgoipSimulation$eth1" nom="eth1">
+	      <fv nom="ethernetPort1">
+	        <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.eth1.portcla.IInterfaceReseauMiae$vgoip.IVgoipSimulation$eth1.eth1.ethernetPort1.port.IPortEthernetSnmp$vgoip.IVgoipSimulation$eth1.ethernetPort1.J1" class-name="port.IPortEthernetSnmp$vgoip.IVgoipSimulation$eth1.ethernetPort1" nom="J1">
+	          <fv nom="alarmeEtatPort">
+	            <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.eth1.portcla.IInterfaceReseauMiae$vgoip.IVgoipSimulation$eth1.eth1.ethernetPort1.port.IPortEthernetSnmp$vgoip.IVgoipSimulation$eth1.ethernetPort1.J1.alarmeEtatPort.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$eth1.ethernetPort1.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$eth1.ethernetPort1.alarmeEtatPort" nom="Etat port">
+	              <fv nom="alarmAcousticalWarning" val="true" />
+	              <fv nom="alarmeActive" val="true" />
+	              <fv nom="alarmTimeDelay" val="0" />
+	            </obj>
+	          </fv>
+	          <fv nom="commentaire" val="null" />
+	          <fv nom="etatInit" enum="1" />
+
+	          <fv nom="indexSaisie" val="2" />
+	          <fv nom="indexSaisieHide" val="2" />
+	          <fv nom="internalName" val="eth0" />
+	          <fv nom="nomCourt" val="Port" />
+	          <fv nom="nonUtilise" val="false" />
+	          <fv nom="portReference" ref="null" />
+	          <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	          <fv nom="rechercheIndex" val="true" />
+	          <fv nom="sousType" enum="eth" />
+
+	        </obj>
+	      </fv>
+	      <fv nom="ethernetPort2">
+	        <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.eth1.portcla.IInterfaceReseauMiae$vgoip.IVgoipSimulation$eth1.eth1.ethernetPort2.port.IPortEthernetSnmp$vgoip.IVgoipSimulation$eth1.ethernetPort2.J2" class-name="port.IPortEthernetSnmp$vgoip.IVgoipSimulation$eth1.ethernetPort2" nom="J2">
+	          <fv nom="alarmeEtatPort">
+	            <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.eth1.portcla.IInterfaceReseauMiae$vgoip.IVgoipSimulation$eth1.eth1.ethernetPort2.port.IPortEthernetSnmp$vgoip.IVgoipSimulation$eth1.ethernetPort2.J2.alarmeEtatPort.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$eth1.ethernetPort2.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$eth1.ethernetPort2.alarmeEtatPort" nom="Etat port">
+	              <fv nom="alarmAcousticalWarning" val="true" />
+	              <fv nom="alarmeActive" val="true" />
+	              <fv nom="alarmTimeDelay" val="0" />
+	            </obj>
+	          </fv>
+	          <fv nom="commentaire" val="null" />
+	          <fv nom="etatInit" enum="1" />
+
+	          <fv nom="indexSaisie" val="3" />
+	          <fv nom="indexSaisieHide" val="3" />
+	          <fv nom="internalName" val="eth1" />
+	          <fv nom="nomCourt" val="Port" />
+	          <fv nom="nonUtilise" val="false" />
+	          <fv nom="portReference" ref="null" />
+	          <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	          <fv nom="rechercheIndex" val="true" />
+	          <fv nom="sousType" enum="eth" />
+
+	        </obj>
+	      </fv>
+	    </obj>
+	  </fv>
+	  <fv nom="flagVoieEtablie" val="false" />
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="null" />
+	  <fv nom="integrityChecker" ref="null" />
+	  <fv nom="intervalLifelineErreur" val="1000" />
+	  <fv nom="intervalLifelineOk" val="1000" />
+	  <fv nom="IntervalPollingErreur" val="1000" />
+	  <fv nom="ipAddressSupervisedHost" val="109.250.100.1" />
+	  <fv nom="ipRecuperationCore" val="109.250.100.1" />
+	  <fv nom="listeSessionsSip">
+	    <a i="0">
+	      <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_0" class-name="vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*" nom="label_0">
+	        <fv nom="alarmeEtatFluxSip">
+	          <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_0.alarmeEtatFluxSip.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatFluxSip$*.Etat flux SIP" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatFluxSip$*" nom="Etat flux SIP">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="alarmeEtatSessionSip">
+	          <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_0.alarmeEtatSessionSip.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatSessionSip$*.Etat session SIP" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatSessionSip$*" nom="Etat session SIP">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="commentaire" val="null" />
+	      </obj>
+	    </a>
+	    <a i="1">
+	      <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_1" class-name="vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*" nom="label_1">
+	        <fv nom="alarmeEtatFluxSip">
+	          <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_1.alarmeEtatFluxSip.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatFluxSip$*.Etat flux SIP" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatFluxSip$*" nom="Etat flux SIP">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="alarmeEtatSessionSip">
+	          <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_1.alarmeEtatSessionSip.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatSessionSip$*.Etat session SIP" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatSessionSip$*" nom="Etat session SIP">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="commentaire" val="null" />
+	      </obj>
+	    </a>
+	    <a i="2">
+	      <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_2" class-name="vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*" nom="label_2">
+	        <fv nom="alarmeEtatFluxSip">
+	          <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_2.alarmeEtatFluxSip.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatFluxSip$*.Etat flux SIP" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatFluxSip$*" nom="Etat flux SIP">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="alarmeEtatSessionSip">
+	          <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_2.alarmeEtatSessionSip.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatSessionSip$*.Etat session SIP" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatSessionSip$*" nom="Etat session SIP">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="commentaire" val="null" />
+	      </obj>
+	    </a>
+	    <a i="3">
+	      <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_3" class-name="vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*" nom="label_3">
+	        <fv nom="alarmeEtatFluxSip">
+	          <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_3.alarmeEtatFluxSip.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatFluxSip$*.Etat flux SIP" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatFluxSip$*" nom="Etat flux SIP">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="alarmeEtatSessionSip">
+	          <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.listeSessionsSip.vgoip.ISessionSip$vgoip.IVgoipSimulation$listeSessionsSip.*$*.label_3.alarmeEtatSessionSip.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatSessionSip$*.Etat session SIP" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$listeSessionsSip.*.alarmeEtatSessionSip$*" nom="Etat session SIP">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="commentaire" val="null" />
+	      </obj>
+	    </a>
+	  </fv>
+	  <fv nom="logiqueDeComportement" enum="1" />
+
+	  <fv nom="maxTryNumber" val="5" />
+	  <fv nom="maxTryNumberLifeLine" val="4" />
+	  <fv nom="maxVarbindsPerPduRequest" val="20" />
+	  <fv nom="memAlertLevel" val="70" />
+	  <fv nom="memCriticalLevel" val="95" />
+	  <fv nom="nbrTestAvantBasculeIP" val="2" />
+	  <fv nom="necessiteMaintenanceDuRebootSnmp" val="true" />
+	  <fv nom="nomCourt" val="MIL" />
+	  <fv nom="nomDuRebootSnmp" val="Redémarrer" />
+	  <fv nom="nomScriptPhoto" val="Prendre une photo" />
+	  <fv nom="parentLogique1" ref="null" />
+	  <fv nom="parentLogique2" ref="null" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="photoFileNameRegExpr" val=".*" />
+	  <fv nom="portE1">
+	    <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.portE1.port.IPortE1Snmp$vgoip.IVgoipSimulation$portE1.portE1Natif" class-name="port.IPortE1Snmp$vgoip.IVgoipSimulation$portE1" nom="portE1Natif">
+	      <fv nom="alarmeEtatPort">
+	        <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.portE1.port.IPortE1Snmp$vgoip.IVgoipSimulation$portE1.portE1Natif.alarmeEtatPort.mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$portE1.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$vgoip.IVgoipSimulation$portE1.alarmeEtatPort" nom="Etat port">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="indexPort" val="0" />
+	      <fv nom="internalName" val="portE1Natif" />
+	      <fv nom="nomCourt" val="Port" />
+	      <fv nom="nonUtilise" val="false" />
+	      <fv nom="portNumber" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="portSnmp" val="161" />
+	  <fv nom="portTrapSnmp" val="-1" />
+	  <fv nom="ProprieteDynamiqueInformation">
+	    <a i="0">
+	      <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatSansAlarmesSnmp$vgoip.IVgoipSimulation$ProprieteDynamiqueInformation.*$*.label_0" class-name="ucdavies.IProprietesDynamiquesEtatSansAlarmesSnmp$vgoip.IVgoipSimulation$ProprieteDynamiqueInformation.*$*" nom="label_0">
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	      </obj>
+	    </a>
+	    <a i="1">
+	      <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatSansAlarmesSnmp$vgoip.IVgoipSimulation$ProprieteDynamiqueInformation.*$*.label_1" class-name="ucdavies.IProprietesDynamiquesEtatSansAlarmesSnmp$vgoip.IVgoipSimulation$ProprieteDynamiqueInformation.*$*" nom="label_1">
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	      </obj>
+	    </a>
+	    <a i="2">
+	      <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatSansAlarmesSnmp$vgoip.IVgoipSimulation$ProprieteDynamiqueInformation.*$*.label_2" class-name="ucdavies.IProprietesDynamiquesEtatSansAlarmesSnmp$vgoip.IVgoipSimulation$ProprieteDynamiqueInformation.*$*" nom="label_2">
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	      </obj>
+	    </a>
+	    <a i="3">
+	      <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatSansAlarmesSnmp$vgoip.IVgoipSimulation$ProprieteDynamiqueInformation.*$*.label_3" class-name="ucdavies.IProprietesDynamiquesEtatSansAlarmesSnmp$vgoip.IVgoipSimulation$ProprieteDynamiqueInformation.*$*" nom="label_3">
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	      </obj>
+	    </a>
+	    <a i="4">
+	      <obj id="vgoip.IVgoipSimulation.VGoIP-Simu-00.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatSansAlarmesSnmp$vgoip.IVgoipSimulation$ProprieteDynamiqueInformation.*$*.label_4" class-name="ucdavies.IProprietesDynamiquesEtatSansAlarmesSnmp$vgoip.IVgoipSimulation$ProprieteDynamiqueInformation.*$*" nom="label_4">
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	      </obj>
+	    </a>
+	  </fv>
+	  <fv nom="repertoireRecuperationCore" val="/core" />
+	  <fv nom="repertoireRecuperationPhoto" val="/core" />
+	  <fv nom="scriptPhoto" val="/sysca/etc/adm_prendre_photo.sh" />
+	  <fv nom="storageAlertLevel" val="65" />
+	  <fv nom="storageCriticalLevel" val="95" />
+	  <fv nom="targetEquipmentIP" val="null" />
+	  <fv nom="tempCritical" val="70" />
+	  <fv nom="tempMaxAlarm" val="50" />
+	  <fv nom="tempoLifeline" val="null" />
+	  <fv nom="ticksPerSecond" val="100" />
+	  <fv nom="timeout" val="1000" />
+	  <fv nom="timeoutLifeLine" val="400" />
+	  <fv nom="timeoutRebootSnmp" val="22000" />
+	  <fv nom="timeoutScriptPhoto" val="22000" />
+	  <fv nom="typeEquipement" val="vgoip.IVgoipSip" />
+	  <fv nom="typeOS" enum="null" />
+
+	  <fv nom="utilisateurRecuperationCore" val="core" />
+	  <fv nom="virusChecker" ref="null" />
+	</obj>
+	

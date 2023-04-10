@@ -1,0 +1,8 @@
+<obj id="pocConfiguration.ITsoipSettingsConf.VPoIP_Conf" class-name="pocConfiguration.ITsoipSettingsConf" nom="VPoIP_Conf">
+	  <fv nom="burstPeriod" val="1000" />
+	  <fv nom="burstThreshold" val="10" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="radioRtpPacketSize" enum="20" />
+
+	</obj>
+	

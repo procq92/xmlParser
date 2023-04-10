@@ -1,0 +1,61 @@
+<obj id="srsa.edcdc.IPlanRemplacement.label" class-name="srsa.edcdc.IPlanRemplacement" nom="label">
+	  <fv nom="voiesRadioRepli">
+	    <a i="0">
+	      <obj id="srsa.edcdc.IPlanRemplacement.label.voiesRadioRepli.srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*.label_0" class-name="srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*" nom="label_0">
+	        <fv nom="etatVRdansTGV" enum="2" />
+
+	        <fv nom="voieRadioRepli" ref="null" />
+	      </obj>
+	    </a>
+	    <a i="1">
+	      <obj id="srsa.edcdc.IPlanRemplacement.label.voiesRadioRepli.srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*.label_1" class-name="srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*" nom="label_1">
+	        <fv nom="etatVRdansTGV" enum="2" />
+
+	        <fv nom="voieRadioRepli" ref="null" />
+	      </obj>
+	    </a>
+	    <a i="2">
+	      <obj id="srsa.edcdc.IPlanRemplacement.label.voiesRadioRepli.srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*.label_2" class-name="srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*" nom="label_2">
+	        <fv nom="etatVRdansTGV" enum="2" />
+
+	        <fv nom="voieRadioRepli" ref="null" />
+	      </obj>
+	    </a>
+	    <a i="3">
+	      <obj id="srsa.edcdc.IPlanRemplacement.label.voiesRadioRepli.srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*.label_3" class-name="srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*" nom="label_3">
+	        <fv nom="etatVRdansTGV" enum="2" />
+
+	        <fv nom="voieRadioRepli" ref="null" />
+	      </obj>
+	    </a>
+	    <a i="4">
+	      <obj id="srsa.edcdc.IPlanRemplacement.label.voiesRadioRepli.srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*.label_4" class-name="srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*" nom="label_4">
+	        <fv nom="etatVRdansTGV" enum="2" />
+
+	        <fv nom="voieRadioRepli" ref="null" />
+	      </obj>
+	    </a>
+	    <a i="5">
+	      <obj id="srsa.edcdc.IPlanRemplacement.label.voiesRadioRepli.srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*.label_5" class-name="srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*" nom="label_5">
+	        <fv nom="etatVRdansTGV" enum="2" />
+
+	        <fv nom="voieRadioRepli" ref="null" />
+	      </obj>
+	    </a>
+	    <a i="6">
+	      <obj id="srsa.edcdc.IPlanRemplacement.label.voiesRadioRepli.srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*.label_6" class-name="srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*" nom="label_6">
+	        <fv nom="etatVRdansTGV" enum="2" />
+
+	        <fv nom="voieRadioRepli" ref="null" />
+	      </obj>
+	    </a>
+	    <a i="7">
+	      <obj id="srsa.edcdc.IPlanRemplacement.label.voiesRadioRepli.srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*.label_7" class-name="srsa.edcdc.shared.IVoieCdcAvecInitState$srsa.edcdc.IPlanRemplacement$voiesRadioRepli.*$*" nom="label_7">
+	        <fv nom="etatVRdansTGV" enum="2" />
+
+	        <fv nom="voieRadioRepli" ref="null" />
+	      </obj>
+	    </a>
+	  </fv>
+	</obj>
+	

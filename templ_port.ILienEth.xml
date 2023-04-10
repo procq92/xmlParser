@@ -1,0 +1,13 @@
+<obj id="port.ILienEth.LIEN-00" class-name="port.ILienEth" nom="LIEN-00">
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="fonction" val="null" />
+	  <fv nom="nomCourt" val="LN-00" />
+	  <fv nom="poidsPort1" enum="null" />
+
+	  <fv nom="poidsPort2" enum="null" />
+
+	  <fv nom="port1" ref="null" />
+	  <fv nom="port2" ref="null" />
+	  <fv nom="soustype" val="null" />
+	</obj>
+	

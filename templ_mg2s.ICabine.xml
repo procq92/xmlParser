@@ -1,0 +1,38 @@
+<obj id="mg2s.ICabine.MIL-00" class-name="mg2s.ICabine" nom="MIL-00">
+	  <fv nom="alarmeEtatAlarme">
+	    <obj id="mg2s.ICabine.MIL-00.alarmeEtatAlarme.mil.IPropertyBasedAlarmObject$mg2s.ICabine$alarmeEtatAlarme.Etat d'alarme de la zone" class-name="mil.IPropertyBasedAlarmObject$mg2s.ICabine$alarmeEtatAlarme" nom="Etat d'alarme de la zone">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="false" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	      <fv nom="faultLabel" val="Alarme non utilisée" />
+	      <fv nom="graviteAlarme" enum="TERMINE" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePassageForce">
+	    <obj id="mg2s.ICabine.MIL-00.alarmePassageForce.mil.IPropertyBasedAlarmObject$mg2s.ICabine$alarmePassageForce.Etat indiquant un passage forcé du local" class-name="mil.IPropertyBasedAlarmObject$mg2s.ICabine$alarmePassageForce" nom="Etat indiquant un passage forcé du local">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="comportement" enum="1" />
+
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="gdc" val="false" />
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="null" />
+	  <fv nom="nomCourt" val="MIL" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="peripherique" ref="null" />
+	  <fv nom="po1" ref="null" />
+	  <fv nom="po2" ref="null" />
+	  <fv nom="siteDuLocal" ref="null" />
+	  <fv nom="typeEquipement" val="N/A" />
+	  <fv nom="zone" val="-1" />
+	</obj>
+	

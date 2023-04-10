@@ -1,0 +1,24 @@
+<obj id="mg2s.ILiaisonVpnSnmp.MIL-00" class-name="mg2s.ILiaisonVpnSnmp" nom="MIL-00">
+	  <fv nom="alarmeEtatLiaisonVPN">
+	    <obj id="mg2s.ILiaisonVpnSnmp.MIL-00.alarmeEtatLiaisonVPN.mil.IPropertyBasedAlarmObject$mg2s.ILiaisonVpnSnmp$alarmeEtatLiaisonVPN.Etat de la liaison VPN" class-name="mil.IPropertyBasedAlarmObject$mg2s.ILiaisonVpnSnmp$alarmeEtatLiaisonVPN" nom="Etat de la liaison VPN">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="chiffreur" ref="null" />
+	  <fv nom="cluster" ref="null" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="DestinationVNP" val="109.250.110.1" />
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="null" />
+	  <fv nom="nomCourt" val="MIL" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="SourceVPN" val="109.250.110.1" />
+	  <fv nom="typeEquipement" val="N/A" />
+	</obj>
+	

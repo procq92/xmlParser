@@ -1,0 +1,18 @@
+<obj id="pocConfiguration.ICommonPoSettingsConf.label" class-name="pocConfiguration.ICommonPoSettingsConf" nom="label">
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="tagDscpAutre" enum="CS0" />
+
+	  <fv nom="tagDscpEnregistrement" enum="AF31" />
+
+	  <fv nom="tagDscpSigRadio" enum="AF41" />
+
+	  <fv nom="tagDscpSigTelephone" enum="AF41" />
+
+	  <fv nom="tagDscpVoieRadio" enum="EF" />
+
+	  <fv nom="tagDscpVoieTelephone" enum="EF" />
+
+	  <fv nom="telRtpPacketSize" enum="20" />
+
+	</obj>
+	

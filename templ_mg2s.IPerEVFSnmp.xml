@@ -1,0 +1,166 @@
+<obj id="mg2s.IPerEVFSnmp.MIL-00" class-name="mg2s.IPerEVFSnmp" nom="MIL-00">
+	  <fv nom="alarmeDispoTOR">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmeDispoTOR.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmeDispoTOR.Etat de synthèse de l'etat Dispo TOR" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmeDispoTOR" nom="Etat de synthèse de l'etat Dispo TOR">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatLogiciel">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmeEtatLogiciel.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmeEtatLogiciel.Etat Logiciel" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmeEtatLogiciel" nom="Etat Logiciel">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatSynthAdmin">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmeEtatSynthAdmin.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmeEtatSynthAdmin.Etat de synthèse de l'état administratif" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmeEtatSynthAdmin" nom="Etat de synthèse de l'état administratif">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatTdRs422">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmeEtatTdRs422.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmeEtatTdRs422.Etat TdRss422" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmeEtatTdRs422" nom="Etat TdRss422">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmEmetteur">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmePerAlarmEmetteur.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmEmetteur.Etat de l’alarme Emetteur" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmEmetteur" nom="Etat de l’alarme Emetteur">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmeTemperature">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmePerAlarmeTemperature.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmeTemperature.Etat de synthèse de l'etat PER Alarme Température" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmeTemperature" nom="Etat de synthèse de l'etat PER Alarme Température">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmEVF">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmePerAlarmEVF.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmEVF.Etat de l’alarme EVF" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmEVF" nom="Etat de l’alarme EVF">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmModeEVF">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmePerAlarmModeEVF.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmModeEVF.Etat de l’alarme Mode EVF" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmModeEVF" nom="Etat de l’alarme Mode EVF">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmRecepteur">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmePerAlarmRecepteur.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmRecepteur.Etat de l’alarme Recepteur" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmRecepteur" nom="Etat de l’alarme Recepteur">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmRosExterne">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmePerAlarmRosExterne.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmRosExterne.Etat de l’alarme ROS externe" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmRosExterne" nom="Etat de l’alarme ROS externe">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmRosInterne">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmePerAlarmRosInterne.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmRosInterne.Etat de l’alarme ROS interne" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerAlarmRosInterne" nom="Etat de l’alarme ROS interne">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerPresenceCleJour">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmePerPresenceCleJour.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerPresenceCleJour.Etat de présence de la clé du jour" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerPresenceCleJour" nom="Etat de présence de la clé du jour">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerPresenceCleLendemain">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.alarmePerPresenceCleLendemain.mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerPresenceCleLendemain.Etat de présence de la clé du lendemain" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEVFSnmp$alarmePerPresenceCleLendemain" nom="Etat de présence de la clé du lendemain">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="carteMCS" ref="null" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="" />
+	  <fv nom="isSnmpDate" val="false" />
+	  <fv nom="isSnmpNumSer" val="false" />
+	  <fv nom="nomAutotest" val="Auto-test" />
+	  <fv nom="nomCourt" val="MIL" />
+	  <fv nom="numeroPer" val="0" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="portGere">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.portGere.port.IPortPer$mg2s.IPerEVFSnmp$portGere.portGere" class-name="port.IPortPer$mg2s.IPerEVFSnmp$portGere" nom="portGere">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="nomCourt" val="Port" />
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere0">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.portNonGere0.port.IPortNonGere$mg2s.IPerEVFSnmp$portNonGere0.Port non géré 1" class-name="port.IPortNonGere$mg2s.IPerEVFSnmp$portNonGere0" nom="Port non géré 1">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth0" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 1" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere1">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.portNonGere1.port.IPortNonGere$mg2s.IPerEVFSnmp$portNonGere1.Port non géré 2" class-name="port.IPortNonGere$mg2s.IPerEVFSnmp$portNonGere1" nom="Port non géré 2">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth1" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 2" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere2">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.portNonGere2.port.IPortNonGere$mg2s.IPerEVFSnmp$portNonGere2.Port non géré 3" class-name="port.IPortNonGere$mg2s.IPerEVFSnmp$portNonGere2" nom="Port non géré 3">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth2" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 3" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere3">
+	    <obj id="mg2s.IPerEVFSnmp.MIL-00.portNonGere3.port.IPortNonGere$mg2s.IPerEVFSnmp$portNonGere3.Port non géré 4" class-name="port.IPortNonGere$mg2s.IPerEVFSnmp$portNonGere3" nom="Port non géré 4">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth3" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 4" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="timeoutAutotest" val="40000" />
+	  <fv nom="timeoutInventaire" val="null" />
+	  <fv nom="timeoutMaintenance" val="22000" />
+	  <fv nom="typeEquipement" val="N/A" />
+	  <fv nom="typeInventaire" enum="2" />
+
+	  <fv nom="typePer" enum="null" />
+
+	</obj>
+	

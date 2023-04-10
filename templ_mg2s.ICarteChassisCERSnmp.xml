@@ -1,0 +1,99 @@
+<obj id="mg2s.ICarteChassisCERSnmp.MIL-00" class-name="mg2s.ICarteChassisCERSnmp" nom="MIL-00">
+	  <fv nom="adresseIPScriptAudit" val="null" />
+	  <fv nom="alarmeEtatLogicielCarteMCS">
+	    <obj id="mg2s.ICarteChassisCERSnmp.MIL-00.alarmeEtatLogicielCarteMCS.mil.IPropertyBasedAlarmObject$mg2s.ICarteChassisCERSnmp$alarmeEtatLogicielCarteMCS.Etat Logiciel Carte MCS" class-name="mil.IPropertyBasedAlarmObject$mg2s.ICarteChassisCERSnmp$alarmeEtatLogicielCarteMCS" nom="Etat Logiciel Carte MCS">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatSynthAdmin">
+	    <obj id="mg2s.ICarteChassisCERSnmp.MIL-00.alarmeEtatSynthAdmin.mil.IPropertyBasedAlarmObject$mg2s.ICarteChassisCERSnmp$alarmeEtatSynthAdmin.Etat de synthèse de l'état administratif" class-name="mil.IPropertyBasedAlarmObject$mg2s.ICarteChassisCERSnmp$alarmeEtatSynthAdmin" nom="Etat de synthèse de l'état administratif">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatTempCarteMCS">
+	    <obj id="mg2s.ICarteChassisCERSnmp.MIL-00.alarmeEtatTempCarteMCS.mil.IPropertyBasedAlarmObject$mg2s.ICarteChassisCERSnmp$alarmeEtatTempCarteMCS.Etat Température Carte MCS" class-name="mil.IPropertyBasedAlarmObject$mg2s.ICarteChassisCERSnmp$alarmeEtatTempCarteMCS" nom="Etat Température Carte MCS">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeTechniqueCarte">
+	    <obj id="mg2s.ICarteChassisCERSnmp.MIL-00.alarmeTechniqueCarte.mil.IPropertyBasedAlarmObject$mg2s.ICarteChassisCERSnmp$alarmeTechniqueCarte.Alarme état technique carte" class-name="mil.IPropertyBasedAlarmObject$mg2s.ICarteChassisCERSnmp$alarmeTechniqueCarte" nom="Alarme état technique carte">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="chassis" ref="null" />
+	  <fv nom="cheminScriptAudit" val="/usr/libexec/action-cmoip/Auditer_version.sh" />
+	  <fv nom="cmoipDistant" ref="null" />
+	  <fv nom="cmoipLocal" ref="null" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="eqId" val="0" />
+	  <fv nom="eqtType" enum="null" />
+
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="null" />
+	  <fv nom="isSnmpDate" val="false" />
+	  <fv nom="isSnmpNumSer" val="false" />
+	  <fv nom="logiqueDeComportement" enum="1" />
+
+	  <fv nom="necessiteMaintenanceScript1" val="false" />
+	  <fv nom="necessiteMaintenanceScript2" val="false" />
+	  <fv nom="necessiteMaintenanceScript3" val="false" />
+	  <fv nom="necessiteMaintenanceScript4" val="false" />
+	  <fv nom="nomCourt" val="MIL" />
+	  <fv nom="nomScript1" val="Script 1" />
+	  <fv nom="nomScript2" val="Script 2" />
+	  <fv nom="nomScript3" val="Script 3" />
+	  <fv nom="nomScript4" val="Script 4" />
+	  <fv nom="nomScriptPhoto" val="Prendre une photo" />
+	  <fv nom="numIDCarte" val="0" />
+	  <fv nom="parentLogique1" ref="null" />
+	  <fv nom="parentLogique2" ref="null" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="per1" ref="null" />
+	  <fv nom="per2" ref="null" />
+	  <fv nom="per3" ref="null" />
+	  <fv nom="per4" ref="null" />
+	  <fv nom="portE1_1" ref="null" />
+	  <fv nom="portE1_2" ref="null" />
+	  <fv nom="portE1_3" ref="null" />
+	  <fv nom="portE1_4" ref="null" />
+	  <fv nom="portE1_5" ref="null" />
+	  <fv nom="portEth1" ref="null" />
+	  <fv nom="portEth2" ref="null" />
+	  <fv nom="portPER_1" ref="null" />
+	  <fv nom="portPER_2" ref="null" />
+	  <fv nom="portPER_3" ref="null" />
+	  <fv nom="portPER_4" ref="null" />
+	  <fv nom="portsSO_1" ref="null" />
+	  <fv nom="portsT2_1" ref="null" />
+	  <fv nom="script1" val="/sysca/etc/adm_script1.sh" />
+	  <fv nom="script2" val="/sysca/etc/adm_script2.sh" />
+	  <fv nom="script3" val="/sysca/etc/adm_script3.sh" />
+	  <fv nom="script4" val="/sysca/etc/adm_script4.sh" />
+	  <fv nom="scriptPhoto" val="/sysca/etc/adm_prendre_photo.sh" />
+	  <fv nom="targetEquipmentIP" val="null" />
+	  <fv nom="timeoutInventaire" val="null" />
+	  <fv nom="timeoutLancerScript1" val="22000" />
+	  <fv nom="timeoutLancerScript2" val="22000" />
+	  <fv nom="timeoutLancerScript3" val="22000" />
+	  <fv nom="timeoutLancerScript4" val="22000" />
+	  <fv nom="timeoutMaintenance" val="22000" />
+	  <fv nom="timeoutScriptPhoto" val="22000" />
+	  <fv nom="typeEquipement" val="N/A" />
+	  <fv nom="typeInventaire" enum="2" />
+
+	  <fv nom="typeOS" enum="null" />
+
+	</obj>
+	

@@ -1,0 +1,6 @@
+<obj id="srsa.edcdc.shared.IVoieMeteor.VoieMtr" class-name="srsa.edcdc.shared.IVoieMeteor" nom="VoieMtr">
+	  <fv nom="cvr" ref="null" />
+	  <fv nom="emplacement" ref="null" />
+	  <fv nom="frequence" ref="null" />
+	</obj>
+	

@@ -1,0 +1,8 @@
+<obj id="srsa.edcdc.shared.IEqfFixe.EQF" class-name="srsa.edcdc.shared.IEqfFixe" nom="EQF">
+	  <fv nom="code" val="null" />
+	  <fv nom="frequence" ref="null" />
+	  <fv nom="numLogique" val="1" />
+	  <fv nom="typeEquivalence" val="FF" />
+	  <fv nom="valFrequence" val="0" />
+	</obj>
+	

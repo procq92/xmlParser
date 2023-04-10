@@ -1,0 +1,143 @@
+<obj id="mg2s.IPerEmetteurRecepteur.MIL-00" class-name="mg2s.IPerEmetteurRecepteur" nom="MIL-00">
+	  <fv nom="alarmeDispoTOR">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.alarmeDispoTOR.mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmeDispoTOR.Etat de synthèse de l'etat Dispo TOR" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmeDispoTOR" nom="Etat de synthèse de l'etat Dispo TOR">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatLogiciel">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.alarmeEtatLogiciel.mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmeEtatLogiciel.Etat Logiciel" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmeEtatLogiciel" nom="Etat Logiciel">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatSynthAdmin">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.alarmeEtatSynthAdmin.mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmeEtatSynthAdmin.Etat de synthèse de l'état administratif" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmeEtatSynthAdmin" nom="Etat de synthèse de l'état administratif">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatTdRs485">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.alarmeEtatTdRs485.mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmeEtatTdRs485.Etat TdRss422" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmeEtatTdRs485" nom="Etat TdRss422">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmAlimentation">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.alarmePerAlarmAlimentation.mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmAlimentation.Etat de l’alarme Alimentation" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmAlimentation" nom="Etat de l’alarme Alimentation">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmeTemperature">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.alarmePerAlarmeTemperature.mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmeTemperature.Etat de synthèse de l'etat PER Alarme Température" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmeTemperature" nom="Etat de synthèse de l'etat PER Alarme Température">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmPuissance">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.alarmePerAlarmPuissance.mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmPuissance.Etat de l’alarme Puissance" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmPuissance" nom="Etat de l’alarme Puissance">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmRecepteur">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.alarmePerAlarmRecepteur.mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmRecepteur.Etat de l’alarme Recepteur" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmRecepteur" nom="Etat de l’alarme Recepteur">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmRosExterne">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.alarmePerAlarmRosExterne.mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmRosExterne.Etat de l’alarme ROS externe" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmRosExterne" nom="Etat de l’alarme ROS externe">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmRosInterne">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.alarmePerAlarmRosInterne.mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmRosInterne.Etat de l’alarme ROS interne" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPerEmetteurRecepteur$alarmePerAlarmRosInterne" nom="Etat de l’alarme ROS interne">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="carteMCS" ref="null" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="" />
+	  <fv nom="isSnmpDate" val="false" />
+	  <fv nom="isSnmpNumSer" val="true" />
+	  <fv nom="nomCourt" val="MIL" />
+	  <fv nom="numeroPer" val="0" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="portGere">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.portGere.port.IPortPer$mg2s.IPerEmetteurRecepteur$portGere.portGere" class-name="port.IPortPer$mg2s.IPerEmetteurRecepteur$portGere" nom="portGere">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="nomCourt" val="Port" />
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere0">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.portNonGere0.port.IPortNonGere$mg2s.IPerEmetteurRecepteur$portNonGere0.Port non géré 1" class-name="port.IPortNonGere$mg2s.IPerEmetteurRecepteur$portNonGere0" nom="Port non géré 1">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth0" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 1" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere1">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.portNonGere1.port.IPortNonGere$mg2s.IPerEmetteurRecepteur$portNonGere1.Port non géré 2" class-name="port.IPortNonGere$mg2s.IPerEmetteurRecepteur$portNonGere1" nom="Port non géré 2">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth1" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 2" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere2">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.portNonGere2.port.IPortNonGere$mg2s.IPerEmetteurRecepteur$portNonGere2.Port non géré 3" class-name="port.IPortNonGere$mg2s.IPerEmetteurRecepteur$portNonGere2" nom="Port non géré 3">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth2" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 3" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere3">
+	    <obj id="mg2s.IPerEmetteurRecepteur.MIL-00.portNonGere3.port.IPortNonGere$mg2s.IPerEmetteurRecepteur$portNonGere3.Port non géré 4" class-name="port.IPortNonGere$mg2s.IPerEmetteurRecepteur$portNonGere3" nom="Port non géré 4">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth3" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 4" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="timeoutInventaire" val="null" />
+	  <fv nom="timeoutMaintenance" val="22000" />
+	  <fv nom="typeEquipement" val="N/A" />
+	  <fv nom="typeInventaire" enum="2" />
+
+	  <fv nom="typePer" enum="null" />
+
+	</obj>
+	

@@ -1,0 +1,14 @@
+<obj id="pocConfiguration.IEnregIpTsoipSettingsConf.Enreg_" class-name="pocConfiguration.IEnregIpTsoipSettingsConf" nom="Enreg_">
+	  <fv nom="cheminRtspEnregistreur1" val="null" />
+	  <fv nom="cheminRtspEnregistreur2" val="null" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="portRtspEnregistreur1" val="554" />
+	  <fv nom="portRtspEnregistreur2" val="554" />
+	  <fv nom="taillePaquetsEnregistreur1" enum="30" />
+
+	  <fv nom="taillePaquetsEnregistreur2" enum="30" />
+
+	  <fv nom="tempoSurvEnregistreur1" val="5" />
+	  <fv nom="tempoSurvEnregistreur2" val="15" />
+	</obj>
+	

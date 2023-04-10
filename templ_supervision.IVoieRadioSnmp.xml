@@ -1,0 +1,4 @@
+<obj id="supervision.IVoieRadioSnmp.label" class-name="supervision.IVoieRadioSnmp" nom="label">
+	  <fv nom="farCex" ref="null" />
+	</obj>
+	

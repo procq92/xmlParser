@@ -1,0 +1,15 @@
+<obj id="securite.IVirusChecker.Virus-00" class-name="securite.IVirusChecker" nom="Virus-00">
+	  <fv nom="alarmeDetectionVirus">
+	    <obj id="securite.IVirusChecker.Virus-00.alarmeDetectionVirus.mil.IPropertyBasedAlarmObject$securite.IVirusChecker$alarmeDetectionVirus.Alarme détection virus" class-name="mil.IPropertyBasedAlarmObject$securite.IVirusChecker$alarmeDetectionVirus" nom="Alarme détection virus">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="commandeSupervision" val="check_el_clamav" />
+	  <fv nom="critique" val="true" />
+	  <fv nom="eqtAssocie" ref="null" />
+	  <fv nom="nrpeSupervisionHandler" ref="null" />
+	  <fv nom="ownerV" ref="null" />
+	</obj>
+	

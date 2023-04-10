@@ -1,0 +1,2345 @@
+<obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp" class-name="cmoip.ICmoipServerStandaloneSnmp" nom="Serveur CMoIP Snmp">
+	  <fv nom="adresseIPScriptAudit" val="null" />
+	  <fv nom="alarmeBatterieControleurRaid">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeBatterieControleurRaid.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeBatterieControleurRaid.Alarme état batterie contrôleur RAID" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeBatterieControleurRaid" nom="Alarme état batterie contrôleur RAID">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCarteNtp">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCarteNtp.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCarteNtp.Alarme carte NTP" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCarteNtp" nom="Alarme carte NTP">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCarteTemp">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCarteTemp.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCarteTemp.Etat température en entrée" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCarteTemp" nom="Etat température en entrée">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeClusterReplicationStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeClusterReplicationStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeClusterReplicationStatus.Etat Réplication BD" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeClusterReplicationStatus" nom="Etat Réplication BD">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="false" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	      <fv nom="faultLabel" val="Alarme non utilisée" />
+	      <fv nom="graviteAlarme" enum="TERMINE" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerCasAgentStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerCasAgentStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerCasAgentStatus.Etat CAS" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerCasAgentStatus" nom="Etat CAS">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerCasClientStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerCasClientStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerCasClientStatus.Etat client CAS" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerCasClientStatus" nom="Etat client CAS">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerCmoipSnmpAgentStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerCmoipSnmpAgentStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerCmoipSnmpAgentStatus.Etat complément SNMP" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerCmoipSnmpAgentStatus" nom="Etat complément SNMP">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerElasticSearchStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerElasticSearchStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerElasticSearchStatus.Etat elastic search" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerElasticSearchStatus" nom="Etat elastic search">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerKibanaStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerKibanaStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerKibanaStatus.Etat Kibana" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerKibanaStatus" nom="Etat Kibana">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerLdapStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerLdapStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerLdapStatus.Etat LDAP" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerLdapStatus" nom="Etat LDAP">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerNtpdStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerNtpdStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerNtpdStatus.Etat NTPD" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerNtpdStatus" nom="Etat NTPD">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerPostgreSqlStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerPostgreSqlStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerPostgreSqlStatus.Etat PostgreSQL" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerPostgreSqlStatus" nom="Etat PostgreSQL">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerSyslogCentralStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerSyslogCentralStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerSyslogCentralStatus.Etat Syslog Centralisé" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerSyslogCentralStatus" nom="Etat Syslog Centralisé">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerSyslogStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerSyslogStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerSyslogStatus.Etat Syslog" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerSyslogStatus" nom="Etat Syslog">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerTftpdStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerTftpdStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerTftpdStatus.Etat Apache" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerTftpdStatus" nom="Etat Apache">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCmoipServerTomcatStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCmoipServerTomcatStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerTomcatStatus.Etat Tomcat" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCmoipServerTomcatStatus" nom="Etat Tomcat">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCpuState">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCpuState.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCpuState.Etat charge CPU" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCpuState" nom="Etat charge CPU">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeCpuTemp">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeCpuTemp.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCpuTemp.Etat température CPU" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeCpuTemp" nom="Etat température CPU">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatAdministratif">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeEtatAdministratif.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatAdministratif.Etat administratif" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatAdministratif" nom="Etat administratif">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatDisqueRaid">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeEtatDisqueRaid.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatDisqueRaid.Alarme état RAID" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatDisqueRaid" nom="Alarme état RAID">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatLigneVie">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeEtatLigneVie.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatLigneVie.Alarme état ligne de vie serveur" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatLigneVie" nom="Alarme état ligne de vie serveur">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatOccupationCmoip">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeEtatOccupationCmoip.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatOccupationCmoip.Etat occupation disque" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatOccupationCmoip" nom="Etat occupation disque">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatOccupationDisque">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeEtatOccupationDisque.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatOccupationDisque.Etat occupation disque racine" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatOccupationDisque" nom="Etat occupation disque racine">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatOccupationLog">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeEtatOccupationLog.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatOccupationLog.Etat occupation disque" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatOccupationLog" nom="Etat occupation disque">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatOccupationTmp">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeEtatOccupationTmp.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatOccupationTmp.Etat occupation partition tmp" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatOccupationTmp" nom="Etat occupation partition tmp">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatOccupationVar">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeEtatOccupationVar.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatOccupationVar.Etat occupation partition var" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatOccupationVar" nom="Etat occupation partition var">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatRedondance">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeEtatRedondance.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatRedondance.Etat redondance alimentation" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeEtatRedondance" nom="Etat redondance alimentation">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeHwClockSynchro">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeHwClockSynchro.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeHwClockSynchro.Etat synchro. horaire" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeHwClockSynchro" nom="Etat synchro. horaire">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeHwFansStatus">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeHwFansStatus.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeHwFansStatus.Etat ventilateurs" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeHwFansStatus" nom="Etat ventilateurs">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeMemStateReal">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmeMemStateReal.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeMemStateReal.Etat mémoire vive" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmeMemStateReal" nom="Etat mémoire vive">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePileBios">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.alarmePileBios.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmePileBios.Alarme état pile du BIOS" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$alarmePileBios" nom="Alarme état pile du BIOS">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="altIpAddressSupervisedHost" val="null" />
+	  <fv nom="cheminScriptAudit" val="/usr/libexec/action-cmoip/Auditer_version.sh" />
+	  <fv nom="cible" enum="null" />
+
+	  <fv nom="ClusterCmoip" ref="null" />
+	  <fv nom="clusterReplicationStatus" enum="ok" />
+
+	  <fv nom="cmoipClusterCmoipRole" enum="1" />
+
+	  <fv nom="cmoipClusterLogsRole" enum="1" />
+
+	  <fv nom="cmoipClusterSsoRole" enum="1" />
+
+	  <fv nom="cmoipLocal" ref="null" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="cpuLoadAlertLevel" val="70" />
+	  <fv nom="cpuLoadCriticalLevel" val="80" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueAlarme" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="distributionAutorisee" val="true" />
+	  <fv nom="eqId" val="0" />
+	  <fv nom="eqtType" enum="null" />
+
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="eth0">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth0.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth0.eth0" class-name="port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth0" nom="eth0">
+	      <fv nom="alarmeEtatPort">
+	        <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth0.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth0.eth0.alarmeEtatPort.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth0.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth0.alarmeEtatPort" nom="Etat port">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="etatInit" enum="1" />
+
+	      <fv nom="indexSaisie" val="null" />
+	      <fv nom="indexSaisieHide" val="0" />
+	      <fv nom="internalName" val="eth0" />
+	      <fv nom="nomCourt" val="Port" />
+	      <fv nom="nonUtilise" val="false" />
+	      <fv nom="portReference" ref="null" />
+	      <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	      <fv nom="rechercheIndex" val="true" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="eth1">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth1.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth1.eth1" class-name="port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth1" nom="eth1">
+	      <fv nom="alarmeEtatPort">
+	        <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth1.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth1.eth1.alarmeEtatPort.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth1.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth1.alarmeEtatPort" nom="Etat port">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="etatInit" enum="1" />
+
+	      <fv nom="indexSaisie" val="null" />
+	      <fv nom="indexSaisieHide" val="0" />
+	      <fv nom="internalName" val="eth1" />
+	      <fv nom="nomCourt" val="Port" />
+	      <fv nom="nonUtilise" val="false" />
+	      <fv nom="portReference" ref="null" />
+	      <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	      <fv nom="rechercheIndex" val="true" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="eth2">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth2.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth2.eth2" class-name="port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth2" nom="eth2">
+	      <fv nom="alarmeEtatPort">
+	        <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth2.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth2.eth2.alarmeEtatPort.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth2.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth2.alarmeEtatPort" nom="Etat port">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="etatInit" enum="1" />
+
+	      <fv nom="indexSaisie" val="null" />
+	      <fv nom="indexSaisieHide" val="0" />
+	      <fv nom="internalName" val="eth2" />
+	      <fv nom="nomCourt" val="Port" />
+	      <fv nom="nonUtilise" val="false" />
+	      <fv nom="portReference" ref="null" />
+	      <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	      <fv nom="rechercheIndex" val="true" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="eth3">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth3.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth3.eth3" class-name="port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth3" nom="eth3">
+	      <fv nom="alarmeEtatPort">
+	        <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth3.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth3.eth3.alarmeEtatPort.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth3.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth3.alarmeEtatPort" nom="Etat port">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="etatInit" enum="1" />
+
+	      <fv nom="indexSaisie" val="null" />
+	      <fv nom="indexSaisieHide" val="0" />
+	      <fv nom="internalName" val="eth3" />
+	      <fv nom="nomCourt" val="Port" />
+	      <fv nom="nonUtilise" val="false" />
+	      <fv nom="portReference" ref="null" />
+	      <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	      <fv nom="rechercheIndex" val="true" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="eth4">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth4.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth4.eth4" class-name="port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth4" nom="eth4">
+	      <fv nom="alarmeEtatPort">
+	        <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth4.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth4.eth4.alarmeEtatPort.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth4.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth4.alarmeEtatPort" nom="Etat port">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="etatInit" enum="1" />
+
+	      <fv nom="indexSaisie" val="null" />
+	      <fv nom="indexSaisieHide" val="0" />
+	      <fv nom="internalName" val="eth4" />
+	      <fv nom="nomCourt" val="Port" />
+	      <fv nom="nonUtilise" val="false" />
+	      <fv nom="portReference" ref="null" />
+	      <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	      <fv nom="rechercheIndex" val="true" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="eth5">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth5.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth5.eth5" class-name="port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth5" nom="eth5">
+	      <fv nom="alarmeEtatPort">
+	        <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth5.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth5.eth5.alarmeEtatPort.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth5.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth5.alarmeEtatPort" nom="Etat port">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="etatInit" enum="1" />
+
+	      <fv nom="indexSaisie" val="null" />
+	      <fv nom="indexSaisieHide" val="0" />
+	      <fv nom="internalName" val="eth5" />
+	      <fv nom="nomCourt" val="Port" />
+	      <fv nom="nonUtilise" val="false" />
+	      <fv nom="portReference" ref="null" />
+	      <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	      <fv nom="rechercheIndex" val="true" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="eth6">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth6.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth6.eth6" class-name="port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth6" nom="eth6">
+	      <fv nom="alarmeEtatPort">
+	        <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth6.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth6.eth6.alarmeEtatPort.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth6.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth6.alarmeEtatPort" nom="Etat port">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="etatInit" enum="1" />
+
+	      <fv nom="indexSaisie" val="null" />
+	      <fv nom="indexSaisieHide" val="0" />
+	      <fv nom="internalName" val="eth6" />
+	      <fv nom="nomCourt" val="Port" />
+	      <fv nom="nonUtilise" val="false" />
+	      <fv nom="portReference" ref="null" />
+	      <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	      <fv nom="rechercheIndex" val="true" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="eth7">
+	    <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth7.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth7.eth7" class-name="port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth7" nom="eth7">
+	      <fv nom="alarmeEtatPort">
+	        <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.eth7.port.IPortEthernetSnmp$cmoip.ICmoipServerStandaloneSnmp$eth7.eth7.alarmeEtatPort.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth7.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$eth7.alarmeEtatPort" nom="Etat port">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="etatInit" enum="1" />
+
+	      <fv nom="indexSaisie" val="null" />
+	      <fv nom="indexSaisieHide" val="0" />
+	      <fv nom="internalName" val="eth7" />
+	      <fv nom="nomCourt" val="Port" />
+	      <fv nom="nonUtilise" val="false" />
+	      <fv nom="portReference" ref="null" />
+	      <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	      <fv nom="rechercheIndex" val="true" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="flagCAS" val="true" />
+	  <fv nom="flagElasticSearch" val="true" />
+	  <fv nom="flagEtatBatterieRaid" val="true" />
+	  <fv nom="flagEtatPresenceCarteNTP" val="true" />
+	  <fv nom="flagEtatRaid" val="true" />
+	  <fv nom="flagEtatTempEntree" val="true" />
+	  <fv nom="flagEtatVentilateurs" val="true" />
+	  <fv nom="flagKibana" val="true" />
+	  <fv nom="flagSlapd" val="true" />
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="Unité centrale du serveur de gestion : SGS-UC    " />
+	  <fv nom="integrityChecker" ref="null" />
+	  <fv nom="intervalLifelineErreur" val="1000" />
+	  <fv nom="intervalLifelineOk" val="1000" />
+	  <fv nom="IntervalPollingErreur" val="1000" />
+	  <fv nom="ipAddressSupervisedHost" val="109.250.100.1" />
+	  <fv nom="isSnmpDate" val="true" />
+	  <fv nom="isSnmpNumSer" val="false" />
+	  <fv nom="logicielHrTable">
+	    <a i="0">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_0" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_0">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_0.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="1">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_1" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_1">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_1.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="2">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_2" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_2">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_2.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="3">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_3" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_3">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_3.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="4">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_4" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_4">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_4.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="5">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_5" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_5">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_5.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="6">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_6" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_6">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_6.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="7">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_7" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_7">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_7.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="8">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_8" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_8">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_8.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="9">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_9" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_9">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_9.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="10">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_10" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_10">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_10.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="11">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_11" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_11">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_11.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="12">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_12" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_12">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_12.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="13">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_13" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_13">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_13.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="14">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_14" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_14">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_14.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="15">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_15" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_15">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_15.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="16">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_16" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_16">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_16.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="17">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_17" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_17">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_17.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="18">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_18" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_18">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_18.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="19">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_19" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_19">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_19.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="20">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_20" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_20">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_20.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="21">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_21" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_21">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_21.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="22">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_22" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_22">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_22.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="23">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_23" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_23">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_23.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="24">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_24" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_24">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_24.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="25">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_25" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_25">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_25.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="26">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_26" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_26">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_26.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="27">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_27" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_27">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_27.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="28">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_28" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_28">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_28.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="29">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_29" class-name="ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*" nom="label_29">
+	        <fv nom="alarmeEtatLogicielHrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielHrTable.ucdavies.ILogicielHrSwRunTableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*$*.label_29.alarmeEtatLogicielHrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*.Etat Logiciel Hrtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielHrTable.*.alarmeEtatLogicielHrtableCalcul$*" nom="Etat Logiciel Hrtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="hrNameHrTable" val="null" />
+	        <fv nom="hrParamNameHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueHrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutHrTable" val="null" />
+	        <fv nom="PoidsLogicielHrTable" val="false" />
+	        <fv nom="textMibStatutHrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutHrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	  </fv>
+	  <fv nom="logicielPrTable">
+	    <a i="0">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_0" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_0">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_0.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="1">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_1" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_1">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_1.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="2">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_2" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_2">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_2.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="3">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_3" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_3">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_3.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="4">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_4" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_4">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_4.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="5">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_5" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_5">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_5.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="6">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_6" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_6">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_6.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="7">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_7" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_7">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_7.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="8">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_8" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_8">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_8.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="9">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_9" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_9">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_9.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="10">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_10" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_10">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_10.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="11">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_11" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_11">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_11.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="12">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_12" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_12">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_12.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="13">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_13" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_13">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_13.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="14">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_14" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_14">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_14.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="15">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_15" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_15">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_15.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="16">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_16" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_16">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_16.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="17">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_17" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_17">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_17.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="18">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_18" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_18">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_18.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="19">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_19" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_19">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_19.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="20">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_20" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_20">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_20.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="21">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_21" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_21">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_21.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="22">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_22" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_22">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_22.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="23">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_23" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_23">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_23.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="24">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_24" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_24">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_24.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="25">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_25" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_25">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_25.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="26">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_26" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_26">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_26.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="27">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_27" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_27">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_27.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="28">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_28" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_28">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_28.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="29">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_29" class-name="ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*" nom="label_29">
+	        <fv nom="alarmeEtatLogicielPrtableCalcul">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.logicielPrTable.ucdavies.ILogicielPrtableConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*$*.label_29.alarmeEtatLogicielPrtableCalcul.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*.Etat Logiciel Prtable" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$logicielPrTable.*.alarmeEtatLogicielPrtableCalcul$*" nom="Etat Logiciel Prtable">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="FlagModePoidsLogiciel" val="false" />
+	        <fv nom="nomParamDynamiquePrTable" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPrTable" val="null" />
+	        <fv nom="PoidsLogicielPrTable" val="false" />
+	        <fv nom="prNamePrTable" val="null" />
+	        <fv nom="textMibStatutPrTableEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPrTableMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	  </fv>
+	  <fv nom="logiqueDeComportement" enum="1" />
+
+	  <fv nom="maxTryNumber" val="5" />
+	  <fv nom="maxTryNumberLifeLine" val="4" />
+	  <fv nom="maxVarbindsPerPduRequest" val="20" />
+	  <fv nom="memAlertLevel" val="70" />
+	  <fv nom="memCriticalLevel" val="95" />
+	  <fv nom="nbrTestAvantBasculeIP" val="2" />
+	  <fv nom="necessiteMaintenanceScript1" val="false" />
+	  <fv nom="necessiteMaintenanceScript2" val="false" />
+	  <fv nom="necessiteMaintenanceScript3" val="false" />
+	  <fv nom="necessiteMaintenanceScript4" val="false" />
+	  <fv nom="necessiteMaintenanceScriptArret" val="false" />
+	  <fv nom="necessiteMaintenanceScriptArretLogiciels" val="false" />
+	  <fv nom="necessiteMaintenanceScriptStartLogiciels" val="false" />
+	  <fv nom="nomCourt" val="MIL" />
+	  <fv nom="nomDuScan" val="Scan antivirus" />
+	  <fv nom="nomDuStop" val="Arrêter" />
+	  <fv nom="nomIntegrity" val="Scan d'intégrité" />
+	  <fv nom="nomScript1" val="Script 1" />
+	  <fv nom="nomScript2" val="Script 2" />
+	  <fv nom="nomScript3" val="Script 3" />
+	  <fv nom="nomScript4" val="Script 4" />
+	  <fv nom="nomScriptPhoto" val="Prendre une photo" />
+	  <fv nom="nomStartAllSoft" val="Démarrer logiciels" />
+	  <fv nom="nomStopAllSoft" val="Arrêter logiciels" />
+	  <fv nom="numid" val="0" />
+	  <fv nom="parentLogique1" ref="null" />
+	  <fv nom="parentLogique2" ref="null" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="Partition">
+	    <a i="0">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_0" class-name="ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*" nom="label_0">
+	        <fv nom="alarmeEtatOccupationCalculIntermediaire">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_0.alarmeEtatOccupationCalculIntermediaire.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*.alarme sur Etat d'occupation de la partition" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*" nom="alarme sur Etat d'occupation de la partition">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="dskPathPartition" val="null" />
+	        <fv nom="nomParamDynamiquePartition" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPartition" val="null" />
+	        <fv nom="storageAlertLevel" val="65" />
+	        <fv nom="storageCriticalLevel" val="95" />
+	        <fv nom="textMibStatutPartitionEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPartitionMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="1">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_1" class-name="ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*" nom="label_1">
+	        <fv nom="alarmeEtatOccupationCalculIntermediaire">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_1.alarmeEtatOccupationCalculIntermediaire.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*.alarme sur Etat d'occupation de la partition" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*" nom="alarme sur Etat d'occupation de la partition">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="dskPathPartition" val="null" />
+	        <fv nom="nomParamDynamiquePartition" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPartition" val="null" />
+	        <fv nom="storageAlertLevel" val="65" />
+	        <fv nom="storageCriticalLevel" val="95" />
+	        <fv nom="textMibStatutPartitionEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPartitionMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="2">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_2" class-name="ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*" nom="label_2">
+	        <fv nom="alarmeEtatOccupationCalculIntermediaire">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_2.alarmeEtatOccupationCalculIntermediaire.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*.alarme sur Etat d'occupation de la partition" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*" nom="alarme sur Etat d'occupation de la partition">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="dskPathPartition" val="null" />
+	        <fv nom="nomParamDynamiquePartition" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPartition" val="null" />
+	        <fv nom="storageAlertLevel" val="65" />
+	        <fv nom="storageCriticalLevel" val="95" />
+	        <fv nom="textMibStatutPartitionEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPartitionMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="3">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_3" class-name="ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*" nom="label_3">
+	        <fv nom="alarmeEtatOccupationCalculIntermediaire">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_3.alarmeEtatOccupationCalculIntermediaire.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*.alarme sur Etat d'occupation de la partition" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*" nom="alarme sur Etat d'occupation de la partition">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="dskPathPartition" val="null" />
+	        <fv nom="nomParamDynamiquePartition" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPartition" val="null" />
+	        <fv nom="storageAlertLevel" val="65" />
+	        <fv nom="storageCriticalLevel" val="95" />
+	        <fv nom="textMibStatutPartitionEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPartitionMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="4">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_4" class-name="ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*" nom="label_4">
+	        <fv nom="alarmeEtatOccupationCalculIntermediaire">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_4.alarmeEtatOccupationCalculIntermediaire.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*.alarme sur Etat d'occupation de la partition" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*" nom="alarme sur Etat d'occupation de la partition">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="dskPathPartition" val="null" />
+	        <fv nom="nomParamDynamiquePartition" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPartition" val="null" />
+	        <fv nom="storageAlertLevel" val="65" />
+	        <fv nom="storageCriticalLevel" val="95" />
+	        <fv nom="textMibStatutPartitionEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPartitionMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="5">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_5" class-name="ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*" nom="label_5">
+	        <fv nom="alarmeEtatOccupationCalculIntermediaire">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_5.alarmeEtatOccupationCalculIntermediaire.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*.alarme sur Etat d'occupation de la partition" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*" nom="alarme sur Etat d'occupation de la partition">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="dskPathPartition" val="null" />
+	        <fv nom="nomParamDynamiquePartition" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPartition" val="null" />
+	        <fv nom="storageAlertLevel" val="65" />
+	        <fv nom="storageCriticalLevel" val="95" />
+	        <fv nom="textMibStatutPartitionEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPartitionMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="6">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_6" class-name="ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*" nom="label_6">
+	        <fv nom="alarmeEtatOccupationCalculIntermediaire">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_6.alarmeEtatOccupationCalculIntermediaire.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*.alarme sur Etat d'occupation de la partition" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*" nom="alarme sur Etat d'occupation de la partition">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="dskPathPartition" val="null" />
+	        <fv nom="nomParamDynamiquePartition" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPartition" val="null" />
+	        <fv nom="storageAlertLevel" val="65" />
+	        <fv nom="storageCriticalLevel" val="95" />
+	        <fv nom="textMibStatutPartitionEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPartitionMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="7">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_7" class-name="ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*" nom="label_7">
+	        <fv nom="alarmeEtatOccupationCalculIntermediaire">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_7.alarmeEtatOccupationCalculIntermediaire.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*.alarme sur Etat d'occupation de la partition" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*" nom="alarme sur Etat d'occupation de la partition">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="dskPathPartition" val="null" />
+	        <fv nom="nomParamDynamiquePartition" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPartition" val="null" />
+	        <fv nom="storageAlertLevel" val="65" />
+	        <fv nom="storageCriticalLevel" val="95" />
+	        <fv nom="textMibStatutPartitionEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPartitionMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="8">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_8" class-name="ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*" nom="label_8">
+	        <fv nom="alarmeEtatOccupationCalculIntermediaire">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_8.alarmeEtatOccupationCalculIntermediaire.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*.alarme sur Etat d'occupation de la partition" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*" nom="alarme sur Etat d'occupation de la partition">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="dskPathPartition" val="null" />
+	        <fv nom="nomParamDynamiquePartition" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPartition" val="null" />
+	        <fv nom="storageAlertLevel" val="65" />
+	        <fv nom="storageCriticalLevel" val="95" />
+	        <fv nom="textMibStatutPartitionEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPartitionMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="9">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_9" class-name="ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*" nom="label_9">
+	        <fv nom="alarmeEtatOccupationCalculIntermediaire">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.Partition.ucdavies.IPartitionConfigurableSnmp$cmoip.ICmoipServerStandaloneSnmp$Partition.*$*.label_9.alarmeEtatOccupationCalculIntermediaire.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*.alarme sur Etat d'occupation de la partition" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$Partition.*.alarmeEtatOccupationCalculIntermediaire$*" nom="alarme sur Etat d'occupation de la partition">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="dskPathPartition" val="null" />
+	        <fv nom="nomParamDynamiquePartition" val="null" />
+	        <fv nom="nomParamDynamiqueStatutPartition" val="null" />
+	        <fv nom="storageAlertLevel" val="65" />
+	        <fv nom="storageCriticalLevel" val="95" />
+	        <fv nom="textMibStatutPartitionEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPartitionMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	  </fv>
+	  <fv nom="portSnmp" val="161" />
+	  <fv nom="portTrapSnmp" val="-1" />
+	  <fv nom="ProprieteDynamiqueEtatOperationnel">
+	    <a i="0">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatOperationnel.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*.label_0" class-name="ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*" nom="label_0">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatOperationnel.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*.label_0.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="1">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatOperationnel.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*.label_1" class-name="ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*" nom="label_1">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatOperationnel.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*.label_1.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="2">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatOperationnel.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*.label_2" class-name="ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*" nom="label_2">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatOperationnel.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*.label_2.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="3">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatOperationnel.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*.label_3" class-name="ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*" nom="label_3">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatOperationnel.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*.label_3.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="4">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatOperationnel.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*.label_4" class-name="ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*" nom="label_4">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatOperationnel.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*$*.label_4.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatOperationnel.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	  </fv>
+	  <fv nom="ProprieteDynamiqueEtatTechnique">
+	    <a i="0">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatTechnique.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*.label_0" class-name="ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*" nom="label_0">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatTechnique.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*.label_0.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="1">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatTechnique.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*.label_1" class-name="ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*" nom="label_1">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatTechnique.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*.label_1.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="2">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatTechnique.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*.label_2" class-name="ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*" nom="label_2">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatTechnique.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*.label_2.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="3">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatTechnique.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*.label_3" class-name="ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*" nom="label_3">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatTechnique.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*.label_3.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="4">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatTechnique.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*.label_4" class-name="ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*" nom="label_4">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueEtatTechnique.ucdavies.IProprietesDynamiquesEtatSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*$*.label_4.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueEtatTechnique.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	  </fv>
+	  <fv nom="ProprieteDynamiqueInformation">
+	    <a i="0">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_0" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_0">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_0.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="1">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_1" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_1">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_1.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="2">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_2" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_2">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_2.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="3">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_3" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_3">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_3.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="4">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_4" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_4">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_4.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="5">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_5" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_5">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_5.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="6">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_6" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_6">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_6.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="7">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_7" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_7">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_7.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="8">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_8" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_8">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_8.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="9">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_9" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_9">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_9.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="10">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_10" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_10">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_10.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="11">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_11" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_11">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_11.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="12">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_12" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_12">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_12.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="13">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_13" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_13">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_13.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="14">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_14" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_14">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_14.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="15">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_15" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_15">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_15.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="16">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_16" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_16">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_16.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="17">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_17" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_17">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_17.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="18">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_18" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_18">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_18.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	    <a i="19">
+	      <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_19" class-name="ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*" nom="label_19">
+	        <fv nom="alarmeEtatProprieteDynamiqueEtat">
+	          <obj id="cmoip.ICmoipServerStandaloneSnmp.Serveur CMoIP Snmp.ProprieteDynamiqueInformation.ucdavies.IProprietesDynamiquesEtatInfoSnmp$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*$*.label_19.alarmeEtatProprieteDynamiqueEtat.mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*.Alarme sur l'Etat de la Propriété Dynamique d'état" class-name="mil.IPropertyBasedAlarmObject$cmoip.ICmoipServerStandaloneSnmp$ProprieteDynamiqueInformation.*.alarmeEtatProprieteDynamiqueEtat$*" nom="Alarme sur l'Etat de la Propriété Dynamique d'état">
+	            <fv nom="alarmAcousticalWarning" val="true" />
+	            <fv nom="alarmeActive" val="true" />
+	            <fv nom="alarmTimeDelay" val="0" />
+	          </obj>
+	        </fv>
+	        <fv nom="forcerEtatPropriete" val="false" />
+	        <fv nom="nbrChampsMib" val="1" />
+	        <fv nom="nomParamDynamiqueStatutPropDynEtat" val="null" />
+	        <fv nom="textMibProprieteDynamiqueEtat" val="null" />
+	        <fv nom="textMibStatutPropDynEtatEsclave" val="SECONDARY" />
+	        <fv nom="textMibStatutPropDynEtatMaitre" val="PRIMARY" />
+	      </obj>
+	    </a>
+	  </fv>
+	  <fv nom="script1" val="/sysca/etc/adm_script1.sh" />
+	  <fv nom="script2" val="/sysca/etc/adm_script2.sh" />
+	  <fv nom="script3" val="/sysca/etc/adm_script3.sh" />
+	  <fv nom="script4" val="/sysca/etc/adm_script4.sh" />
+	  <fv nom="scriptPhoto" val="/sysca/etc/adm_prendre_photo.sh" />
+	  <fv nom="scriptScanAntivirus" val="/sysca/etc/adm_scan_antiviral.sh" />
+	  <fv nom="scriptScanIntegrity" val="/sysca/etc/adm_scellement_verif.sh" />
+	  <fv nom="scriptStartAllSoft" val="/sysca/etc/adm_demarrer_softs.sh" />
+	  <fv nom="scriptStop" val="/sysca/etc/adm_arreter.sh" />
+	  <fv nom="scriptStopAllSoft" val="/sysca/etc/adm_arreter_softs.sh" />
+	  <fv nom="site" ref="null" />
+	  <fv nom="storageAlertLevel" val="65" />
+	  <fv nom="storageCriticalLevel" val="95" />
+	  <fv nom="surveillanceMibSeducs" val="false" />
+	  <fv nom="targetEquipmentIP" val="null" />
+	  <fv nom="tempCritical" val="70" />
+	  <fv nom="tempMaxAlarm" val="50" />
+	  <fv nom="tempoLifeline" val="null" />
+	  <fv nom="ticksPerSecond" val="100" />
+	  <fv nom="timeout" val="1000" />
+	  <fv nom="timeoutAntivirus" val="22000" />
+	  <fv nom="timeoutIntegrite" val="22000" />
+	  <fv nom="timeoutInventaire" val="null" />
+	  <fv nom="timeoutLancerScript1" val="22000" />
+	  <fv nom="timeoutLancerScript2" val="22000" />
+	  <fv nom="timeoutLancerScript3" val="22000" />
+	  <fv nom="timeoutLancerScript4" val="22000" />
+	  <fv nom="timeoutLifeLine" val="400" />
+	  <fv nom="timeoutScriptPhoto" val="22000" />
+	  <fv nom="timeoutStartAllSoft" val="22000" />
+	  <fv nom="timeoutStop" val="22000" />
+	  <fv nom="timeoutStopAllSoft" val="22000" />
+	  <fv nom="trigramme" val="" />
+	  <fv nom="typeEquipement" val="serveurs.IAbstractServeur" />
+	  <fv nom="typeInventaire" enum="3" />
+
+	  <fv nom="typeOS" enum="null" />
+
+	  <fv nom="typeSite" enum="null" />
+
+	  <fv nom="virusChecker" ref="null" />
+	</obj>
+	

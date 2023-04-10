@@ -1,0 +1,83 @@
+<obj id="collecteur.alarmes.IOptoSnmp.Opto-Snmp-00" class-name="collecteur.alarmes.IOptoSnmp" nom="Opto-Snmp-00">
+	  <fv nom="alarmeEtatAdministratif">
+	    <obj id="collecteur.alarmes.IOptoSnmp.Opto-Snmp-00.alarmeEtatAdministratif.mil.IPropertyBasedAlarmObject$collecteur.alarmes.IOptoSnmp$alarmeEtatAdministratif.Etat administratif" class-name="mil.IPropertyBasedAlarmObject$collecteur.alarmes.IOptoSnmp$alarmeEtatAdministratif" nom="Etat administratif">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatLigneVie">
+	    <obj id="collecteur.alarmes.IOptoSnmp.Opto-Snmp-00.alarmeEtatLigneVie.mil.IPropertyBasedAlarmObject$collecteur.alarmes.IOptoSnmp$alarmeEtatLigneVie.Etat ligne de vie" class-name="mil.IPropertyBasedAlarmObject$collecteur.alarmes.IOptoSnmp$alarmeEtatLigneVie" nom="Etat ligne de vie">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="altIpAddressSupervisedHost" val="null" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="eth0">
+	    <obj id="collecteur.alarmes.IOptoSnmp.Opto-Snmp-00.eth0.port.IPortEthernetSnmp$collecteur.alarmes.IOptoSnmp$eth0.eth1" class-name="port.IPortEthernetSnmp$collecteur.alarmes.IOptoSnmp$eth0" nom="eth1">
+	      <fv nom="alarmeEtatPort">
+	        <obj id="collecteur.alarmes.IOptoSnmp.Opto-Snmp-00.eth0.port.IPortEthernetSnmp$collecteur.alarmes.IOptoSnmp$eth0.eth1.alarmeEtatPort.mil.IPropertyBasedAlarmObject$collecteur.alarmes.IOptoSnmp$eth0.alarmeEtatPort.Etat port" class-name="mil.IPropertyBasedAlarmObject$collecteur.alarmes.IOptoSnmp$eth0.alarmeEtatPort" nom="Etat port">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="etatInit" enum="1" />
+
+	      <fv nom="indexSaisie" val="null" />
+	      <fv nom="indexSaisieHide" val="0" />
+	      <fv nom="internalName" val="Enet" />
+	      <fv nom="nomCourt" val="Port" />
+	      <fv nom="nonUtilise" val="false" />
+	      <fv nom="portReference" ref="null" />
+	      <fv nom="priseEnCompteLVEquipementDistant" val="false" />
+	      <fv nom="rechercheIndex" val="true" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="Interface BIC Mono" />
+	  <fv nom="intervalLifelineErreur" val="1000" />
+	  <fv nom="intervalLifelineOk" val="1000" />
+	  <fv nom="IntervalPollingErreur" val="1000" />
+	  <fv nom="ipAddressSupervisedHost" val="109.250.100.1" />
+	  <fv nom="isSnmpDate" val="false" />
+	  <fv nom="isSnmpNumSer" val="false" />
+	  <fv nom="logiqueDeComportement" enum="1" />
+
+	  <fv nom="maxTryNumber" val="5" />
+	  <fv nom="maxTryNumberLifeLine" val="4" />
+	  <fv nom="maxVarbindsPerPduRequest" val="20" />
+	  <fv nom="nbrTestAvantBasculeIP" val="2" />
+	  <fv nom="nomCourt" val="Opto-00" />
+	  <fv nom="parentLogique1" ref="null" />
+	  <fv nom="parentLogique2" ref="null" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="portNonGere">
+	    <obj id="collecteur.alarmes.IOptoSnmp.Opto-Snmp-00.portNonGere.port.IPortNonGere$collecteur.alarmes.IOptoSnmp$portNonGere.Port non géré" class-name="port.IPortNonGere$collecteur.alarmes.IOptoSnmp$portNonGere" nom="Port non géré">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth0" />
+	      <fv nom="nomCourt" val="port non géré" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="portSnmp" val="161" />
+	  <fv nom="portTrapSnmp" val="-1" />
+	  <fv nom="tempoLifeline" val="null" />
+	  <fv nom="timeout" val="1000" />
+	  <fv nom="timeoutInventaire" val="null" />
+	  <fv nom="timeoutLifeLine" val="400" />
+	  <fv nom="typeEquipement" val="mil.IOpto" />
+	  <fv nom="typeInventaire" enum="2" />
+
+	</obj>
+	

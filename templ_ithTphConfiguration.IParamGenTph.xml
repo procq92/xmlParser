@@ -1,0 +1,27 @@
+<obj id="ithTphConfiguration.IParamGenTph.Paramètres généraux TPH" class-name="ithTphConfiguration.IParamGenTph" nom="Paramètres généraux TPH">
+	  <fv nom="blacklist" ref="null" />
+	  <fv nom="cluArrivee" val="00000000" />
+	  <fv nom="cluDepart" val="00000000" />
+	  <fv nom="confeventSubscribeTimeout" val="60" />
+	  <fv nom="gfuAbsolu" val="00000000" />
+	  <fv nom="gfuRelatifPreferentielGroupe" enum="null" />
+
+	  <fv nom="gfuRelatifPreferentielRole" enum="null" />
+
+	  <fv nom="overflowMax" val="1" />
+	  <fv nom="permissionAppelEntrantGroupe" enum="TRUE" />
+
+	  <fv nom="permissionAppelEntrantRole" enum="TRUE" />
+
+	  <fv nom="permissionAppelSortantGroupe" enum="TRUE" />
+
+	  <fv nom="permissionAppelSortantRole" enum="TRUE" />
+
+	  <fv nom="permissionGfuAccessGroupe" ref="null" />
+	  <fv nom="permissionGfuAccessRole" ref="null" />
+	  <fv nom="priorite" enum="null" />
+
+	  <fv nom="rtpEnd" val="32768" />
+	  <fv nom="rtpStart" val="16384" />
+	</obj>
+	

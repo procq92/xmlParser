@@ -1,0 +1,7 @@
+<obj id="mg2s.ISitePIUCie.label" class-name="mg2s.ISitePIUCie" nom="label">
+	  <fv nom="cmoipDistant" ref="null" />
+	  <fv nom="nomLogiqueDistant" val="" />
+	  <fv nom="typeSite" enum="null" />
+
+	</obj>
+	

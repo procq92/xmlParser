@@ -1,0 +1,16 @@
+<obj id="securite.ICertificatRevocationListCIE.CRL-00" class-name="securite.ICertificatRevocationListCIE" nom="CRL-00">
+	  <fv nom="alarmeEtatCertificat">
+	    <obj id="securite.ICertificatRevocationListCIE.CRL-00.alarmeEtatCertificat.mil.IPropertyBasedAlarmObject$securite.ICertificatRevocationListCIE$alarmeEtatCertificat.ALARME_ETAT_VALIDITE" class-name="mil.IPropertyBasedAlarmObject$securite.ICertificatRevocationListCIE$alarmeEtatCertificat" nom="ALARME_ETAT_VALIDITE">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="cmoipDistant" ref="null" />
+	  <fv nom="commandeSupervision" val="check_crl" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="nomCourt" val="Cert" />
+	  <fv nom="nomLogiqueDistant" val="" />
+	  <fv nom="ownerC" ref="null" />
+	</obj>
+	

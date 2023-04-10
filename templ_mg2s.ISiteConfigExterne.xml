@@ -1,0 +1,10 @@
+<obj id="mg2s.ISiteConfigExterne.label" class-name="mg2s.ISiteConfigExterne" nom="label">
+	  <fv nom="capaciteS" val="false" />
+	  <fv nom="capaciteU" val="false" />
+	  <fv nom="capaciteV" val="false" />
+	  <fv nom="numId" val="-1" />
+	  <fv nom="trigramme" val="null" />
+	  <fv nom="typeSite" enum="null" />
+
+	</obj>
+	

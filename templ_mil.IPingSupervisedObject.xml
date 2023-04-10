@@ -1,0 +1,53 @@
+<obj id="mil.IPingSupervisedObject.MIL-00" class-name="mil.IPingSupervisedObject" nom="MIL-00">
+	  <fv nom="AdpsTimeout" val="10" />
+	  <fv nom="alarmeEtatAdministratif">
+	    <obj id="mil.IPingSupervisedObject.MIL-00.alarmeEtatAdministratif.mil.IPropertyBasedAlarmObject$mil.IPingSupervisedObject$alarmeEtatAdministratif.Etat administratif" class-name="mil.IPropertyBasedAlarmObject$mil.IPingSupervisedObject$alarmeEtatAdministratif" nom="Etat administratif">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatLigneVie">
+	    <obj id="mil.IPingSupervisedObject.MIL-00.alarmeEtatLigneVie.mil.IPropertyBasedAlarmObject$mil.IPingSupervisedObject$alarmeEtatLigneVie.Etat ligne de vie" class-name="mil.IPropertyBasedAlarmObject$mil.IPingSupervisedObject$alarmeEtatLigneVie" nom="Etat ligne de vie">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="altIpAddressSupervisedHost" val="null" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="eth0">
+	    <obj id="mil.IPingSupervisedObject.MIL-00.eth0.port.IPortNonSupervise$mil.IPingSupervisedObject$eth0.eth0" class-name="port.IPortNonSupervise$mil.IPingSupervisedObject$eth0" nom="eth0">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="nomCourt" val="eth0" />
+	    </obj>
+	  </fv>
+	  <fv nom="eth1">
+	    <obj id="mil.IPingSupervisedObject.MIL-00.eth1.port.IPortNonSupervise$mil.IPingSupervisedObject$eth1.eth1" class-name="port.IPortNonSupervise$mil.IPingSupervisedObject$eth1" nom="eth1">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="nomCourt" val="eth1" />
+	    </obj>
+	  </fv>
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="null" />
+	  <fv nom="intervalLifelineErreur" val="1000" />
+	  <fv nom="intervalLifelineOk" val="1000" />
+	  <fv nom="IntervalPollingErreur" val="1000" />
+	  <fv nom="ipAddressSupervisedHost" val="109.250.100.1" />
+	  <fv nom="logiqueDeComportement" enum="1" />
+
+	  <fv nom="maxTryNumber" val="2" />
+	  <fv nom="maxTryNumberLifeLine" val="2" />
+	  <fv nom="nbrTestAvantBasculeIP" val="2" />
+	  <fv nom="nomCourt" val="MIL" />
+	  <fv nom="parentLogique1" ref="null" />
+	  <fv nom="parentLogique2" ref="null" />
+	  <fv nom="parentPhysique" val="null" />
+	  <fv nom="tempoLifeline" val="null" />
+	  <fv nom="typeEquipement" val="N/A" />
+	</obj>
+	

@@ -1,0 +1,9 @@
+<obj id="ithTphAnnuaire.ITelProfil.label" class-name="ithTphAnnuaire.ITelProfil" nom="label">
+	  <fv nom="dtmfVolume" val="-11" />
+	  <fv nom="flashHookPeriode" val="700" />
+	  <fv nom="idTelProfile" val="1" />
+	  <fv nom="inputGain" val="0" />
+	  <fv nom="nomProfilTel" val="profil_FXO" />
+	  <fv nom="voiceVolume" val="0" />
+	</obj>
+	

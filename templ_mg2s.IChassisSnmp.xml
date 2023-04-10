@@ -1,0 +1,60 @@
+<obj id="mg2s.IChassisSnmp.Chassis_" class-name="mg2s.IChassisSnmp" nom="Chassis_">
+	  <fv nom="alarmeEtatAdministratif">
+	    <obj id="mg2s.IChassisSnmp.Chassis_.alarmeEtatAdministratif.mil.IPropertyBasedAlarmObject$mg2s.IChassisSnmp$alarmeEtatAdministratif.Etat administratif" class-name="mil.IPropertyBasedAlarmObject$mg2s.IChassisSnmp$alarmeEtatAdministratif" nom="Etat administratif">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatAlimentation1">
+	    <obj id="mg2s.IChassisSnmp.Chassis_.alarmeEtatAlimentation1.mil.IPropertyBasedAlarmObject$mg2s.IChassisSnmp$alarmeEtatAlimentation1.Etat Alimentation 1" class-name="mil.IPropertyBasedAlarmObject$mg2s.IChassisSnmp$alarmeEtatAlimentation1" nom="Etat Alimentation 1">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatAlimentation2">
+	    <obj id="mg2s.IChassisSnmp.Chassis_.alarmeEtatAlimentation2.mil.IPropertyBasedAlarmObject$mg2s.IChassisSnmp$alarmeEtatAlimentation2.Etat Alimentation 2" class-name="mil.IPropertyBasedAlarmObject$mg2s.IChassisSnmp$alarmeEtatAlimentation2" nom="Etat Alimentation 2">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatFan">
+	    <obj id="mg2s.IChassisSnmp.Chassis_.alarmeEtatFan.mil.IPropertyBasedAlarmObject$mg2s.IChassisSnmp$alarmeEtatFan.Etat Ventilateur" class-name="mil.IPropertyBasedAlarmObject$mg2s.IChassisSnmp$alarmeEtatFan" nom="Etat Ventilateur">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeNbCarteMCRMaitre">
+	    <obj id="mg2s.IChassisSnmp.Chassis_.alarmeNbCarteMCRMaitre.mil.IPropertyBasedAlarmObject$mg2s.IChassisSnmp$alarmeNbCarteMCRMaitre.Nombre de cartes MCR maître sur le chassis" class-name="mil.IPropertyBasedAlarmObject$mg2s.IChassisSnmp$alarmeNbCarteMCRMaitre" nom="Nombre de cartes MCR maître sur le chassis">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="detecteurAlim1Chassis" ref="null" />
+	  <fv nom="detecteurAlim2Chassis" ref="null" />
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="flagPriseEnCompteDetecteur1" val="false" />
+	  <fv nom="flagPriseEnCompteDetecteur2" val="false" />
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="null" />
+	  <fv nom="isSnmpDate" val="false" />
+	  <fv nom="isSnmpNumSer" val="false" />
+	  <fv nom="monoAlimentation" val="false" />
+	  <fv nom="nomCourt" val="MIL" />
+	  <fv nom="numeroChassis" val="1" />
+	  <fv nom="numeroChassisMG2S" val="1" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="timeoutInventaire" val="null" />
+	  <fv nom="typeEquipement" val="N/A" />
+	  <fv nom="typeInventaire" enum="2" />
+
+	</obj>
+	

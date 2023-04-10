@@ -1,0 +1,14 @@
+<obj id="ithTphAnnuaire.IContactExterneED137.CE-ED137-0" class-name="ithTphAnnuaire.IContactExterneED137" nom="CE-ED137-0">
+	  <fv nom="domain" val="null" />
+	  <fv nom="identifiantUriSip" val="null" />
+	  <fv nom="libelleInformatif" val="null" />
+	  <fv nom="numeroATS" val="null" />
+	  <fv nom="numeroIth" val="null" />
+	  <fv nom="numeroPNIA" val="null" />
+	  <fv nom="numeroTph" val="null" />
+	  <fv nom="shortNumber" val="null" />
+	  <fv nom="text1" val="null" />
+	  <fv nom="text2" val="null" />
+	  <fv nom="typeMembre" val="contact" />
+	</obj>
+	

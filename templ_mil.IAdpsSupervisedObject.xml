@@ -1,0 +1,32 @@
+<obj id="mil.IAdpsSupervisedObject.Script-00" class-name="mil.IAdpsSupervisedObject" nom="Script-00">
+	  <fv nom="AdpsTimeout" val="10" />
+	  <fv nom="alarmeEtatSupervision">
+	    <obj id="mil.IAdpsSupervisedObject.Script-00.alarmeEtatSupervision.mil.IPropertyBasedAlarmObject$mil.IAdpsSupervisedObject$alarmeEtatSupervision.Etat supervision" class-name="mil.IPropertyBasedAlarmObject$mil.IAdpsSupervisedObject$alarmeEtatSupervision" nom="Etat supervision">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="altIpAddressSupervisedHost" val="null" />
+	  <fv nom="commandeSupervision" val="D:\\tmp\\check_cert.bat" />
+	  <fv nom="intervalLifelineErreur" val="1000" />
+	  <fv nom="intervalLifelineOk" val="1000" />
+	  <fv nom="IntervalPollingErreur" val="1000" />
+	  <fv nom="ipAddressSupervisedHost" val="109.250.100.1" />
+	  <fv nom="maxTryNumber" val="2" />
+	  <fv nom="maxTryNumberLifeLine" val="2" />
+	  <fv nom="nbrTestAvantBasculeIP" val="2" />
+	  <fv nom="param0" val="null" />
+	  <fv nom="param1" val="null" />
+	  <fv nom="param10" val="null" />
+	  <fv nom="param2" val="null" />
+	  <fv nom="param3" val="null" />
+	  <fv nom="param4" val="null" />
+	  <fv nom="param5" val="null" />
+	  <fv nom="param6" val="null" />
+	  <fv nom="param7" val="null" />
+	  <fv nom="param8" val="null" />
+	  <fv nom="param9" val="null" />
+	  <fv nom="tempoLifeline" val="null" />
+	</obj>
+	

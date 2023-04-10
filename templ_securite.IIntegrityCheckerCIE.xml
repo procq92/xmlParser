@@ -1,0 +1,13 @@
+<obj id="securite.IIntegrityCheckerCIE.IntegrityChecker-00" class-name="securite.IIntegrityCheckerCIE" nom="IntegrityChecker-00">
+	  <fv nom="alarmeDefautIntegrite">
+	    <obj id="securite.IIntegrityCheckerCIE.IntegrityChecker-00.alarmeDefautIntegrite.mil.IPropertyBasedAlarmObject$securite.IIntegrityCheckerCIE$alarmeDefautIntegrite.Alarme de défaut d'intégrité" class-name="mil.IPropertyBasedAlarmObject$securite.IIntegrityCheckerCIE$alarmeDefautIntegrite" nom="Alarme de défaut d'intégrité">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="cmoipDistant" ref="null" />
+	  <fv nom="nomLogiqueDistant" val="" />
+	  <fv nom="ownerI" ref="null" />
+	</obj>
+	

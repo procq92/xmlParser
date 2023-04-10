@@ -1,0 +1,26 @@
+<obj id="mg2s.IModuleVentilateurSnmp.ModuleVentilateur-00" class-name="mg2s.IModuleVentilateurSnmp" nom="ModuleVentilateur-00">
+	  <fv nom="alarmeEtat">
+	    <obj id="mg2s.IModuleVentilateurSnmp.ModuleVentilateur-00.alarmeEtat.mil.IPropertyBasedAlarmObject$mg2s.IModuleVentilateurSnmp$alarmeEtat.Etat Module" class-name="mil.IPropertyBasedAlarmObject$mg2s.IModuleVentilateurSnmp$alarmeEtat" nom="Etat Module">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatAdministratif">
+	    <obj id="mg2s.IModuleVentilateurSnmp.ModuleVentilateur-00.alarmeEtatAdministratif.mil.IPropertyBasedAlarmObject$mg2s.IModuleVentilateurSnmp$alarmeEtatAdministratif.Etat administratif" class-name="mil.IPropertyBasedAlarmObject$mg2s.IModuleVentilateurSnmp$alarmeEtatAdministratif" nom="Etat administratif">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="Index_Module" val="0" />
+	  <fv nom="IndexVentilateur" val="0" />
+	  <fv nom="isSnmpDate" val="false" />
+	  <fv nom="isSnmpNumSer" val="true" />
+	  <fv nom="nomCourt" val="MV-00" />
+	  <fv nom="Numero_Module" val="null" />
+	  <fv nom="timeoutInventaire" val="null" />
+	  <fv nom="typeInventaire" enum="2" />
+
+	</obj>
+	

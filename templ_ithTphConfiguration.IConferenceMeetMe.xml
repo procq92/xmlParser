@@ -1,0 +1,13 @@
+<obj id="ithTphConfiguration.IConferenceMeetMe.Meetme_00" class-name="ithTphConfiguration.IConferenceMeetMe" nom="Meetme_00">
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="identifiantRole" val="null" />
+	  <fv nom="identifiantUriSip" val="null" />
+	  <fv nom="label" val="null" />
+	  <fv nom="libelleInformatif" val="null" />
+	  <fv nom="meetmeAttribute" val="null" />
+	  <fv nom="numeroATS" val="null" />
+	  <fv nom="numeroPNIA" val="null" />
+	  <fv nom="numeroTph" val="null" />
+	  <fv nom="typeMembre" val="role" />
+	</obj>
+	
