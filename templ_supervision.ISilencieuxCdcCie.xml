@@ -1,6 +1,0 @@
-<obj id="supervision.ISilencieuxCdcCie.label" class-name="supervision.ISilencieuxCdcCie" nom="label">
-	  <fv nom="cmoipDistant" ref="null" />
-	  <fv nom="nomLogiqueDistant" val="" />
-	  <fv nom="site" ref="null" />
-	</obj>
-	

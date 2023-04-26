@@ -1,6 +1,0 @@
-<obj id="srsa.edcdc.shared.IFrequence.label" class-name="srsa.edcdc.shared.IFrequence" nom="label">
-	  <fv nom="eqf" ref="null" />
-	  <fv nom="frequence" val="118000" />
-	  <fv nom="identifiant" val="1" />
-	</obj>
-	

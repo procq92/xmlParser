@@ -1,8 +1,0 @@
-<obj id="srsa.edcdc.shared.IVoieBic.VoieBic" class-name="srsa.edcdc.shared.IVoieBic" nom="VoieBic">
-	  <fv nom="activeBicMono" val="false" />
-	  <fv nom="activeBicMulti" val="false" />
-	  <fv nom="cvr" ref="null" />
-	  <fv nom="emplacement" ref="null" />
-	  <fv nom="frequence" ref="null" />
-	</obj>
-	

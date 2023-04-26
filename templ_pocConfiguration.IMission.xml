@@ -1,6 +1,0 @@
-<obj id="pocConfiguration.IMission.Mission-" class-name="pocConfiguration.IMission" nom="Mission-">
-	  <fv nom="commentaire" val="null" />
-	  <fv nom="label" val="null" />
-	  <fv nom="label2" val="null" />
-	</obj>
-	
