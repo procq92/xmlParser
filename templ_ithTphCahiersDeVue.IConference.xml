@@ -1,6 +1,0 @@
-<obj id="ithTphCahiersDeVue.IConference.Conf" class-name="ithTphCahiersDeVue.IConference" nom="Conf">
-	  <fv nom="libelle1" val="null" />
-	  <fv nom="libelle2" val="null" />
-	  <fv nom="numConference" val="0" />
-	</obj>
-	

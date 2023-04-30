@@ -1,6 +1,0 @@
-<obj id="ithTphCahiersDeVue.IRegleViewDefault.default" class-name="ithTphCahiersDeVue.IRegleViewDefault" nom="default">
-	  <fv nom="cahierDeVueIth" ref="null" />
-	  <fv nom="cahierDeVueTPh" ref="null" />
-	  <fv nom="profilRdo" ref="null" />
-	</obj>
-	

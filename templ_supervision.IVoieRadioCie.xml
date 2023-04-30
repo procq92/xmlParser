@@ -1,6 +1,0 @@
-<obj id="supervision.IVoieRadioCie.label" class-name="supervision.IVoieRadioCie" nom="label">
-	  <fv nom="cmoipDistant" ref="null" />
-	  <fv nom="farCex" ref="null" />
-	  <fv nom="nomLogiqueDistant" val="" />
-	</obj>
-	
