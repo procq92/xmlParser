@@ -1,3 +1,7 @@
 parse_xml.tar
 parse_xml.tar.xz
 parser/testParser.py
+dict/
+fichiersPourTests/MRT_confCZX.xml_listeClasses
+fichiersPourTests/MRT_confCZX.xml
+fichiersPourTests/confGeneree_full-ip_ccmar-v.xml
