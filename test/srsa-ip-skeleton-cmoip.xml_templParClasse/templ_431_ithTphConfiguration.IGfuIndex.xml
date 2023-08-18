@@ -1,0 +1,8 @@
+<obj id="ithTphConfiguration.IGfuIndex.Index GFU - 0" class-name="ithTphConfiguration.IGfuIndex" nom="Index GFU - 0">
+	  <fv nom="gfuAbsolu" val="00000000" />
+	  <fv nom="restrictionAppelArrivee" enum="FALSE" />
+
+	  <fv nom="restrictionAppelDepart" enum="FALSE" />
+
+	</obj>
+	

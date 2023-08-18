@@ -1,0 +1,7 @@
+<obj id="rdoConfiguration.IParametresGenerauxRDO.Paramètres généraux RDO" class-name="rdoConfiguration.IParametresGenerauxRDO" nom="Paramètres généraux RDO">
+	  <fv nom="maxGid" val="1300" />
+	  <fv nom="minGid" val="1000" />
+	  <fv nom="nomDomaineSite" val="" />
+	  <fv nom="regleAor" val="null" />
+	</obj>
+	

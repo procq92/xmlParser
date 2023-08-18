@@ -1,0 +1,16 @@
+<obj id="securite.ICertificatCIE.Certificat-00" class-name="securite.ICertificatCIE" nom="Certificat-00">
+	  <fv nom="alarmeEtatCertificat">
+	    <obj id="securite.ICertificatCIE.Certificat-00.alarmeEtatCertificat.mil.IPropertyBasedAlarmObject$securite.ICertificatCIE$alarmeEtatCertificat.ALARME_ETAT_VALIDITE" class-name="mil.IPropertyBasedAlarmObject$securite.ICertificatCIE$alarmeEtatCertificat" nom="ALARME_ETAT_VALIDITE">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="cmoipDistant" ref="null" />
+	  <fv nom="commandeSupervision" val="D:\\tmp\\check_cert.bat" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="nomCourt" val="Cert" />
+	  <fv nom="nomLogiqueDistant" val="" />
+	  <fv nom="ownerC" ref="null" />
+	</obj>
+	

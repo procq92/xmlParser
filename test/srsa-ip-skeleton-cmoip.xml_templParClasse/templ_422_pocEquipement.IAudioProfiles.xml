@@ -1,0 +1,67 @@
+<obj id="pocEquipement.IAudioProfiles.AP-" class-name="pocEquipement.IAudioProfiles" nom="AP-">
+	  <fv nom="phonieIaCallHp1" enum="TRUE" />
+
+	  <fv nom="phonieIaCallHp2" enum="TRUE" />
+
+	  <fv nom="phonieIaCallHp3" enum="TRUE" />
+
+	  <fv nom="phonieIthCc" enum="TRUE" />
+
+	  <fv nom="phonieIthCi" enum="TRUE" />
+
+	  <fv nom="phonieRadioRrxCc" enum="TRUE" />
+
+	  <fv nom="phonieRadioRxCi" enum="TRUE" />
+
+	  <fv nom="phonieRadioRxHp1" enum="TRUE" />
+
+	  <fv nom="phonieRadioRxHp2" enum="TRUE" />
+
+	  <fv nom="phonieRadioRxHp3" enum="TRUE" />
+
+	  <fv nom="phonieRadioTxCplCc" enum="TRUE" />
+
+	  <fv nom="phonieRadioTxCplCi" enum="TRUE" />
+
+	  <fv nom="phonieRadioTxCplHp1" enum="TRUE" />
+
+	  <fv nom="phonieRadioTxCplHp2" enum="TRUE" />
+
+	  <fv nom="phonieRadioTxCplHp3" enum="TRUE" />
+
+	  <fv nom="phonieRadioVsCc" enum="FALSE" />
+
+	  <fv nom="phonieRadioVsCi" enum="FALSE" />
+
+	  <fv nom="phonieRadioVsHp1" enum="FALSE" />
+
+	  <fv nom="phonieRadioVsHp2" enum="FALSE" />
+
+	  <fv nom="phonieRadioVsHp3" enum="FALSE" />
+
+	  <fv nom="phonieRejeuCc" enum="TRUE" />
+
+	  <fv nom="phonieRejeuCi" enum="TRUE" />
+
+	  <fv nom="phonieRejeuHp1" enum="TRUE" />
+
+	  <fv nom="phonieRejeuHp2" enum="TRUE" />
+
+	  <fv nom="phonieRejeuHp3" enum="TRUE" />
+
+	  <fv nom="phonieTelephonCc" enum="TRUE" />
+
+	  <fv nom="phonieTelephonCi" enum="TRUE" />
+
+	  <fv nom="phonieTelephonHp1" enum="TRUE" />
+
+	  <fv nom="phonieTelephonHp2" enum="TRUE" />
+
+	  <fv nom="phonieTelephonHp3" enum="TRUE" />
+
+	  <fv nom="ringtoneMedia" enum="TMF" />
+
+	  <fv nom="telephonSimultaneousHandHead" enum="TRUE" />
+
+	</obj>
+	

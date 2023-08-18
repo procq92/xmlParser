@@ -1,0 +1,24 @@
+<obj id="mg2s.ISiteConfigExterne.label" class-name="mg2s.ISiteConfigExterne" nom="label">
+	  <fv nom="capaciteS" val="false" />
+	  <fv nom="capaciteU" val="false" />
+	  <fv nom="capaciteV" val="false" />
+	  <fv nom="numId" val="-1" />
+	  <fv nom="siteParts">
+	    <a i="0">
+	      <obj id="mg2s.ISiteConfigExterne.label.siteParts.mg2s.IPartieSiteConfigExterne$mg2s.ISiteConfigExterne$siteParts.*$*.label_0" class-name="mg2s.IPartieSiteConfigExterne$mg2s.ISiteConfigExterne$siteParts.*$*" nom="label_0">
+	        <fv nom="type" enum="null" />
+
+	      </obj>
+	    </a>
+	    <a i="1">
+	      <obj id="mg2s.ISiteConfigExterne.label.siteParts.mg2s.IPartieSiteConfigExterne$mg2s.ISiteConfigExterne$siteParts.*$*.label_1" class-name="mg2s.IPartieSiteConfigExterne$mg2s.ISiteConfigExterne$siteParts.*$*" nom="label_1">
+	        <fv nom="type" enum="null" />
+
+	      </obj>
+	    </a>
+	  </fv>
+	  <fv nom="trigramme" val="" />
+	  <fv nom="typeSite" enum="null" />
+
+	</obj>
+	

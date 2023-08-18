@@ -1,0 +1,5 @@
+<obj id="supervision.IVoieCentreSnmp.label" class-name="supervision.IVoieCentreSnmp" nom="label">
+	  <fv nom="farCer" ref="null" />
+	  <fv nom="farCex" ref="null" />
+	</obj>
+	

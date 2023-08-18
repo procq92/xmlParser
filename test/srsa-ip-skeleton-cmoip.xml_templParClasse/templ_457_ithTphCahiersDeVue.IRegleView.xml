@@ -1,0 +1,6 @@
+<obj id="ithTphCahiersDeVue.IRegleView.REGLE-XX" class-name="ithTphCahiersDeVue.IRegleView" nom="REGLE-XX">
+	  <fv nom="cahierDeVueIth" ref="null" />
+	  <fv nom="cahierDeVueTPh" ref="null" />
+	  <fv nom="profilRdo" ref="null" />
+	</obj>
+	

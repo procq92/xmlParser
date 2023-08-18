@@ -1,0 +1,11 @@
+
+cmoip.ICMoIPDistant
+cmoip.ICmoipCie
+cmoip.ICmoipClient
+cmoip.ICmoipClientCie
+cmoip.ICmoipServerStandaloneCie
+cmoip.ICmoipServerStandaloneSnmp
+cmoip.ICmoipSnmp
+ithTphAnnuaire.ICorrespExterne
+mg2s.IAtelierEnergie
+mg2s.IAtelierEnergieCie

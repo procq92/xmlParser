@@ -1,0 +1,22 @@
+<obj id="securite.ICertificatPFC.Certificat-00" class-name="securite.ICertificatPFC" nom="Certificat-00">
+	  <fv nom="alarmeEtatCertificat">
+	    <obj id="securite.ICertificatPFC.Certificat-00.alarmeEtatCertificat.mil.IPropertyBasedAlarmObject$securite.ICertificatPFC$alarmeEtatCertificat.ALARME_ETAT_VALIDITE" class-name="mil.IPropertyBasedAlarmObject$securite.ICertificatPFC$alarmeEtatCertificat" nom="ALARME_ETAT_VALIDITE">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="cheminCertificat" val="/etc/pki/" />
+	  <fv nom="commandeSupervision" val="check_el_netasqcerts" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="delaiAlerteAvertissement" val="30" />
+	  <fv nom="delaiAlerteCritique" val="5" />
+	  <fv nom="machineCible" ref="null" />
+	  <fv nom="nomCourt" val="Cert" />
+	  <fv nom="nrpeSupervisionHandler" ref="null" />
+	  <fv nom="ownerC" ref="null" />
+	  <fv nom="pfcAssocie" ref="null" />
+	  <fv nom="typeCertificat" enum="VPN" />
+
+	</obj>
+	

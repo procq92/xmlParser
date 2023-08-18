@@ -1,0 +1,90 @@
+<obj id="mg2s.IPeripheriqueCAEsclaveCie.MIL-00" class-name="mg2s.IPeripheriqueCAEsclaveCie" nom="MIL-00">
+	  <fv nom="alarmeEtatAdministratif">
+	    <obj id="mg2s.IPeripheriqueCAEsclaveCie.MIL-00.alarmeEtatAdministratif.mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatAdministratif.Etat administratif" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatAdministratif" nom="Etat administratif">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatAlimentation">
+	    <obj id="mg2s.IPeripheriqueCAEsclaveCie.MIL-00.alarmeEtatAlimentation.mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatAlimentation.ALARME_ETAT_ALIM" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatAlimentation" nom="ALARME_ETAT_ALIM">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatArrachement">
+	    <obj id="mg2s.IPeripheriqueCAEsclaveCie.MIL-00.alarmeEtatArrachement.mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatArrachement.ALARME_ETAT_ARRACHEMENT" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatArrachement" nom="ALARME_ETAT_ARRACHEMENT">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatComBusSerie">
+	    <obj id="mg2s.IPeripheriqueCAEsclaveCie.MIL-00.alarmeEtatComBusSerie.mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatComBusSerie.ALARME_ETAT_COM_BUS" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatComBusSerie" nom="ALARME_ETAT_COM_BUS">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatErrConfig">
+	    <obj id="mg2s.IPeripheriqueCAEsclaveCie.MIL-00.alarmeEtatErrConfig.mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatErrConfig.ALARME_ERREUR_CONFIG" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatErrConfig" nom="ALARME_ERREUR_CONFIG">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatLogiciel">
+	    <obj id="mg2s.IPeripheriqueCAEsclaveCie.MIL-00.alarmeEtatLogiciel.mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatLogiciel.ALARME_ETAT_LOGICIEL_PERIPHERIQUE" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatLogiciel" nom="ALARME_ETAT_LOGICIEL_PERIPHERIQUE">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatTensionAlerte">
+	    <obj id="mg2s.IPeripheriqueCAEsclaveCie.MIL-00.alarmeEtatTensionAlerte.mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatTensionAlerte.ALARME_TENSION_ALERTE" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatTensionAlerte" nom="ALARME_TENSION_ALERTE">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatTensionCritique">
+	    <obj id="mg2s.IPeripheriqueCAEsclaveCie.MIL-00.alarmeEtatTensionCritique.mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatTensionCritique.ALARME_TENSION_CRITIQUE" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPeripheriqueCAEsclaveCie$alarmeEtatTensionCritique" nom="ALARME_TENSION_CRITIQUE">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="cmoipDistant" ref="null" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="null" />
+	  <fv nom="isSnmpDate" val="false" />
+	  <fv nom="isSnmpNumSer" val="false" />
+	  <fv nom="nomCourt" val="MIL" />
+	  <fv nom="nomEtatAlimOK" val="Terminaison manuelle du défaut d’alimentation" />
+	  <fv nom="nomEtatErrConfigOK" val="Terminaison manuelle de l'erreur de configuration" />
+	  <fv nom="nomEtatTensionAlerteOK" val="Terminaison manuelle du défaut de la tension d'alerte" />
+	  <fv nom="nomEtatTensionCritiqueOK" val="Terminaison manuelle du défaut de la tension critique" />
+	  <fv nom="nomLogiqueDistant" val="" />
+	  <fv nom="numeroPeripherique" val="1" />
+	  <fv nom="owner" ref="null" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="portEthernet">
+	    <obj id="mg2s.IPeripheriqueCAEsclaveCie.MIL-00.portEthernet.port.IPortNonSupervise$mg2s.IPeripheriqueCAEsclaveCie$portEthernet.port" class-name="port.IPortNonSupervise$mg2s.IPeripheriqueCAEsclaveCie$portEthernet" nom="port">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="nomCourt" val="Port" />
+	    </obj>
+	  </fv>
+	  <fv nom="portSnmp" val="161" />
+	  <fv nom="referenceZone" ref="null" />
+	  <fv nom="timeoutInventaire" val="null" />
+	  <fv nom="typeEquipement" val="N/A" />
+	  <fv nom="typeInventaire" enum="2" />
+
+	</obj>
+	

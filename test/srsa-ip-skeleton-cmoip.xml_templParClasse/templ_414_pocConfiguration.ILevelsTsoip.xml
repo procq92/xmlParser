@@ -1,0 +1,125 @@
+<obj id="pocConfiguration.ILevelsTsoip.NIV_AUDIO_" class-name="pocConfiguration.ILevelsTsoip" nom="NIV_AUDIO_">
+	  <fv nom="bcAttenuation" enum="127" />
+
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="defaultAith" enum="127" />
+
+	  <fv nom="defaultAlarm" enum="127" />
+
+	  <fv nom="defaultBell" enum="127" />
+
+	  <fv nom="defaultChannel" enum="127" />
+
+	  <fv nom="defaultHandset" enum="127" />
+
+	  <fv nom="defaultHeadsetC" enum="127" />
+
+	  <fv nom="defaultHeadsetI" enum="127" />
+
+	  <fv nom="defaultIaCalls" enum="127" />
+
+	  <fv nom="defaultIaCallsBeep" enum="127" />
+
+	  <fv nom="defaultInt" enum="127" />
+
+	  <fv nom="defaultIntercomC" enum="1" />
+
+	  <fv nom="defaultIntercomI" enum="1" />
+
+	  <fv nom="defaultLoop" enum="127" />
+
+	  <fv nom="defaultLsRad" enum="127" />
+
+	  <fv nom="defaultRad" enum="127" />
+
+	  <fv nom="defaultScreenBrightness" val="7" />
+	  <fv nom="defaultTel" enum="127" />
+
+	  <fv nom="intercomSilent" enum="0" />
+
+	  <fv nom="maxAith" enum="255" />
+
+	  <fv nom="maxAlarm" enum="255" />
+
+	  <fv nom="maxBell" enum="255" />
+
+	  <fv nom="maxChannel" enum="16" />
+
+	  <fv nom="maxHandset" enum="255" />
+
+	  <fv nom="maxHeadsetC" enum="255" />
+
+	  <fv nom="maxHeadsetI" enum="255" />
+
+	  <fv nom="maxIaCalls" enum="255" />
+
+	  <fv nom="maxIaCallsBeep" enum="255" />
+
+	  <fv nom="maxInt" enum="255" />
+
+	  <fv nom="maxIntercomC" enum="1" />
+
+	  <fv nom="maxIntercomI" enum="1" />
+
+	  <fv nom="maxLoop" enum="255" />
+
+	  <fv nom="maxLsRad" enum="255" />
+
+	  <fv nom="maxRad" enum="255" />
+
+	  <fv nom="maxTel" enum="255" />
+
+	  <fv nom="minAith" enum="1" />
+
+	  <fv nom="minAlarm" enum="1" />
+
+	  <fv nom="minBell" enum="1" />
+
+	  <fv nom="minChannel" enum="1" />
+
+	  <fv nom="minHandset" enum="1" />
+
+	  <fv nom="minHeadsetC" enum="1" />
+
+	  <fv nom="minHeadsetI" enum="1" />
+
+	  <fv nom="minIaCalls" enum="1" />
+
+	  <fv nom="minIaCallsBeep" enum="1" />
+
+	  <fv nom="minInt" enum="1" />
+
+	  <fv nom="minIntercomC" enum="1" />
+
+	  <fv nom="minIntercomI" enum="1" />
+
+	  <fv nom="minLoop" enum="1" />
+
+	  <fv nom="minLsRad" enum="1" />
+
+	  <fv nom="minRad" enum="1" />
+
+	  <fv nom="minTel" enum="1" />
+
+	  <fv nom="niveauEnregCentralRad" enum="0" />
+
+	  <fv nom="niveauEnregCentralTel" enum="0" />
+
+	  <fv nom="niveauEnregLocalRad" enum="0" />
+
+	  <fv nom="niveauEnregLocalTel" enum="0" />
+
+	  <fv nom="radioMelAttenuation" enum="127" />
+
+	  <fv nom="sidetoneAttenuationC" enum="127" />
+
+	  <fv nom="sidetoneAttenuationI" enum="127" />
+
+	  <fv nom="sidetoneAttenuationLs" enum="127" />
+
+	  <fv nom="sidetoneAttenuationMax" enum="127" />
+
+	  <fv nom="sidetoneAttenuationMin" enum="7" />
+
+	</obj>
+	

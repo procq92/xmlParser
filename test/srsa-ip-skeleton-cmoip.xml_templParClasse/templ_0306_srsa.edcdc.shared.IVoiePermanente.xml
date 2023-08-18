@@ -1,0 +1,19 @@
+<obj id="srsa.edcdc.shared.IVoiePermanente.VRP" class-name="srsa.edcdc.shared.IVoiePermanente" nom="VRP">
+	  <fv nom="aor" val="" />
+	  <fv nom="bssEnabled" val="true" />
+	  <fv nom="cvr" ref="null" />
+	  <fv nom="frequence" ref="null" />
+	  <fv nom="mode" enum="null" />
+
+	  <fv nom="nature" enum="null" />
+
+	  <fv nom="numLogique" val="1" />
+	  <fv nom="sidetone" enum="null" />
+
+	  <fv nom="transmitMode" enum="null" />
+
+	  <fv nom="type" enum="null" />
+
+	  <fv nom="zone" ref="null" />
+	</obj>
+	

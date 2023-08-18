@@ -1,0 +1,58 @@
+<obj id="collecteur.alarmes.IBoucleOptoCie.Boucle-Opto-Cie-00" class-name="collecteur.alarmes.IBoucleOptoCie" nom="Boucle-Opto-Cie-00">
+	  <fv nom="alarmeEtatTechnique">
+	    <obj id="collecteur.alarmes.IBoucleOptoCie.Boucle-Opto-Cie-00.alarmeEtatTechnique.mil.IPropertyBasedAlarmObject$collecteur.alarmes.IBoucleOptoCie$alarmeEtatTechnique.Etat technique du détecteur" class-name="mil.IPropertyBasedAlarmObject$collecteur.alarmes.IBoucleOptoCie$alarmeEtatTechnique" nom="Etat technique du détecteur">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="cmoipDistant" ref="null" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="detecteur">
+	    <obj id="collecteur.alarmes.IBoucleOptoCie.Boucle-Opto-Cie-00.detecteur.collecteur.alarmes.IDetecteurAlarmeCie$collecteur.alarmes.IBoucleOptoCie$detecteur.Tacan-OK-00" class-name="collecteur.alarmes.IDetecteurAlarmeCie$collecteur.alarmes.IBoucleOptoCie$detecteur" nom="Tacan-OK-00">
+	      <fv nom="alarmeEtatAdministratif">
+	        <obj id="collecteur.alarmes.IBoucleOptoCie.Boucle-Opto-Cie-00.detecteur.collecteur.alarmes.IDetecteurAlarmeCie$collecteur.alarmes.IBoucleOptoCie$detecteur.Tacan-OK-00.alarmeEtatAdministratif.mil.IPropertyBasedAlarmObject$collecteur.alarmes.IBoucleOptoCie$detecteur.alarmeEtatAdministratif.Etat administratif" class-name="mil.IPropertyBasedAlarmObject$collecteur.alarmes.IBoucleOptoCie$detecteur.alarmeEtatAdministratif" nom="Etat administratif">
+	          <fv nom="alarmAcousticalWarning" val="true" />
+	          <fv nom="alarmeActive" val="true" />
+	          <fv nom="alarmTimeDelay" val="0" />
+	        </obj>
+	      </fv>
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="critique" val="false" />
+	      <fv nom="critiqueSite" val="false" />
+	      <fv nom="description" val="null" />
+	      <fv nom="descriptionRetourNormal" val="null" />
+	      <fv nom="etatInit" enum="1" />
+
+	      <fv nom="hostName" val="null" />
+	      <fv nom="infobulle" val="Surveillance" />
+	      <fv nom="nature" enum="MINEUR" />
+
+	      <fv nom="nomCourt" val="Tacan (OK)" />
+	      <fv nom="parentPhysique" val="" />
+	      <fv nom="sousTypeAffiche" val="null" />
+	      <fv nom="typeEquipement" val="mil.Iopto" />
+	    </obj>
+	  </fv>
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="null" />
+	  <fv nom="isSnmpDate" val="false" />
+	  <fv nom="isSnmpNumSer" val="false" />
+	  <fv nom="nomCourt" val="Boucle-Opto" />
+	  <fv nom="nomLogiqueDistant" val="" />
+	  <fv nom="opto" ref="null" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="sensBoucle" enum="null" />
+
+	  <fv nom="sousTypeSpecifique" enum="null" />
+
+	  <fv nom="timeoutInventaire" val="null" />
+	  <fv nom="typeEquipement" val="collecteur.alarmes.IBoucleOpto" />
+	  <fv nom="typeInventaire" enum="2" />
+
+	</obj>
+	

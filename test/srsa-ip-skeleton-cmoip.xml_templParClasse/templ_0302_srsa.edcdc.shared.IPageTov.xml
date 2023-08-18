@@ -1,0 +1,6 @@
+<obj id="srsa.edcdc.shared.IPageTov.label" class-name="srsa.edcdc.shared.IPageTov" nom="label">
+	  <fv nom="libelle1" val="" />
+	  <fv nom="libelle2" val="" />
+	  <fv nom="numero" val="2" />
+	</obj>
+	

@@ -1,0 +1,145 @@
+<obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00" class-name="mg2s.IAbstractPerEmetteurRecepteurCie" nom="MIL-00">
+	  <fv nom="alarmeDispoTOR">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.alarmeDispoTOR.mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmeDispoTOR.Etat de synthèse de l'etat Dispo TOR" class-name="mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmeDispoTOR" nom="Etat de synthèse de l'etat Dispo TOR">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatLogiciel">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.alarmeEtatLogiciel.mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmeEtatLogiciel.Etat Logiciel" class-name="mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmeEtatLogiciel" nom="Etat Logiciel">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatSynthAdmin">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.alarmeEtatSynthAdmin.mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmeEtatSynthAdmin.Etat de synthèse de l'état administratif" class-name="mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmeEtatSynthAdmin" nom="Etat de synthèse de l'état administratif">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmeEtatTdRs485">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.alarmeEtatTdRs485.mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmeEtatTdRs485.Etat TdRss422" class-name="mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmeEtatTdRs485" nom="Etat TdRss422">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmAlimentation">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.alarmePerAlarmAlimentation.mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmAlimentation.Etat de l’alarme Alimentation" class-name="mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmAlimentation" nom="Etat de l’alarme Alimentation">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmeTemperature">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.alarmePerAlarmeTemperature.mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmeTemperature.Etat de synthèse de l'etat PER Alarme Température" class-name="mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmeTemperature" nom="Etat de synthèse de l'etat PER Alarme Température">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmPuissance">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.alarmePerAlarmPuissance.mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmPuissance.Etat de l’alarme Puissance" class-name="mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmPuissance" nom="Etat de l’alarme Puissance">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmRecepteur">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.alarmePerAlarmRecepteur.mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmRecepteur.Etat de l’alarme Recepteur" class-name="mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmRecepteur" nom="Etat de l’alarme Recepteur">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmRosExterne">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.alarmePerAlarmRosExterne.mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmRosExterne.Etat de l’alarme ROS externe" class-name="mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmRosExterne" nom="Etat de l’alarme ROS externe">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="alarmePerAlarmRosInterne">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.alarmePerAlarmRosInterne.mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmRosInterne.Etat de l’alarme ROS interne" class-name="mil.IPropertyBasedAlarmObject$mg2s.IAbstractPerEmetteurRecepteurCie$alarmePerAlarmRosInterne" nom="Etat de l’alarme ROS interne">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="carteMCS" ref="null" />
+	  <fv nom="cmoipDistant" ref="null" />
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="critique" val="false" />
+	  <fv nom="critiqueSite" val="false" />
+	  <fv nom="etatInit" enum="1" />
+
+	  <fv nom="hostName" val="null" />
+	  <fv nom="infobulle" val="" />
+	  <fv nom="isSnmpDate" val="false" />
+	  <fv nom="isSnmpNumSer" val="true" />
+	  <fv nom="nomCourt" val="MIL" />
+	  <fv nom="nomLogiqueDistant" val="" />
+	  <fv nom="numeroPer" val="0" />
+	  <fv nom="parentPhysique" val="" />
+	  <fv nom="portGere">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.portGere.port.IPortPer$mg2s.IAbstractPerEmetteurRecepteurCie$portGere.portGere" class-name="port.IPortPer$mg2s.IAbstractPerEmetteurRecepteurCie$portGere" nom="portGere">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="nomCourt" val="Port" />
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere0">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.portNonGere0.port.IPortNonGere$mg2s.IAbstractPerEmetteurRecepteurCie$portNonGere0.Port non géré 1" class-name="port.IPortNonGere$mg2s.IAbstractPerEmetteurRecepteurCie$portNonGere0" nom="Port non géré 1">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth0" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 1" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere1">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.portNonGere1.port.IPortNonGere$mg2s.IAbstractPerEmetteurRecepteurCie$portNonGere1.Port non géré 2" class-name="port.IPortNonGere$mg2s.IAbstractPerEmetteurRecepteurCie$portNonGere1" nom="Port non géré 2">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth1" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 2" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere2">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.portNonGere2.port.IPortNonGere$mg2s.IAbstractPerEmetteurRecepteurCie$portNonGere2.Port non géré 3" class-name="port.IPortNonGere$mg2s.IAbstractPerEmetteurRecepteurCie$portNonGere2" nom="Port non géré 3">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth2" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 3" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="portNonGere3">
+	    <obj id="mg2s.IAbstractPerEmetteurRecepteurCie.MIL-00.portNonGere3.port.IPortNonGere$mg2s.IAbstractPerEmetteurRecepteurCie$portNonGere3.Port non géré 4" class-name="port.IPortNonGere$mg2s.IAbstractPerEmetteurRecepteurCie$portNonGere3" nom="Port non géré 4">
+	      <fv nom="commentaire" val="null" />
+	      <fv nom="descriptionPort" val="eth3" />
+	      <fv nom="etatPort" enum="4" />
+
+	      <fv nom="nomCourt" val="port 4" />
+	      <fv nom="sousType" enum="eth" />
+
+	    </obj>
+	  </fv>
+	  <fv nom="timeoutInventaire" val="null" />
+	  <fv nom="timeoutMaintenance" val="10000" />
+	  <fv nom="typeEquipement" val="N/A" />
+	  <fv nom="typeInventaire" enum="2" />
+
+	  <fv nom="typePer" enum="null" />
+
+	</obj>
+	

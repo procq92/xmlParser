@@ -1,0 +1,19 @@
+<obj id="mg2s.IPortMcrMcsE1Snmp.label" class-name="mg2s.IPortMcrMcsE1Snmp" nom="label">
+	  <fv nom="alarmeEtatPort">
+	    <obj id="mg2s.IPortMcrMcsE1Snmp.label.alarmeEtatPort.mil.IPropertyBasedAlarmObject$mg2s.IPortMcrMcsE1Snmp$alarmeEtatPort.Etat Port" class-name="mil.IPropertyBasedAlarmObject$mg2s.IPortMcrMcsE1Snmp$alarmeEtatPort" nom="Etat Port">
+	      <fv nom="alarmAcousticalWarning" val="true" />
+	      <fv nom="alarmeActive" val="true" />
+	      <fv nom="alarmTimeDelay" val="0" />
+	    </obj>
+	  </fv>
+	  <fv nom="commentaire" val="null" />
+	  <fv nom="critique" val="true" />
+	  <fv nom="index" val="1" />
+	  <fv nom="nomCourt" val="Port" />
+	  <fv nom="nomOwner" val="null" />
+	  <fv nom="nonUtilise" val="false" />
+	  <fv nom="portReference" ref="null" />
+	  <fv nom="sousType" enum="E1" />
+
+	</obj>
+	

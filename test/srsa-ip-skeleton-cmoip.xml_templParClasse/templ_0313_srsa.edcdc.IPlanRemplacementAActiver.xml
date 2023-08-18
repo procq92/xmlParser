@@ -1,0 +1,4 @@
+<obj id="srsa.edcdc.IPlanRemplacementAActiver.Plan_a_activer" class-name="srsa.edcdc.IPlanRemplacementAActiver" nom="Plan_a_activer">
+	  <fv nom="aActiver" ref="null" />
+	</obj>
+	

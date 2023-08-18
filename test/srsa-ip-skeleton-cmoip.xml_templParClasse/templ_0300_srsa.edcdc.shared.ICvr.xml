@@ -1,0 +1,32 @@
+<obj id="srsa.edcdc.shared.ICvr.label" class-name="srsa.edcdc.shared.ICvr" nom="label">
+	  <fv nom="aor" val="" />
+	  <fv nom="caracteristique1" val="null" />
+	  <fv nom="caracteristique2" val="null" />
+	  <fv nom="changementFrequence" val="false" />
+	  <fv nom="choixCentreManuel" val="false" />
+	  <fv nom="cvr" ref="null" />
+	  <fv nom="cvrAffectationDeVoie" val="true" />
+	  <fv nom="cvrChoixCentre" val="true" />
+	  <fv nom="cvrCouplage" val="true" />
+	  <fv nom="cvrEcoute" val="true" />
+	  <fv nom="cvrSelFreq" val="true" />
+	  <fv nom="cvrTrafic" val="true" />
+	  <fv nom="gestionCentre" val="false" />
+	  <fv nom="lucarneEtat" val="0" />
+	  <fv nom="lucarneTempo" val="0" />
+	  <fv nom="masquageFrequenceTGV" val="false" />
+	  <fv nom="masquagePoInitiateur" val="false" />
+	  <fv nom="natureCVR" enum="locale" />
+
+	  <fv nom="numLogique" val="1" />
+	  <fv nom="pas833" val="false" />
+	  <fv nom="sav" val="false" />
+	  <fv nom="savInterdit" val="false" />
+	  <fv nom="traficInterdit" val="false" />
+	  <fv nom="typeCVR" enum="vhf" />
+
+	  <fv nom="typeMixage" enum="3" />
+
+	  <fv nom="vrPermanente" val="false" />
+	</obj>
+	

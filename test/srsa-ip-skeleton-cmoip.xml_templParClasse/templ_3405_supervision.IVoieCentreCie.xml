@@ -1,0 +1,7 @@
+<obj id="supervision.IVoieCentreCie.label" class-name="supervision.IVoieCentreCie" nom="label">
+	  <fv nom="cmoipDistant" ref="null" />
+	  <fv nom="farCer" ref="null" />
+	  <fv nom="farCex" ref="null" />
+	  <fv nom="nomLogiqueDistant" val="" />
+	</obj>
+	

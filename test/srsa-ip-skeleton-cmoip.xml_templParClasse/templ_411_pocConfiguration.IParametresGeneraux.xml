@@ -1,0 +1,52 @@
+<obj id="pocConfiguration.IParametresGeneraux.Paramètres généraux POC" class-name="pocConfiguration.IParametresGeneraux" nom="Paramètres généraux POC">
+	  <fv nom="burstPeriod" val="1000" />
+	  <fv nom="burstThreshold" val="10" />
+	  <fv nom="centreLocal" val="null" />
+	  <fv nom="cyclicRepetition" val="3" />
+	  <fv nom="diffusionSav" enum="1" />
+
+	  <fv nom="etatVoieLorsAffectation" enum="2" />
+
+	  <fv nom="gigueRadio" val="5" />
+	  <fv nom="gigueTelephone" val="10" />
+	  <fv nom="libelleAbsencePoInit" val="-----" />
+	  <fv nom="maxScreenBrightness" val="13" />
+	  <fv nom="minScreenBrightness" val="3" />
+	  <fv nom="modeAffichagePagesTOV" enum="1" />
+
+	  <fv nom="modePageRubriqueITh" val="false" />
+	  <fv nom="modePageRubriqueRdo" val="false" />
+	  <fv nom="modePageRubriqueTph" val="false" />
+	  <fv nom="radioRtpPacketSize" enum="20" />
+
+	  <fv nom="screenSaverClosedPosition" val="300" />
+	  <fv nom="screenSaverOpenedPosition" val="300" />
+	  <fv nom="tagDscpAutre" enum="CS0" />
+
+	  <fv nom="tagDscpEnregistrement" enum="AF31" />
+
+	  <fv nom="tagDscpSigRadio" enum="AF41" />
+
+	  <fv nom="tagDscpSigTelephone" enum="AF41" />
+
+	  <fv nom="tagDscpVoieRadio" enum="EF" />
+
+	  <fv nom="tagDscpVoieTelephone" enum="EF" />
+
+	  <fv nom="telRtpPacketSize" enum="20" />
+
+	  <fv nom="tgvDetU" val="7" />
+	  <fv nom="tgvDetV" val="8" />
+	  <fv nom="typeAlternat" enum="S" />
+
+	  <fv nom="volumeDefautCasque" val="127" />
+	  <fv nom="volumeDefautCombine" val="127" />
+	  <fv nom="volumeDefautEcouteVoiesDetresse" val="8" />
+	  <fv nom="volumeDefautEcouteVoiesRadio" val="8" />
+	  <fv nom="volumeDefautHpInterphone" val="127" />
+	  <fv nom="volumeDefautHpRadio" val="127" />
+	  <fv nom="volumeDefautInterphone" val="127" />
+	  <fv nom="volumeDefautRadio" val="127" />
+	  <fv nom="volumeDefautTelephone" val="127" />
+	</obj>
+	
