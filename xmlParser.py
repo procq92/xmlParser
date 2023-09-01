@@ -63,6 +63,7 @@ numeros_de_classe = {
     "ithTphConfiguration.IParamGenTph":         "433",
     "ithTphConfiguration.IPlanNumerotation":    "434",
     "ithTphConfiguration.IRestrictionsAppels":  "435",
+    "ithTphConfiguration.IPrioritySettings":    "430",
 
     "ithTphEquipements.ITsoip":                     "401",
     "ithTphEquipements.ITsoipServerStandalone":     "402",
@@ -319,7 +320,7 @@ if not listeClassesInclues.exists():
 tree = et.parse(args.filename)
 root = tree.getroot()
 
-texte_description = f"<!-- date : {dateTexte} -->\n<!-- dossier : {p} -->\n<!-- squelette : {args.filename} -->\n"
+texte_description = f"<!-- date : {dateTexte} -->\n<!-- dossier : {p} -->\n<!-- squelette : {args.filename} -->\n<!-- sw_cmoip_version : {root.attrib.get('sw_cmoip_version', '?????')} -->\n"
 print("texte_description=" + texte_description)
 
 # print(type(p))

@@ -74,7 +74,9 @@ if False:
 
 tree = et.parse(args.filename)
 root = tree.getroot()
-
+for noeud in root:
+    pprint("tag=" + root.tag)
+    pprint(f"att={root.attrib}")
 # print(type(p))
 # print(p)
 # print(type(resultFolder))
@@ -85,7 +87,7 @@ if False:
         decrireNoeud(noeud, decrireEnfants=True)
         d = convertToDict(noeud=noeud)
         pprint(d)
-for noeud in root[0][1]:
+for noeud in root:
     dictNoeud = convertToDict(noeud=noeud)
     id = noeud.attrib['id']
     idFilename = id.replace(" ", "_").replace("/", "")
