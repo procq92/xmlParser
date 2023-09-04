@@ -1,5 +1,6 @@
 import xml
 import xml.etree.ElementTree as et
+from lxml import etree
 from pathlib import Path
 #import xml.etree.ElementTree.tostring as ts
 from pprint import pprint
@@ -75,6 +76,8 @@ if False:
 tree = et.parse(args.filename)
 root = tree.getroot()
 
+tree2 = etree.parse(args.filename)
+
 # print(type(p))
 # print(p)
 # print(type(resultFolder))
@@ -85,13 +88,29 @@ if False:
         decrireNoeud(noeud, decrireEnfants=True)
         d = convertToDict(noeud=noeud)
         pprint(d)
-for noeud in root[0][1]:
+for noeud in root:
     dictNoeud = convertToDict(noeud=noeud)
-    id = noeud.attrib['id']
-    idFilename = id.replace(" ", "_").replace("/", "")
-    filename = f"dict/dict_{idFilename}.py"
-    with open (filename, "wt", encoding="utf-8") as out:
-        pprint(dictNoeud, width=120, stream=out)
+    #pprint(dictNoeud)
+    id = noeud.attrib.get('id')
+    if id:
+        idFilename = id.replace(" ", "_").replace("/", "")
+        filename = f"dict/dict_{idFilename}.py"
+        with open (filename, "wt", encoding="utf-8") as out:
+            pprint(dictNoeud, width=120, stream=out)
+
+root2 = tree2.getroot()
+for element in root2.iter():
+    if type(element) == etree._Comment:
+        print("COMMENTAIRE=[%s]" % element.text)
+    print("&&&&& %s &&&&& %s &&&&& %s &&&&&" % (element.tag, element.text, element.attrib))
+    for child in element:
+        print("===== attrib : %s" % child.attrib)
+
+for element in root2.iter():
+    if isinstance(element.tag, str):  # or 'str' in Python 3
+        print(">>> %s - %s" % (element.tag, element.text))
+    else:
+        print("SPECIAL: %s >>> %s - %s" % (type(element.tag), element, element.text))
 
 if False:
     texteListeClasses = ""
