@@ -1,11 +1,14 @@
-import xml
-import xml.etree.ElementTree as et
+#import xml
+import lxml
+from lxml import etree
+#import xml.etree.ElementTree as et
 from pathlib import Path
 #import xml.etree.ElementTree.tostring as ts
 from pprint import pprint
 import argparse
 import logging, time
 
+classes_a_exclure = ()
 classes_a_exclure = ("cmoip.ICMoIPDistant",
                     "cmoip.ICmoipCie",
                     "cmoip.ICmoipClient",
@@ -281,7 +284,7 @@ def decrireEnfants(noeud):
             #xml.etree.ElementTree.tostring(noeudEnfant)
             index+= 1
         print(dir(noeudEnfant[0]))
-        tt = xml.etree.ElementTree.tostring(noeudEnfant[0])
+        tt = etree.ElementTree.tostring(noeudEnfant[0])
         print(f"===== tt={tt}")
 
 gmTime = time.gmtime()
@@ -317,8 +320,10 @@ if not listeClassesExclues.exists():
     listeClassesExclues.touch()
 if not listeClassesInclues.exists():
     listeClassesInclues.touch()
-tree = et.parse(args.filename)
+
+tree = etree.parse(args.filename)
 root = tree.getroot()
+groupObjectModel = root[0][0]
 
 texte_description = f"<!-- date : {dateTexte} -->\n<!-- dossier : {p} -->\n<!-- squelette : {args.filename} -->\n<!-- sw_cmoip_version : {root.attrib.get('sw_cmoip_version', '?????')} -->\n"
 print("texte_description=" + texte_description)
@@ -326,7 +331,6 @@ print("texte_description=" + texte_description)
 # print(type(p))
 # print(p)
 # print(type(resultFolder))
-groupObjectModel = root[0][0]
 texteListeClasses = ""
 texteListeClassesInclues = ""
 texteListeClassesExclues = ""
@@ -358,7 +362,7 @@ for enfant in groupObjectModel:
         texteListeClassesInclues += "\n" + class_name
         filename = resultFolder / ("templ_" + texte_numero + "_" + class_name + ".xml")
         #print(f"======  {filename.name} {filename.stem} {filename.suffix} {filename.parts}")
-        enfant_str = xml.etree.ElementTree.tostring(enfant, encoding='unicode')
+        enfant_str = etree.tostring(enfant, encoding='unicode')
         filename.write_text(texte_description + texte_fichier + texte_classe + enfant_str, encoding='utf-8')
         # with open(filename, "w", encoding="utf-8") as f:
         #     f.write(xml.etree.ElementTree.tostring(enfant, encoding='unicode'))
