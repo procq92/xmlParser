@@ -9,7 +9,7 @@ import argparse
 import logging, time
 
 classes_a_exclure = ()
-classes_a_exclure = ("cmoip.ICMoIPDistant",
+classes_a_exclure = (
                     "cmoip.ICmoipCie",
                     "cmoip.ICmoipClient",
                     "cmoip.ICmoipClientCie",
@@ -18,17 +18,11 @@ classes_a_exclure = ("cmoip.ICMoIPDistant",
                     "cmoip.ICmoipSnmp",
                     "ithTphAnnuaire.ICorrespExterne",
                     "mg2s.IAtelierEnergie",
-                    "mg2s.IAtelierEnergieCie",
-                    "mg2s.IAtelierEnergie"
-                    "mg2s.IAtelierEnergieCie",
-                    "mg2s.IFarCerCie"
-                    "mg2s.IFarCerSnmp"
-                    "mg2s.IFarCexCie"
-                    "mg2s.IFarCexSnmp"
+                    "mg2s.IAtelierEnergieCie"
                     )
 
 numeros_de_classe = {
-    "cmoip.ICMoIPDistant":                  "",
+    "cmoip.ICMoIPDistant":                  "512",
     "cmoip.ICmoipCie":                      "1104",
     "cmoip.ICmoipClient":                   "1101",
     "cmoip.ICmoipClientCie":                "1102",
@@ -71,19 +65,22 @@ numeros_de_classe = {
     "ithTphEquipements.ITsoip":                     "401",
     "ithTphEquipements.ITsoipServerStandalone":     "402",
     "ithTphEquipements.ITsoipServerStandaloneCie":  "403",
+    "ithTphEquipements.IGatewaySTN":                "404",
+    "ithTphEquipements.IModuleSTNFXS":              "405",
+    "ithTphEquipements.ILigneFXS":                  "406",
 
     "mg2s.IAtelierEnergie":         "1701",
     "mg2s.IAtelierEnergieCie":      "1702",
     "mg2s.IAtelierEnergieV7":       "1703",
     "mg2s.IAtelierEnergieV7Cie":    "1704",
 
-    "mg2s.IBaieCie": "",
-    "mg2s.IBaieSnmp": "",
+    "mg2s.IBaieCie": "1805",
+    "mg2s.IBaieSnmp": "1804",
 
     "mg2s.IBoucleCACie": "",
     "mg2s.IBoucleCASnmp": "",
 
-    "mg2s.ICabine": "",
+    "mg2s.ICabine": "1801",
 
     "mg2s.IAbstractChassisMcsCie":              "704",
     "mg2s.IAbstractChassisMcsSnmp":             "703",
@@ -106,7 +103,7 @@ numeros_de_classe = {
     "mg2s.ICoupleur":       "1001",
     "mg2s.ICoupleurCie":    "1002",
 
-    "mg2s.IEquipementNonGere": "",
+    "mg2s.IEquipementNonGere": "3205",
 
     "mg2s.IFarCerCie":      "1304",
     "mg2s.IFarCerSnmp":     "1303",
@@ -116,8 +113,8 @@ numeros_de_classe = {
     "mg2s.ILiaisonVpnCie": "",
     "mg2s.ILiaisonVpnSnmp": "",
 
-    "mg2s.ILocalCie": "",
-    "mg2s.ILocalSnmp": "",
+    "mg2s.ILocalCie":           "1803",
+    "mg2s.ILocalSnmp":          "1802",
 
     "mg2s.IModuleAlimentationSnmp":     "610",
     "mg2s.IModuleFibreSnmp":            "611",
@@ -183,7 +180,8 @@ numeros_de_classe = {
 
     "pocConfiguration.IDSCPSettings":               "413",
     "pocConfiguration.IEnregIpTsoipSettingsConf":   "415",
-    "pocConfiguration.ILevelsTsoip":                "414",
+    "pocConfiguration.ILevelsTsoip":                "414xx",
+    "pocConfiguration.ILevelsVpoip":                "414",
     "pocConfiguration.IMission":                    "416",
     "pocConfiguration.IParametresGeneraux":         "411",
 
@@ -266,6 +264,41 @@ numeros_de_classe = {
     "vgoip.IVgoipEnregistreur":     "801",
     "vgoip.IVgoipRejeu":            "802",
     "vgoip.IVgoipSimulation":       "803",
+
+    "collecteur.alarmes.IBoucleOptoCie": "1608",
+    "collecteur.alarmes.IBoucleOptoSnmp": "2002",
+    "collecteur.alarmes.IOptoCie": "1607",
+    "collecteur.alarmes.IOptoSnmp": "2001",
+
+    "ithTphAnnuaire.IFOA": "447",
+    "ithTphAnnuaire.ITelProfil": "436",
+
+    "mg2s.IBoucleCACie": "1606",
+    "mg2s.IBoucleCASnmp": "1605",
+
+    "mg2s.ICarteMcrSnmp": "",
+    "mg2s.IChassisSnmp": "",
+
+    "mg2s.ILiaisonVpnCie": "",
+    "mg2s.ILiaisonVpnSnmp": "",
+
+    "mg2s.IPeripheriqueCAEsclaveCie": "1604",
+    "mg2s.IPeripheriqueCAEsclaveSnmp": "1603",
+    "mg2s.IPeripheriqueCAMaitreCie": "1602",
+    "mg2s.IPeripheriqueCAMaitreSnmp": "1601",
+
+    "mg2s.ISwitch4507CdcSnmp": "601",
+    "mg2s.ISwitch4507Snmp": "602",
+
+    "reseau.Cisco2960X24PortsCie": "605",
+    "reseau.ICisco2960X24PortsSnmp": "604",
+    "reseau.ICisco2960X48PortsSnmp": "606",
+    "reseau.IStackOfSwitchSnmp": "603",
+    "reseau.ISwitch48PortsCie": "607",
+
+    "site.IVoieParCentre": "",
+
+    "supervision.IVoieCentreParVoieRadio": "",
 
     "FIN": "999999999"
 }
@@ -353,10 +386,12 @@ for enfant in groupObjectModel:
         if numero_classe:
             if numero_classe == "":
                 texte_numero = "na"
+                print("class_name={} -> numéro vide".format(class_name))
             else:
                 texte_numero = f"{numero_classe}"
         else:
             texte_numero = "null"
+            print("class_name={} -> pas de numéro".format(class_name))
         texte_fichier =  f'<!-- fichier : {"templ_" + texte_numero + class_name + ".xml"} -->\n'
         texte_classe = f'<!-- classe : {texte_numero + " === " + class_name} -->\n\n'
         texteListeClassesInclues += "\n" + class_name

@@ -9,7 +9,7 @@ from datetime import datetime
 import time
 import datetime
 
-classes_a_exclure = ("cmoip.ICMoIPDistant",
+classes_a_exclure = (
                     "cmoip.ICmoipCie",
                     "cmoip.ICmoipClient",
                     "cmoip.ICmoipClientCie",
@@ -18,8 +18,6 @@ classes_a_exclure = ("cmoip.ICMoIPDistant",
                     "cmoip.ICmoipSnmp",
                     "ithTphAnnuaire.ICorrespExterne",
                     "mg2s.IAtelierEnergie",
-                    "mg2s.IAtelierEnergieCie",
-                    "mg2s.IAtelierEnergie"
                     "mg2s.IAtelierEnergieCie",
                     "mg2s.IFarCerCie"
                     "mg2s.IFarCerSnmp"

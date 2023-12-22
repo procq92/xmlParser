@@ -6,7 +6,7 @@ from pprint import pprint
 import argparse
 import logging, time
 
-classes_a_exclure = ("cmoip.ICMoIPDistant",
+classes_a_exclure = (
                     "cmoip.ICmoipCie",
                     "cmoip.ICmoipClient",
                     "cmoip.ICmoipClientCie",
