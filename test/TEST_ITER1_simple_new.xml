@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurations version="2">
+  <configuration tag="Configuration Squelette" description="Conf outils servant de référence pour connaître l&apos;ensemble de propriété disponnible sur chaque objet, configuration non fonctionnel." nom="Conf. Applicable 02/07/2024 12:10:09.745">
+    <groupe-object-model>
+	<obj id="aaaaaaa" class-name="aaaaaaa" nom="Restric">
+	  <fv nom="numerosOuPatternsInterdits">
+	    <a i="0" val="null"/>
+<!--type =  String  index-max = 100 -->
+	  </fv>
+	</obj>
+	<obj id="ithTphConfiguration.IRestrictionsAppels.Restric" class-name="ithTphConfiguration.IRestrictionsAppels" nom="Restric">
+	  <fv nom="numerosOuPatternsInterdits">
+	    <a i="0" val="null"/>
+<!--type =  String  index-max = 100 -->
+	  </fv>
+	</obj>
+	<obj id="ithTphEquipements.ITsoip.Tsoip" class-name="ithTphEquipements.ITsoip" nom="Tsoip">
+	  <fv nom="alarmeEtatConfigurationAppliquee">
+	    <obj id="ithTphEquipements.ITsoip.Tsoip.alarmeEtatConfigurationAppliquee.mil.IPropertyBasedAlarmObject$ithTphEquipements.ITsoip$alarmeEtatConfigurationAppliquee.Etat conf. appliquée" class-name="mil.IPropertyBasedAlarmObject$ithTphEquipements.ITsoip$alarmeEtatConfigurationAppliquee" nom="Etat conf. appliquée">
+	      <fv nom="alarmAcousticalWarning" val="true"/>
+	      <fv nom="alarmeActive" val="false"/>
+	      <fv nom="alarmTimeDelay" val="0"/>
+	      <fv nom="faultLabel" val="Alarme non utilisée"/>
+	      <fv nom="graviteAlarme" enum="TERMINE"/>
+<!-- valeur de l'énumeration : PROBABLE(Probable);MAINTENANCE(Maintenance);ATTENTE_MAINTENANCE(Attente maintenance);CRITIQUE(Critique);MAJEUR(Majeur);INDISPONIBLE(Indisponible);MINEUR(Mineur);INDETERMINE(Indéterminé);INFO(Info);TERMINE(Terminé); -->
+	    </obj>
+	  </fv>
+	  <fv nom="parentLogique1" ref="null"/>
+	  <fv nom="parentLogique2" ref="null"/>
+	  <fv nom="parentPhysique" val=""/>
+	  <fv nom="portTrapSnmp" val="-1"/>
+	  <fv nom="prefix" val="null"/>
+	  <fv nom="qualify" val="yes"/>
+	  <fv nom="qualify_r_and_s" val="no"/>
+	  <fv nom="qualifyfreqnotok" val="3"/>
+	  <fv nom="qualifyfreqnotok_r_and_s" val="3"/>
+	  <fv nom="qualifyfreqok" val="3"/>
+	  <fv nom="qualifyfreqok_r_and_s" val="3"/>
+	  <fv nom="tempoLifeline" val="null"/>
+	  <fv nom="timeout" val="1000"/>
+	  <fv nom="timeoutLifeLine" val="400"/>
+	  <fv nom="workflowActivationPartiel" val="true"/>
+	</obj>
+	<obj id="jjjjjjjjjj" class-name="jjjjjjjjjj" nom="Restric">
+	  <fv nom="numerosOuPatternsInterdits">
+	    <a i="0" val="null"/>
+<!--type =  String  index-max = 100 -->
+	  </fv>
+	</obj>
+	<obj id="mg2s.IClusterDeNetasqSnmp.Cluster" class-name="mg2s.IClusterDeNetasqSnmp" nom="Cluster">
+	  <fv nom="adresseIPScriptAudit" val="null"/>
+	  <fv nom="timeoutLancerScript2" val="22000"/>
+	  <fv nom="timeoutLancerScript3" val="22000"/>
+	  <fv nom="timeoutLancerScript4" val="22000"/>
+	  <fv nom="timeoutLifeLine" val="400"/>
+	  <fv nom="timeoutVPN" val="1000"/>
+	  <fv nom="typeEquipement" val="N/A"/>
+	  <fv nom="typeOS" enum="null"/>
+<!-- valeur de l'énumeration : SEDUCS(SEDUCS);LDB(LDB);RESEAU(RESEAU);CENTOS(CENTOS); -->
+	  <fv nom="virusChecker" ref="null"/>
+	  <fv nom="workflowActivationPartiel" val="true"/>
+	</obj>
+	<obj id="zzzzzzzzzzzzzz" class-name="zzzzzzzzzzzzzz" nom="Restric">
+	  <fv nom="numerosOuPatternsInterdits">
+	    <a i="0" val="null"/>
+<!--type =  String  index-max = 100 -->
+	  </fv>
+	</obj>
+	</groupe-object-model>
+</configuration>
+</configurations>
