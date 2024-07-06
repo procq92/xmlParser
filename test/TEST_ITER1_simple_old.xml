@@ -28,7 +28,6 @@
 	  <fv nom="qualify_r_and_s" val="no"/>
 	  <fv nom="qualifyfreqnotok" val="3"/>
 	  <fv nom="qualifyfreqnotok_r_and_s" val="3"/>
-	  <fv nom="qualifyfreqok" val="3"/>
 	  <fv nom="qualifyfreqok_r_and_s" val="3"/>
 	  <fv nom="tempoLifeline" val="null"/>
 	  <fv nom="timeout" val="1000"/>

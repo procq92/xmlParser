@@ -8,3 +8,5 @@ fichiersPourTests/confGeneree_full-ip_ccmar-v.xml
 
 *.bak
 
+test/original/
+test/srsa-ip-skeleton-cmoip.xml_templParClasse/

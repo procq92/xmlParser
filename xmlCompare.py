@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import sys
 import time
+import logging
 from typing import Generator, Tuple
 
 """
@@ -15,43 +16,52 @@ python xml-Parser.py fichier_recent.xml fichier_ancien.xml
 Il faut inclure les 3 arguments, dans le cas contraire le programme ne fonctionnera pas.
 """
 
-def compareElement(element_new, element_old, attrib) -> Tuple[str, str, bool, bool]:
-    if element_new and element_old:
+def compareElement(element_new, element_old, attrib) -> Tuple[str, str, str, bool, bool]:
+    result = '?'
+    texte = "--------"
+    if element_new is not None and element_old is not None:
         # on a obtenu 1 element dans new et dans old
         attribValue_new = element_new.get(attrib)
         attribValue_old = element_old.get(attrib)
-        print(f"{attribValue_new} <--> {attribValue_old}")
+        # print(f"{attribValue_new} <--> {attribValue_old}")
         if attribValue_new == attribValue_old:
+            result = '='
             texte = f""
             compareLevel(element_new, element_old, attrib='nom')
             attribValue = attribValue_new
             get_new = True
             get_old = True
         elif attribValue_new > attribValue_old:
+            result = 's'
             texte = "--> supprimé dans new"
             attribValue = attribValue_old
             get_new = False
             get_old = True
         elif attribValue_new < attribValue_old:
+            result = 'a'
             texte = "--> ajouté dans new"
             attribValue = attribValue_new
             get_new = True
             get_old = False
-    elif element_new:
+    elif element_new is not None:
+        result = 'a'
         attribValue_new = element_new.get(attrib)
         texte = "--> ajouté dans new"
         attribValue = attribValue_new
         get_new = True
         get_old = False
-    elif element_old:
+    elif element_old is not None:
+        result = 's'
         attribValue_old = element_old.get(attrib)
         texte = "--> supprimé dans new"
         attribValue = attribValue_old
         get_new = False
         get_old = True
     else:
-        return None, None, None, None
-    return texte, attribValue, get_new, get_old
+        result = '?'
+        return '?', None, None, None, None
+    logging.info(f"compareElement() : result={result}, texte={texte}, attribValue={attribValue}, get_new={get_new}, get_old={get_old}")
+    return result, texte, attribValue, get_new, get_old
 
 def iterOneLevelXml(tree: ET.Element) -> Generator[ET.Element, None, None]:
     # doc = ET.parse(file)
@@ -82,19 +92,43 @@ def compareLevel(tree_new, tree_old, attrib):
             except StopIteration:
                 # print("FIN_old")
                 element_old = None
-        texte, attribValue, get_new, get_old = compareElement(element_new, element_old, attrib)
+        result, texte, attribValue, get_new, get_old = compareElement(element_new, element_old, attrib)
+        logging.info(f"result={result}, texte={texte}, attribValue={attribValue}, get_new={get_new}, get_old={get_old}")
         if not attribValue and not texte:
             break
+        if element_new is not None:
+            if element_old is not None:
+                logging.info(f"{result}    {attrib} = {attribValue} {element_new.get(attrib)} <-> {element_old.get(attrib)}")
+            else:
+                logging.info(f"{result}    {attrib} = {attribValue} {element_new.get(attrib)} <-> None")
+        else:
+            if element_old is not None:
+                logging.info(f"{result}    {attrib} = {attribValue} None <-> {element_old.get(attrib)}")
+            else:
+                logging.info(f"{result}    {attrib} = {attribValue} None <-> None")
+        # 
         if attrib == 'class-name':
+            print("")
             print(f"===== {attrib} = {attribValue} =====")
-        elif (attrib == 'nom'):
-            print(f"    {attrib} = {attribValue}")
-        print(texte)
-        print("")
+        if result == 'a':
+            logging.info(f"AJOUT    {attrib} {attribValue} {element_new.get(attrib)}")
+            print(f"{attrib} {attribValue} {texte}")
+        elif result == 's':
+            logging.info(f"SUPPR    {attrib}  {attribValue} {element_old.get(attrib)}")
+            print(f"{attrib} {attribValue} {texte}")
+        elif result == '=':
+            logging.info(f"EGAL    {attrib}  {attribValue}")
+            # print(texte)
+        elif result == '?':
+            logging.warning(f"????    {attrib}  {attribValue} {element_new.get(attrib)} {element_old.get(attrib)}")
+            # print(texte)
+        else:
+            print(f"???? {result}   {attrib}  {attribValue} {element_new.get(attrib)} {element_old.get(attrib)}")
+        
     # print("TERMINE")
 
 def parcours(tree, texte):
-    print(f"DEB parcours() : texte={texte} len={len(tree)}_______________")
+    # print(f"DEB parcours() : texte={texte} len={len(tree)}_______________")
     generator = iterOneLevelXml(tree)
     cpt = 0
     while True:
@@ -106,42 +140,51 @@ def parcours(tree, texte):
             # print("FIN_new")
             element = None
             break
-        print(f"cpt={cpt} / {len(tree)} -> {element.get('nom')}")
+        # print(f"cpt={cpt} / {len(tree)} -> {element.get('nom')}")
         if element != None:
-            print(f"ELEMENT --> tag={element.tag} class-name={element.get('class-name')} nbElements={len(element)}")
-            print(f"cpt={cpt} / {len(tree)} -> {element.get('nom')}")
-            if len(element) > 1:
+            if element.tag == "obj":
+                print(f"CLASS --> {element.get('class-name')} nom={element.get('nom')} {len(element)} éléments")
+            elif element.tag == "fv":
+                print(f"ELEMENT --> {element.get('nom')} {len(element)} éléments")
+            elif element.tag == "a":
+                print(f"A --> {element.get('nom')} {len(element)} éléments")
+            else:
+                print(f"??? [{element.tag}] --> nom={element.get('nom')} {len(element)} éléments")
+            # print(f"cpt={cpt} / {len(tree)} -> {element.get('nom')}")
+            if len(element) > 0:
                 for item in element:
                     # print(f"boucle for() -> tag={item.tag} nom={item.get('nom')}")
                     pass
                 # print(f"===> parcours")
                 parcours(element, texte=f"parcours() --> tag={element.tag} class-name={element.get('class-name')} nbElements={len(element)}")
                 # print(f"_______________ fin parcours() _______________")
-            else:
-                print("???")
-    print(f"FIN parcours() : texte={texte} _______________")
+        else:
+            print("element=None -> ???")
+    # print(f"FIN parcours() : texte={texte} _______________")
 
-if len(sys.argv) != 3:
+nb_par = len(sys.argv)
+if nb_par not in [2, 3]:
     print("Veuillez inclure les arguments du programme en vous fiant à sa documentation")
     sys.exit()
 
 start_time = time.time()
 
 fichier_new = sys.argv[1]
-fichier_old = sys.argv[2]
-
 arbre_new = ET.parse(fichier_new)
-arbre_old = ET.parse(fichier_old)
-
 root_new = arbre_new.getroot()
-root_old = arbre_old.getroot()
-
 gom_new = root_new[0][0]
-gom_old = root_old[0][0]
-diff = True
 
-diff = compareLevel(tree_new=gom_new, tree_old=gom_old, attrib='class-name')
-# parcours(tree=gom_new, texte="gom_new")
+if nb_par == 3:
+    diff = True
+    fichier_old = sys.argv[2]
+    arbre_old = ET.parse(fichier_old)
+    root_old = arbre_old.getroot()
+    gom_old = root_old[0][0]
+    
+    diff = compareLevel(tree_new=gom_new, tree_old=gom_old, attrib='class-name')
+else:
+    parcours(tree=gom_new, texte="gom_new")
+    diff = True
 
 end_time = time.time()
 execution_time = end_time - start_time

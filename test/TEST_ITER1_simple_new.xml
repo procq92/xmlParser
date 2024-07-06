@@ -26,7 +26,6 @@
 	    </obj>
 	  </fv>
 	  <fv nom="parentLogique1" ref="null"/>
-	  <fv nom="parentLogique2" ref="null"/>
 	  <fv nom="parentPhysique" val=""/>
 	  <fv nom="portTrapSnmp" val="-1"/>
 	  <fv nom="prefix" val="null"/>

@@ -1,0 +1,1989 @@
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_cmoip.ICMoIPDistant.xml
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_cmoip.ICmoipCie.xml
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_cmoip.ICmoipClient.xml
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_cmoip.ICmoipClientCie.xml
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_cmoip.ICmoipServerStandaloneCie.xml
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_cmoip.ICmoipServerStandaloneSnmp.xml
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_cmoip.ICmoipSnmp.xml
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_ithTphAnnuaire.ICorrespExterne.xml
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_ithTphAnnuaire.IGroupe.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_ithTphAnnuaire.IGroupe.xml
+27,46c27
+< 	
+< 	<!--
+< 		<obj id="ithTphAnnuaire.IGroupe.GRccmarv_01" class-name="ithTphAnnuaire.IGroupe" nom="GRccmarv_01">
+< 	  <fv nom="identifiantUriSip" val="groupe_t1@ccmar-v-full-ip.csgroup.eu"/>
+< 	  <fv nom="libelleInformatif" val="GR-01"/>
+< 	  <fv nom="listeRoles">
+< 	    <a i="0" ref="ithTphAnnuaire.IRole.RLmarv_01"/>
+< 	    <a i="1" ref="ithTphAnnuaire.IRole.RLmarv_02"/>
+< 	  </fv>
+< 	  <fv nom="numeroATS" val="310401"/>
+< 	  <fv nom="numeroPNIA" val="8187320401"/>
+< 	  <fv nom="numeroIth" val=""/>
+< 	  <fv nom="numeroTph" val="25401"/>
+< 	  <fv nom="overflowBusy" val=""/>
+< 	  <fv nom="overflowNa" val=""/>
+< 	  <fv nom="text1" val="GR-01"/>
+< 	  <fv nom="text2" val=""/>
+< 	  <fv nom="typeMembre" val="groupe"/>
+< 	</obj>
+< -->
+\ No newline at end of file
+---
+> 	
+\ No newline at end of file
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_ithTphAnnuaire.ITelProfil.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_ithTphAnnuaire.ITelProfil.xml
+6c6
+< 	  <fv nom="nomProfilTel" val="profil_FXO" />
+---
+> 	  <fv nom="nomProfilTel" val="profil_FXS" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_ithTphConfiguration.IDomains.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_ithTphConfiguration.IDomains.xml
+2,224c2,226
+< 	  <fv nom="ldigitsDomain1">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain1.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain1.Domaine 1" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain1" nom="Domaine 1">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain10">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain10.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain10.Domaine 10" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain10" nom="Domaine 10">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain11">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain11.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain11.Domaine 11" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain11" nom="Domaine 11">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain12">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain12.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain12.Domaine 12" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain12" nom="Domaine 12">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain13">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain13.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain13.Domaine 13" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain13" nom="Domaine 13">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain14">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain14.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain14.Domaine 14" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain14" nom="Domaine 14">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain15">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain15.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain15.Domaine 15" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain15" nom="Domaine 15">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain16">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain16.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain16.Domaine 16" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain16" nom="Domaine 16">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain17">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain17.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain17.Domaine 17" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain17" nom="Domaine 17">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain18">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain18.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain18.Domaine 18" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain18" nom="Domaine 18">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain19">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain19.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain19.Domaine 19" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain19" nom="Domaine 19">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain2">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain2.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain2.Domaine 2" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain2" nom="Domaine 2">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain20">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain20.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain20.Domaine 20" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain20" nom="Domaine 20">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain21">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain21.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain21.Domaine 21" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain21" nom="Domaine 21">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain22">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain22.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain22.Domaine 22" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain22" nom="Domaine 22">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain23">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain23.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain23.Domaine 23" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain23" nom="Domaine 23">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain24">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain24.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain24.Domaine 24" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain24" nom="Domaine 24">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain25">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain25.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain25.Domaine 25" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain25" nom="Domaine 25">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain26">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain26.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain26.Domaine 26" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain26" nom="Domaine 26">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain27">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain27.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain27.Domaine 27" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain27" nom="Domaine 27">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain28">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain28.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain28.Domaine 28" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain28" nom="Domaine 28">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain29">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain29.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain29.Domaine 29" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain29" nom="Domaine 29">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain3">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain3.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain3.Domaine 3" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain3" nom="Domaine 3">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain30">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain30.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain30.Domaine 30" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain30" nom="Domaine 30">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain31">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain31.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain31.Domaine 31" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain31" nom="Domaine 31">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain32">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain32.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain32.Domaine 32" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain32" nom="Domaine 32">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain4">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain4.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain4.Domaine 4" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain4" nom="Domaine 4">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain5">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain5.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain5.Domaine 5" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain5" nom="Domaine 5">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain6">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain6.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain6.Domaine 6" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain6" nom="Domaine 6">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain7">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain7.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain7.Domaine 7" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain7" nom="Domaine 7">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain8">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain8.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain8.Domaine 8" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain8" nom="Domaine 8">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+< 	  </fv>
+< 	  <fv nom="ldigitsDomain9">
+< 	    <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain9.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain9.Domaine 9" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain9" nom="Domaine 9">
+< 	      <fv nom="currentPrefix" val="null" />
+< 	      <fv nom="domain" val="null" />
+< 	      <fv nom="newPrefix" val="null" />
+< 	    </obj>
+---
+> 	  <fv nom="ldigitsDomain">
+> 	    <a i="0">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_0" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_0">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="1">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_1" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_1">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="2">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_2" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_2">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="3">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_3" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_3">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="4">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_4" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_4">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="5">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_5" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_5">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="6">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_6" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_6">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="7">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_7" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_7">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="8">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_8" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_8">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="9">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_9" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_9">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="10">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_10" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_10">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="11">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_11" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_11">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="12">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_12" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_12">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="13">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_13" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_13">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="14">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_14" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_14">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="15">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_15" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_15">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="16">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_16" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_16">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="17">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_17" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_17">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="18">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_18" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_18">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="19">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_19" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_19">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="20">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_20" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_20">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="21">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_21" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_21">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="22">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_22" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_22">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="23">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_23" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_23">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="24">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_24" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_24">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="25">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_25" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_25">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="26">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_26" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_26">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="27">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_27" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_27">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="28">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_28" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_28">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="29">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_29" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_29">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="30">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_30" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_30">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+> 	    <a i="31">
+> 	      <obj id="ithTphConfiguration.IDomains.Domaines par numéro.ldigitsDomain.ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*.label_31" class-name="ithTphConfiguration.ILdigitsDomain$ithTphConfiguration.IDomains$ldigitsDomain.*$*" nom="label_31">
+> 	        <fv nom="currentPrefix" val="null" />
+> 	        <fv nom="domain" val="null" />
+> 	        <fv nom="newPrefix" val="null" />
+> 	      </obj>
+> 	    </a>
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_ithTphConfiguration.IPlanNumerotation.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_ithTphConfiguration.IPlanNumerotation.xml
+17c17
+< 	  <fv nom="planNumFx" val="null" />
+---
+> 	  <fv nom="planNumFx" val="XXXXX" />
+58d57
+< 	  <fv nom="planNumServices" val="null" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_ithTphEquipements.ITsoip.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_ithTphEquipements.ITsoip.xml
+63c63
+< 	  <fv nom="qualify" val="&quot;yes&quot;" />
+---
+> 	  <fv nom="qualify" val="yes" />
+544a545,548
+> 	      <fv nom="flagCpuLoadPercent" val="false" />
+> 	      <fv nom="flagDskPercentRoot" val="false" />
+> 	      <fv nom="flagDskPercentTmp" val="false" />
+> 	      <fv nom="flagDskPercentVar" val="false" />
+549a554,556
+> 	      <fv nom="flagMemBuffer" val="false" />
+> 	      <fv nom="flagMemCached" val="false" />
+> 	      <fv nom="flagMemTotalFree" val="false" />
+1700a1708,1709
+> 	      <fv nom="operationEnCoursAntivirus" val="false" />
+> 	      <fv nom="operationEnCoursIntegrity" val="false" />
+3155a3165,3168
+> 	      <fv nom="flagCpuLoadPercent" val="false" />
+> 	      <fv nom="flagDskPercentRoot" val="false" />
+> 	      <fv nom="flagDskPercentTmp" val="false" />
+> 	      <fv nom="flagDskPercentVar" val="false" />
+3160a3174,3176
+> 	      <fv nom="flagMemBuffer" val="false" />
+> 	      <fv nom="flagMemCached" val="false" />
+> 	      <fv nom="flagMemTotalFree" val="false" />
+4311a4328,4329
+> 	      <fv nom="operationEnCoursAntivirus" val="false" />
+> 	      <fv nom="operationEnCoursIntegrity" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_ithTphEquipements.ITsoipServerStandalone.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_ithTphEquipements.ITsoipServerStandalone.xml
+466a467,470
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+> 	  <fv nom="flagDskPercentRoot" val="false" />
+> 	  <fv nom="flagDskPercentTmp" val="false" />
+> 	  <fv nom="flagDskPercentVar" val="false" />
+471a476,478
+> 	  <fv nom="flagMemBuffer" val="false" />
+> 	  <fv nom="flagMemCached" val="false" />
+> 	  <fv nom="flagMemTotalFree" val="false" />
+1623a1631,1632
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_ithTphEquipements.ITsoipServerStandaloneCie.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_ithTphEquipements.ITsoipServerStandaloneCie.xml
+1599a1600,1601
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_mg2s.IAtelierEnergie.xml
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_mg2s.IAtelierEnergieCie.xml
+Only in srsa-ip-skeleton-cmoip.xml_templParClasse: templ_mg2s.IAtelierEnergieV7.xml
+Only in srsa-ip-skeleton-cmoip.xml_templParClasse: templ_mg2s.IAtelierEnergieV7Cie.xml
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ICarteChassisCERSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ICarteChassisCERSnmp.xml
+33d32
+< 	  <fv nom="cmoipDistant" ref="null" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ICarteChassisCEXSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ICarteChassisCEXSnmp.xml
+33d32
+< 	  <fv nom="cmoipDistant" ref="null" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ICarteMcrSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ICarteMcrSnmp.xml
+299a300,306
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+> 	  <fv nom="flagDskPercentRoot" val="false" />
+> 	  <fv nom="flagDskPercentTmp" val="false" />
+> 	  <fv nom="flagDskPercentVar" val="false" />
+> 	  <fv nom="flagMemBuffer" val="false" />
+> 	  <fv nom="flagMemCached" val="false" />
+> 	  <fv nom="flagMemTotalFree" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IChiffreurHorsClusterCie.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IChiffreurHorsClusterCie.xml
+431,434c431,432
+< 	  <fv nom="temperature">
+< 	    <obj id="mg2s.IChiffreurHorsClusterCie.ChiffreurHorsCluster-00-Cie.temperature.mg2s.IScriptExecuteurChiffreurCie$mg2s.IChiffreurHorsClusterCie$temperature.script_temperature" class-name="mg2s.IScriptExecuteurChiffreurCie$mg2s.IChiffreurHorsClusterCie$temperature" nom="script_temperature">
+< 	    </obj>
+< 	  </fv>
+---
+> 	  <fv nom="tempAlertLevel" val="10" />
+> 	  <fv nom="tempCriticalLevel" val="50" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IChiffreurHorsClusterSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IChiffreurHorsClusterSnmp.xml
+430a431
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+469,474c470,471
+< 	  <fv nom="temperature">
+< 	    <obj id="mg2s.IChiffreurHorsClusterSnmp.ChiffreurHorsCluster-00.temperature.mg2s.IScriptExecuteurChiffreur$mg2s.IChiffreurHorsClusterSnmp$temperature.script_temperature" class-name="mg2s.IScriptExecuteurChiffreur$mg2s.IChiffreurHorsClusterSnmp$temperature" nom="script_temperature">
+< 	      <fv nom="commandeSupervision" val="D:\\tmp\\check_cert.bat" />
+< 	      <fv nom="nrpeSupervisionHandler" ref="null" />
+< 	    </obj>
+< 	  </fv>
+---
+> 	  <fv nom="tempAlertLevel" val="10" />
+> 	  <fv nom="tempCriticalLevel" val="50" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IClusterDeNetasqCie.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IClusterDeNetasqCie.xml
+714,717c714,715
+< 	  <fv nom="temperature">
+< 	    <obj id="mg2s.IClusterDeNetasqCie.ClusterDeNetasq-00-Cie.temperature.mg2s.IScriptExecuteurChiffreurCie$mg2s.IClusterDeNetasqCie$temperature.script_temperature" class-name="mg2s.IScriptExecuteurChiffreurCie$mg2s.IClusterDeNetasqCie$temperature" nom="script_temperature">
+< 	    </obj>
+< 	  </fv>
+---
+> 	  <fv nom="tempAlertLevel" val="10" />
+> 	  <fv nom="tempCriticalLevel" val="50" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IClusterDeNetasqSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IClusterDeNetasqSnmp.xml
+721a722
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+771,776c772,773
+< 	  <fv nom="temperature">
+< 	    <obj id="mg2s.IClusterDeNetasqSnmp.ClusterDeNetasq-00.temperature.mg2s.IScriptExecuteurChiffreur$mg2s.IClusterDeNetasqSnmp$temperature.script_temperature" class-name="mg2s.IScriptExecuteurChiffreur$mg2s.IClusterDeNetasqSnmp$temperature" nom="script_temperature">
+< 	      <fv nom="commandeSupervision" val="D:\\tmp\\check_cert.bat" />
+< 	      <fv nom="nrpeSupervisionHandler" ref="null" />
+< 	    </obj>
+< 	  </fv>
+---
+> 	  <fv nom="tempAlertLevel" val="10" />
+> 	  <fv nom="tempCriticalLevel" val="50" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IConfigExterne.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IConfigExterne.xml
+45219a45220
+> 	  <fv nom="streamSustainDelayInMs" val="180000" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IFarCerCie.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IFarCerCie.xml
+1514a1515,1516
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IFarCerSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IFarCerSnmp.xml
+369a370,373
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+> 	  <fv nom="flagDskPercentRoot" val="false" />
+> 	  <fv nom="flagDskPercentTmp" val="false" />
+> 	  <fv nom="flagDskPercentVar" val="false" />
+374a379,381
+> 	  <fv nom="flagMemBuffer" val="false" />
+> 	  <fv nom="flagMemCached" val="false" />
+> 	  <fv nom="flagMemTotalFree" val="false" />
+1524a1532,1533
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IFarCexCie.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IFarCexCie.xml
+2609a2610,2611
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IFarCexSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IFarCexSnmp.xml
+375a376,379
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+> 	  <fv nom="flagDskPercentRoot" val="false" />
+> 	  <fv nom="flagDskPercentTmp" val="false" />
+> 	  <fv nom="flagDskPercentVar" val="false" />
+380a385,387
+> 	  <fv nom="flagMemBuffer" val="false" />
+> 	  <fv nom="flagMemCached" val="false" />
+> 	  <fv nom="flagMemTotalFree" val="false" />
+2633a2641,2642
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IRouteur.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IRouteur.xml
+340a341
+> 	  <fv nom="flagBusyPer" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ISiteConfigExterne.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ISiteConfigExterne.xml
+1c1
+< 	<obj id="mg2s.ISiteConfigExterne.label" class-name="mg2s.ISiteConfigExterne" nom="label">
+---
+> <obj id="mg2s.ISiteConfigExterne.label" class-name="mg2s.ISiteConfigExterne" nom="label">
+6c6,20
+< 	  <fv nom="trigramme" val="null" />
+---
+> 	  <fv nom="siteParts">
+> 	    <a i="0">
+> 	      <obj id="mg2s.ISiteConfigExterne.label.siteParts.mg2s.IPartieSiteConfigExterne$mg2s.ISiteConfigExterne$siteParts.*$*.label_0" class-name="mg2s.IPartieSiteConfigExterne$mg2s.ISiteConfigExterne$siteParts.*$*" nom="label_0">
+> 	        <fv nom="type" enum="null" />
+> 
+> 	      </obj>
+> 	    </a>
+> 	    <a i="1">
+> 	      <obj id="mg2s.ISiteConfigExterne.label.siteParts.mg2s.IPartieSiteConfigExterne$mg2s.ISiteConfigExterne$siteParts.*$*.label_1" class-name="mg2s.IPartieSiteConfigExterne$mg2s.ISiteConfigExterne$siteParts.*$*" nom="label_1">
+> 	        <fv nom="type" enum="null" />
+> 
+> 	      </obj>
+> 	    </a>
+> 	  </fv>
+> 	  <fv nom="trigramme" val="" />
+9a24
+> 	
+\ No newline at end of file
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ISwitch4507CdcSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ISwitch4507CdcSnmp.xml
+166a167,173
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="mg2s.ISwitch4507CdcSnmp.Switch4507-00-CDC.moduleCpu.mg2s.IModuleCpuSnmp$mg2s.ISwitch4507CdcSnmp$moduleCpu.moduleCpu.alarmeCpuState.mil.IPropertyBasedAlarmObject$mg2s.ISwitch4507CdcSnmp$moduleCpu.alarmeCpuState.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$mg2s.ISwitch4507CdcSnmp$moduleCpu.alarmeCpuState" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+180a188
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+300a309,315
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="mg2s.ISwitch4507CdcSnmp.Switch4507-00-CDC.moduleCpu2.mg2s.IModuleCpuSnmp$mg2s.ISwitch4507CdcSnmp$moduleCpu2.moduleCpu2.alarmeCpuState.mil.IPropertyBasedAlarmObject$mg2s.ISwitch4507CdcSnmp$moduleCpu2.alarmeCpuState.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$mg2s.ISwitch4507CdcSnmp$moduleCpu2.alarmeCpuState" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+314a330
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ISwitch4507Snmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.ISwitch4507Snmp.xml
+166a167,173
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="mg2s.ISwitch4507Snmp.Switch4507-00.moduleCpu.mg2s.IModuleCpuSnmp$mg2s.ISwitch4507Snmp$moduleCpu.moduleCpu.alarmeCpuState.mil.IPropertyBasedAlarmObject$mg2s.ISwitch4507Snmp$moduleCpu.alarmeCpuState.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$mg2s.ISwitch4507Snmp$moduleCpu.alarmeCpuState" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+180a188
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+300a309,315
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="mg2s.ISwitch4507Snmp.Switch4507-00.moduleCpu2.mg2s.IModuleCpuSnmp$mg2s.ISwitch4507Snmp$moduleCpu2.moduleCpu2.alarmeCpuState.mil.IPropertyBasedAlarmObject$mg2s.ISwitch4507Snmp$moduleCpu2.alarmeCpuState.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$mg2s.ISwitch4507Snmp$moduleCpu2.alarmeCpuState" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+314a330
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IVRoIPServeurSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_mg2s.IVRoIPServeurSnmp.xml
+348a349,352
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+> 	  <fv nom="flagDskPercentRoot" val="false" />
+> 	  <fv nom="flagDskPercentTmp" val="false" />
+> 	  <fv nom="flagDskPercentVar" val="false" />
+353a358,360
+> 	  <fv nom="flagMemBuffer" val="false" />
+> 	  <fv nom="flagMemCached" val="false" />
+> 	  <fv nom="flagMemTotalFree" val="false" />
+1504a1512,1513
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_pocConfiguration.ICommonPoSettingsConf.xml
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_pocConfiguration.IEnregIpTsoipSettingsConf.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_pocConfiguration.IEnregIpTsoipSettingsConf.xml
+1a2,3
+> 	  <fv nom="adresseIpEnregistreur1" val="null" />
+> 	  <fv nom="adresseIpEnregistreur2" val="null" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_pocConfiguration.ILevelsTsoip.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_pocConfiguration.ILevelsTsoip.xml
+1a2,3
+> 	  <fv nom="bcAttenuation" enum="127" />
+> 
+4a7,8
+> 	  <fv nom="defaultAlarm" enum="127" />
+> 
+6a11,12
+> 	  <fv nom="defaultChannel" enum="127" />
+> 
+18a25,28
+> 	  <fv nom="defaultIntercomC" enum="1" />
+> 
+> 	  <fv nom="defaultIntercomI" enum="1" />
+> 
+21c31
+< 	  <fv nom="defaultLsRad" enum="97" />
+---
+> 	  <fv nom="defaultLsRad" enum="127" />
+23c33
+< 	  <fv nom="defaultRad" enum="121" />
+---
+> 	  <fv nom="defaultRad" enum="127" />
+26c36
+< 	  <fv nom="defaultTel" enum="91" />
+---
+> 	  <fv nom="defaultTel" enum="127" />
+28c38
+< 	  <fv nom="maxAith" enum="127" />
+---
+> 	  <fv nom="intercomSilent" enum="0" />
+29a40,43
+> 	  <fv nom="maxAith" enum="255" />
+> 
+> 	  <fv nom="maxAlarm" enum="255" />
+> 
+34c48
+< 	  <fv nom="maxHandset" enum="127" />
+---
+> 	  <fv nom="maxHandset" enum="255" />
+36c50
+< 	  <fv nom="maxHeadsetC" enum="157" />
+---
+> 	  <fv nom="maxHeadsetC" enum="255" />
+38c52
+< 	  <fv nom="maxHeadsetI" enum="157" />
+---
+> 	  <fv nom="maxHeadsetI" enum="255" />
+44c58
+< 	  <fv nom="maxInt" enum="127" />
+---
+> 	  <fv nom="maxInt" enum="255" />
+46c60
+< 	  <fv nom="maxLoop" enum="127" />
+---
+> 	  <fv nom="maxIntercomC" enum="1" />
+48c62
+< 	  <fv nom="maxLsRad" enum="109" />
+---
+> 	  <fv nom="maxIntercomI" enum="1" />
+50c64
+< 	  <fv nom="maxRad" enum="127" />
+---
+> 	  <fv nom="maxLoop" enum="255" />
+52c66
+< 	  <fv nom="maxTel" enum="127" />
+---
+> 	  <fv nom="maxLsRad" enum="255" />
+54c68
+< 	  <fv nom="minAith" enum="67" />
+---
+> 	  <fv nom="maxRad" enum="255" />
+56c70
+< 	  <fv nom="minBell" enum="22" />
+---
+> 	  <fv nom="maxTel" enum="255" />
+57a72,77
+> 	  <fv nom="minAith" enum="1" />
+> 
+> 	  <fv nom="minAlarm" enum="1" />
+> 
+> 	  <fv nom="minBell" enum="1" />
+> 
+60c80
+< 	  <fv nom="minHandset" enum="67" />
+---
+> 	  <fv nom="minHandset" enum="1" />
+62c82
+< 	  <fv nom="minHeadsetC" enum="67" />
+---
+> 	  <fv nom="minHeadsetC" enum="1" />
+64c84
+< 	  <fv nom="minHeadsetI" enum="67" />
+---
+> 	  <fv nom="minHeadsetI" enum="1" />
+70c90
+< 	  <fv nom="minInt" enum="67" />
+---
+> 	  <fv nom="minInt" enum="1" />
+72c92
+< 	  <fv nom="minLoop" enum="67" />
+---
+> 	  <fv nom="minIntercomC" enum="1" />
+74c94
+< 	  <fv nom="minLsRad" enum="37" />
+---
+> 	  <fv nom="minIntercomI" enum="1" />
+76c96
+< 	  <fv nom="minRad" enum="67" />
+---
+> 	  <fv nom="minLoop" enum="1" />
+78c98
+< 	  <fv nom="minTel" enum="52" />
+---
+> 	  <fv nom="minLsRad" enum="1" />
+80c100
+< 	  <fv nom="sidetoneAttenuationC" enum="82" />
+---
+> 	  <fv nom="minRad" enum="1" />
+82c102
+< 	  <fv nom="sidetoneAttenuationI" enum="82" />
+---
+> 	  <fv nom="minTel" enum="1" />
+84c104,122
+< 	  <fv nom="sidetoneAttenuationLs" enum="82" />
+---
+> 	  <fv nom="niveauEnregCentralRad" enum="0" />
+> 
+> 	  <fv nom="niveauEnregCentralTel" enum="0" />
+> 
+> 	  <fv nom="niveauEnregLocalRad" enum="0" />
+> 
+> 	  <fv nom="niveauEnregLocalTel" enum="0" />
+> 
+> 	  <fv nom="radioMelAttenuation" enum="127" />
+> 
+> 	  <fv nom="sidetoneAttenuationC" enum="127" />
+> 
+> 	  <fv nom="sidetoneAttenuationI" enum="127" />
+> 
+> 	  <fv nom="sidetoneAttenuationLs" enum="127" />
+> 
+> 	  <fv nom="sidetoneAttenuationMax" enum="127" />
+> 
+> 	  <fv nom="sidetoneAttenuationMin" enum="7" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_pocConfiguration.IMission.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_pocConfiguration.IMission.xml
+4c4
+< 	  <fv nom="label2" val="null" />
+---
+> 	  <fv nom="views" ref="null" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_pocConfiguration.IParametresGeneraux.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_pocConfiguration.IParametresGeneraux.xml
+1a2,5
+> 	  <fv nom="burstPeriod" val="1000" />
+> 	  <fv nom="burstThreshold" val="10" />
+> 	  <fv nom="centreLocal" val="null" />
+> 	  <fv nom="cyclicRepetition" val="3" />
+5a10,11
+> 	  <fv nom="gigueRadio" val="5" />
+> 	  <fv nom="gigueTelephone" val="10" />
+13a20,37
+> 	  <fv nom="radioRtpPacketSize" enum="20" />
+> 
+> 	  <fv nom="screenSaverClosedPosition" val="300" />
+> 	  <fv nom="screenSaverOpenedPosition" val="300" />
+> 	  <fv nom="tagDscpAutre" enum="CS0" />
+> 
+> 	  <fv nom="tagDscpEnregistrement" enum="AF31" />
+> 
+> 	  <fv nom="tagDscpSigRadio" enum="AF41" />
+> 
+> 	  <fv nom="tagDscpSigTelephone" enum="AF41" />
+> 
+> 	  <fv nom="tagDscpVoieRadio" enum="EF" />
+> 
+> 	  <fv nom="tagDscpVoieTelephone" enum="EF" />
+> 
+> 	  <fv nom="telRtpPacketSize" enum="20" />
+> 
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_pocConfiguration.ITsoipSettingsConf.xml
+Only in srsa-ip-skeleton-cmoip.xml_templParClasse: templ_pocEquipement.IAudioProfiles.xml
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_pocEquipement.IVPoIP.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_pocEquipement.IVPoIP.xml
+243a244
+> 	      <fv nom="flagCpuLoadPercent" val="false" />
+265a267
+> 	      <fv nom="flagCpuLoadPercent" val="false" />
+276a279
+> 	  <fv nom="flagSeCxEtatMaint" val="true" />
+327a331
+> 	  <fv nom="ipAddressCmoip" val="109.250.100.1" />
+377a382,384
+> 	      <fv nom="flagMemBuffer" val="false" />
+> 	      <fv nom="flagMemCached" val="false" />
+> 	      <fv nom="flagMemTotalFree" val="false" />
+427a435,437
+> 	      <fv nom="flagMemBuffer" val="false" />
+> 	      <fv nom="flagMemCached" val="false" />
+> 	      <fv nom="flagMemTotalFree" val="false" />
+447a458,459
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+576a589
+> 	  <fv nom="profilAudio" ref="null" />
+Only in srsa-ip-skeleton-cmoip.xml_templParClasse: templ_rdoConfiguration.IParametresGenerauxRDO.xml
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_reseau.ICisco2960X24PortsSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_reseau.ICisco2960X24PortsSnmp.xml
+1807a1808
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_reseau.ICisco2960X48PortsSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_reseau.ICisco2960X48PortsSnmp.xml
+3559a3560
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_reseau.ICisco365024PortsSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_reseau.ICisco365024PortsSnmp.xml
+1821a1822
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_reseau.ICisco365048PortsSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_reseau.ICisco365048PortsSnmp.xml
+3573a3574
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_reseau.IStackOf2SwitchCie.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_reseau.IStackOf2SwitchCie.xml
+54a55,61
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch1.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch1.Switch 1.alarmeCpuState.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeCpuState.Etat charge CPU" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeCpuState" nom="Etat charge CPU">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+89a97,131
+> 	      <fv nom="alarmeEtatTemperature1">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch1.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch1.Switch 1.alarmeEtatTemperature1.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeEtatTemperature1.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeEtatTemperature1" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature2">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch1.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch1.Switch 1.alarmeEtatTemperature2.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeEtatTemperature2.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeEtatTemperature2" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature3">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch1.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch1.Switch 1.alarmeEtatTemperature3.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeEtatTemperature3.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeEtatTemperature3" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature4">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch1.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch1.Switch 1.alarmeEtatTemperature4.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeEtatTemperature4.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeEtatTemperature4" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature5">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch1.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch1.Switch 1.alarmeEtatTemperature5.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeEtatTemperature5.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch1.alarmeEtatTemperature5" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+114a157,159
+> 	      <fv nom="coreNumber" val="1" />
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+> 	      <fv nom="cpuLoadCriticalLevel" val="80" />
+2167a2213,2218
+> 	      <fv nom="indexCapteurTemperature1" val="null" />
+> 	      <fv nom="indexCapteurTemperature2" val="null" />
+> 	      <fv nom="indexCapteurTemperature3" val="null" />
+> 	      <fv nom="indexCapteurTemperature4" val="null" />
+> 	      <fv nom="indexCapteurTemperature5" val="null" />
+> 	      <fv nom="indexChargeCPU" val="null" />
+2248a2300,2301
+> 	      <fv nom="temperatureAlertLevel" val="70" />
+> 	      <fv nom="temperatureCriticalLevel" val="80" />
+2249a2303
+> 	      <fv nom="ticksPerSecond" val="100" />
+2260a2315,2321
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch2.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch2.Switch 2.alarmeCpuState.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeCpuState.Etat charge CPU" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeCpuState" nom="Etat charge CPU">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+2295a2357,2391
+> 	      <fv nom="alarmeEtatTemperature1">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch2.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch2.Switch 2.alarmeEtatTemperature1.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeEtatTemperature1.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeEtatTemperature1" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature2">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch2.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch2.Switch 2.alarmeEtatTemperature2.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeEtatTemperature2.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeEtatTemperature2" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature3">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch2.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch2.Switch 2.alarmeEtatTemperature3.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeEtatTemperature3.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeEtatTemperature3" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature4">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch2.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch2.Switch 2.alarmeEtatTemperature4.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeEtatTemperature4.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeEtatTemperature4" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature5">
+> 	        <obj id="reseau.IStackOf2SwitchCie.mil.switch2.reseau.ISwitchInStackOf2SwitchCie$reseau.IStackOf2SwitchCie$switch2.Switch 2.alarmeEtatTemperature5.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeEtatTemperature5.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchCie$switch2.alarmeEtatTemperature5" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+2320a2417,2419
+> 	      <fv nom="coreNumber" val="1" />
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+> 	      <fv nom="cpuLoadCriticalLevel" val="80" />
+4373a4473,4478
+> 	      <fv nom="indexCapteurTemperature1" val="null" />
+> 	      <fv nom="indexCapteurTemperature2" val="null" />
+> 	      <fv nom="indexCapteurTemperature3" val="null" />
+> 	      <fv nom="indexCapteurTemperature4" val="null" />
+> 	      <fv nom="indexCapteurTemperature5" val="null" />
+> 	      <fv nom="indexChargeCPU" val="null" />
+4454a4560,4561
+> 	      <fv nom="temperatureAlertLevel" val="70" />
+> 	      <fv nom="temperatureCriticalLevel" val="80" />
+4455a4563
+> 	      <fv nom="ticksPerSecond" val="100" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_reseau.IStackOf2SwitchSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_reseau.IStackOf2SwitchSnmp.xml
+59a60,66
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch1.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch1.Switch 1.alarmeCpuState.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeCpuState.Etat charge CPU" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeCpuState" nom="Etat charge CPU">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+94a102,136
+> 	      <fv nom="alarmeEtatTemperature1">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch1.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch1.Switch 1.alarmeEtatTemperature1.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeEtatTemperature1.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeEtatTemperature1" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature2">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch1.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch1.Switch 1.alarmeEtatTemperature2.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeEtatTemperature2.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeEtatTemperature2" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature3">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch1.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch1.Switch 1.alarmeEtatTemperature3.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeEtatTemperature3.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeEtatTemperature3" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature4">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch1.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch1.Switch 1.alarmeEtatTemperature4.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeEtatTemperature4.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeEtatTemperature4" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature5">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch1.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch1.Switch 1.alarmeEtatTemperature5.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeEtatTemperature5.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch1.alarmeEtatTemperature5" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+119a162,164
+> 	      <fv nom="coreNumber" val="1" />
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+> 	      <fv nom="cpuLoadCriticalLevel" val="80" />
+1877a1923
+> 	      <fv nom="flagCpuLoadPercent" val="false" />
+2172a2219,2224
+> 	      <fv nom="indexCapteurTemperature1" val="null" />
+> 	      <fv nom="indexCapteurTemperature2" val="null" />
+> 	      <fv nom="indexCapteurTemperature3" val="null" />
+> 	      <fv nom="indexCapteurTemperature4" val="null" />
+> 	      <fv nom="indexCapteurTemperature5" val="null" />
+> 	      <fv nom="indexChargeCPU" val="null" />
+2252a2305,2306
+> 	      <fv nom="temperatureAlertLevel" val="70" />
+> 	      <fv nom="temperatureCriticalLevel" val="80" />
+2253a2308
+> 	      <fv nom="ticksPerSecond" val="100" />
+2264a2320,2326
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch2.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch2.Switch 2.alarmeCpuState.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeCpuState.Etat charge CPU" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeCpuState" nom="Etat charge CPU">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+2299a2362,2396
+> 	      <fv nom="alarmeEtatTemperature1">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch2.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch2.Switch 2.alarmeEtatTemperature1.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeEtatTemperature1.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeEtatTemperature1" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature2">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch2.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch2.Switch 2.alarmeEtatTemperature2.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeEtatTemperature2.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeEtatTemperature2" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature3">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch2.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch2.Switch 2.alarmeEtatTemperature3.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeEtatTemperature3.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeEtatTemperature3" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature4">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch2.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch2.Switch 2.alarmeEtatTemperature4.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeEtatTemperature4.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeEtatTemperature4" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature5">
+> 	        <obj id="reseau.IStackOf2SwitchSnmp.mil.switch2.reseau.ISwitchInStackOf2SwitchSnmp$reseau.IStackOf2SwitchSnmp$switch2.Switch 2.alarmeEtatTemperature5.mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeEtatTemperature5.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOf2SwitchSnmp$switch2.alarmeEtatTemperature5" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+2324a2422,2424
+> 	      <fv nom="coreNumber" val="1" />
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+> 	      <fv nom="cpuLoadCriticalLevel" val="80" />
+4082a4183
+> 	      <fv nom="flagCpuLoadPercent" val="false" />
+4377a4479,4484
+> 	      <fv nom="indexCapteurTemperature1" val="null" />
+> 	      <fv nom="indexCapteurTemperature2" val="null" />
+> 	      <fv nom="indexCapteurTemperature3" val="null" />
+> 	      <fv nom="indexCapteurTemperature4" val="null" />
+> 	      <fv nom="indexCapteurTemperature5" val="null" />
+> 	      <fv nom="indexChargeCPU" val="null" />
+4457a4565,4566
+> 	      <fv nom="temperatureAlertLevel" val="70" />
+> 	      <fv nom="temperatureCriticalLevel" val="80" />
+4458a4568
+> 	      <fv nom="ticksPerSecond" val="100" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_reseau.IStackOfSwitchSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_reseau.IStackOfSwitchSnmp.xml
+59a60,66
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch1.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch1.Switch 1.alarmeCpuState.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeCpuState.Etat charge CPU" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeCpuState" nom="Etat charge CPU">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+94a102,136
+> 	      <fv nom="alarmeEtatTemperature1">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch1.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch1.Switch 1.alarmeEtatTemperature1.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeEtatTemperature1.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeEtatTemperature1" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature2">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch1.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch1.Switch 1.alarmeEtatTemperature2.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeEtatTemperature2.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeEtatTemperature2" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature3">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch1.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch1.Switch 1.alarmeEtatTemperature3.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeEtatTemperature3.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeEtatTemperature3" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature4">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch1.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch1.Switch 1.alarmeEtatTemperature4.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeEtatTemperature4.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeEtatTemperature4" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature5">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch1.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch1.Switch 1.alarmeEtatTemperature5.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeEtatTemperature5.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch1.alarmeEtatTemperature5" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+119a162,164
+> 	      <fv nom="coreNumber" val="1" />
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+> 	      <fv nom="cpuLoadCriticalLevel" val="80" />
+3629a3675
+> 	      <fv nom="flagCpuLoadPercent" val="false" />
+3632a3679,3684
+> 	      <fv nom="indexCapteurTemperature1" val="null" />
+> 	      <fv nom="indexCapteurTemperature2" val="null" />
+> 	      <fv nom="indexCapteurTemperature3" val="null" />
+> 	      <fv nom="indexCapteurTemperature4" val="null" />
+> 	      <fv nom="indexCapteurTemperature5" val="null" />
+> 	      <fv nom="indexChargeCPU" val="null" />
+3712a3765,3766
+> 	      <fv nom="temperatureAlertLevel" val="70" />
+> 	      <fv nom="temperatureCriticalLevel" val="80" />
+3713a3768
+> 	      <fv nom="ticksPerSecond" val="100" />
+3724a3780,3786
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch2.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch2.Switch 2.alarmeCpuState.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeCpuState.Etat charge CPU" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeCpuState" nom="Etat charge CPU">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+3759a3822,3856
+> 	      <fv nom="alarmeEtatTemperature1">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch2.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch2.Switch 2.alarmeEtatTemperature1.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeEtatTemperature1.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeEtatTemperature1" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature2">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch2.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch2.Switch 2.alarmeEtatTemperature2.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeEtatTemperature2.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeEtatTemperature2" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature3">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch2.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch2.Switch 2.alarmeEtatTemperature3.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeEtatTemperature3.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeEtatTemperature3" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature4">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch2.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch2.Switch 2.alarmeEtatTemperature4.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeEtatTemperature4.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeEtatTemperature4" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature5">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch2.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch2.Switch 2.alarmeEtatTemperature5.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeEtatTemperature5.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch2.alarmeEtatTemperature5" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+3784a3882,3884
+> 	      <fv nom="coreNumber" val="1" />
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+> 	      <fv nom="cpuLoadCriticalLevel" val="80" />
+7294a7395
+> 	      <fv nom="flagCpuLoadPercent" val="false" />
+7297a7399,7404
+> 	      <fv nom="indexCapteurTemperature1" val="null" />
+> 	      <fv nom="indexCapteurTemperature2" val="null" />
+> 	      <fv nom="indexCapteurTemperature3" val="null" />
+> 	      <fv nom="indexCapteurTemperature4" val="null" />
+> 	      <fv nom="indexCapteurTemperature5" val="null" />
+> 	      <fv nom="indexChargeCPU" val="null" />
+7377a7485,7486
+> 	      <fv nom="temperatureAlertLevel" val="70" />
+> 	      <fv nom="temperatureCriticalLevel" val="80" />
+7378a7488
+> 	      <fv nom="ticksPerSecond" val="100" />
+7389a7500,7506
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch3.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch3.Switch 3.alarmeCpuState.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeCpuState.Etat charge CPU" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeCpuState" nom="Etat charge CPU">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+7424a7542,7576
+> 	      <fv nom="alarmeEtatTemperature1">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch3.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch3.Switch 3.alarmeEtatTemperature1.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeEtatTemperature1.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeEtatTemperature1" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature2">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch3.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch3.Switch 3.alarmeEtatTemperature2.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeEtatTemperature2.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeEtatTemperature2" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature3">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch3.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch3.Switch 3.alarmeEtatTemperature3.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeEtatTemperature3.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeEtatTemperature3" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature4">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch3.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch3.Switch 3.alarmeEtatTemperature4.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeEtatTemperature4.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeEtatTemperature4" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature5">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch3.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch3.Switch 3.alarmeEtatTemperature5.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeEtatTemperature5.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch3.alarmeEtatTemperature5" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+7449a7602,7604
+> 	      <fv nom="coreNumber" val="1" />
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+> 	      <fv nom="cpuLoadCriticalLevel" val="80" />
+10959a11115
+> 	      <fv nom="flagCpuLoadPercent" val="false" />
+10962a11119,11124
+> 	      <fv nom="indexCapteurTemperature1" val="null" />
+> 	      <fv nom="indexCapteurTemperature2" val="null" />
+> 	      <fv nom="indexCapteurTemperature3" val="null" />
+> 	      <fv nom="indexCapteurTemperature4" val="null" />
+> 	      <fv nom="indexCapteurTemperature5" val="null" />
+> 	      <fv nom="indexChargeCPU" val="null" />
+11042a11205,11206
+> 	      <fv nom="temperatureAlertLevel" val="70" />
+> 	      <fv nom="temperatureCriticalLevel" val="80" />
+11043a11208
+> 	      <fv nom="ticksPerSecond" val="100" />
+11054a11220,11226
+> 	      <fv nom="alarmeCpuState">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch4.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch4.Switch 4.alarmeCpuState.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeCpuState.Etat charge CPU" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeCpuState" nom="Etat charge CPU">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+11089a11262,11296
+> 	      <fv nom="alarmeEtatTemperature1">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch4.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch4.Switch 4.alarmeEtatTemperature1.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeEtatTemperature1.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeEtatTemperature1" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature2">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch4.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch4.Switch 4.alarmeEtatTemperature2.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeEtatTemperature2.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeEtatTemperature2" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature3">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch4.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch4.Switch 4.alarmeEtatTemperature3.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeEtatTemperature3.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeEtatTemperature3" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature4">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch4.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch4.Switch 4.alarmeEtatTemperature4.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeEtatTemperature4.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeEtatTemperature4" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+> 	      <fv nom="alarmeEtatTemperature5">
+> 	        <obj id="reseau.IStackOfSwitchSnmp.mil.switch4.reseau.ISwitchInStackSnmp$reseau.IStackOfSwitchSnmp$switch4.Switch 4.alarmeEtatTemperature5.mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeEtatTemperature5.mil-propertyBasedAlarmObject" class-name="mil.IPropertyBasedAlarmObject$reseau.IStackOfSwitchSnmp$switch4.alarmeEtatTemperature5" nom="mil-propertyBasedAlarmObject">
+> 	          <fv nom="alarmAcousticalWarning" val="true" />
+> 	          <fv nom="alarmeActive" val="true" />
+> 	          <fv nom="alarmTimeDelay" val="0" />
+> 	        </obj>
+> 	      </fv>
+11114a11322,11324
+> 	      <fv nom="coreNumber" val="1" />
+> 	      <fv nom="cpuLoadAlertLevel" val="70" />
+> 	      <fv nom="cpuLoadCriticalLevel" val="80" />
+14624a14835
+> 	      <fv nom="flagCpuLoadPercent" val="false" />
+14627a14839,14844
+> 	      <fv nom="indexCapteurTemperature1" val="null" />
+> 	      <fv nom="indexCapteurTemperature2" val="null" />
+> 	      <fv nom="indexCapteurTemperature3" val="null" />
+> 	      <fv nom="indexCapteurTemperature4" val="null" />
+> 	      <fv nom="indexCapteurTemperature5" val="null" />
+> 	      <fv nom="indexChargeCPU" val="null" />
+14707a14925,14926
+> 	      <fv nom="temperatureAlertLevel" val="70" />
+> 	      <fv nom="temperatureCriticalLevel" val="80" />
+14708a14928
+> 	      <fv nom="ticksPerSecond" val="100" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_serveurs.IServeurSeducs.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_serveurs.IServeurSeducs.xml
+320a321,324
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+> 	  <fv nom="flagDskPercentRoot" val="false" />
+> 	  <fv nom="flagDskPercentTmp" val="false" />
+> 	  <fv nom="flagDskPercentVar" val="false" />
+325a330,332
+> 	  <fv nom="flagMemBuffer" val="false" />
+> 	  <fv nom="flagMemCached" val="false" />
+> 	  <fv nom="flagMemTotalFree" val="false" />
+1474a1482,1483
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_serveurs.IServeurUCGeneriqueCie.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_serveurs.IServeurUCGeneriqueCie.xml
+1464a1465,1466
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_serveurs.IServeurUCGeneriquePIUSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_serveurs.IServeurUCGeneriquePIUSnmp.xml
+323a324,327
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+> 	  <fv nom="flagDskPercentRoot" val="false" />
+> 	  <fv nom="flagDskPercentTmp" val="false" />
+> 	  <fv nom="flagDskPercentVar" val="false" />
+328a333,335
+> 	  <fv nom="flagMemBuffer" val="false" />
+> 	  <fv nom="flagMemCached" val="false" />
+> 	  <fv nom="flagMemTotalFree" val="false" />
+1478a1486,1487
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_serveurs.IServeurUCGeneriqueSnmp.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_serveurs.IServeurUCGeneriqueSnmp.xml
+320a321,324
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+> 	  <fv nom="flagDskPercentRoot" val="false" />
+> 	  <fv nom="flagDskPercentTmp" val="false" />
+> 	  <fv nom="flagDskPercentVar" val="false" />
+325a330,332
+> 	  <fv nom="flagMemBuffer" val="false" />
+> 	  <fv nom="flagMemCached" val="false" />
+> 	  <fv nom="flagMemTotalFree" val="false" />
+1474a1482,1483
+> 	  <fv nom="operationEnCoursAntivirus" val="false" />
+> 	  <fv nom="operationEnCoursIntegrity" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_srsa.edcdc.shared.ICvr.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_srsa.edcdc.shared.ICvr.xml
+1a2
+> 	  <fv nom="aor" val="" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_srsa.edcdc.shared.IProfilRepli.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_srsa.edcdc.shared.IProfilRepli.xml
+19a20,21
+> 	  <fv nom="prioriteCasque2" enum="1" />
+> 
+21a24,25
+> 	  <fv nom="prioriteMicroCasque2" enum="2" />
+> 
+249a254,259
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+255a266,271
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+261a278,283
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+267a290,295
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+273a302,307
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+279a314,319
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+285a326,331
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+291a338,343
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+297a350,355
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+303a362,367
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+309a374,379
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+315a386,391
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+321a398,403
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+327a410,415
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+333a422,427
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+339a434,439
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+345a446,451
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+351a458,463
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+357a470,475
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+363a482,487
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+369a494,499
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+375a506,511
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+381a518,523
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+387a530,535
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+393a542,547
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+399a554,559
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+405a566,571
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+411a578,583
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+417a590,595
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+423a602,607
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+429a614,619
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+435a626,631
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_srsa.edcdc.shared.IProfilUtilisateur.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_srsa.edcdc.shared.IProfilUtilisateur.xml
+19a20,21
+> 	  <fv nom="prioriteCasque2" enum="1" />
+> 
+21a24,25
+> 	  <fv nom="prioriteMicroCasque2" enum="2" />
+> 
+249a254,259
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+255a266,271
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+261a278,283
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+267a290,295
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+273a302,307
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+279a314,319
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+285a326,331
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+291a338,343
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+297a350,355
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+303a362,367
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+309a374,379
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+315a386,391
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+321a398,403
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+327a410,415
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+333a422,427
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+339a434,439
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+345a446,451
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+351a458,463
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+357a470,475
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+363a482,487
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+369a494,499
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+375a506,511
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+381a518,523
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+387a530,535
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+393a542,547
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+399a554,559
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+405a566,571
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+411a578,583
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+417a590,595
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+423a602,607
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+429a614,619
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+435a626,631
+> 	        <fv nom="droitCouplage" val="false" />
+> 	        <fv nom="droitEcoute" val="false" />
+> 	        <fv nom="droitEncryption" val="false" />
+> 	        <fv nom="droitMontage" val="false" />
+> 	        <fv nom="droitSelectCenter" val="false" />
+> 	        <fv nom="droitSelectValFreq" val="false" />
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_srsa.edcdc.shared.IVoieBic.xml
+Only in original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse: templ_srsa.edcdc.shared.IVoieMeteor.xml
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_srsa.edcdc.shared.IVoiePermanente.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_srsa.edcdc.shared.IVoiePermanente.xml
+1a2,3
+> 	  <fv nom="aor" val="" />
+> 	  <fv nom="bssEnabled" val="true" />
+3a6,16
+> 	  <fv nom="mode" enum="null" />
+> 
+> 	  <fv nom="nature" enum="null" />
+> 
+> 	  <fv nom="numLogique" val="1" />
+> 	  <fv nom="sidetone" enum="null" />
+> 
+> 	  <fv nom="transmitMode" enum="null" />
+> 
+> 	  <fv nom="type" enum="null" />
+> 
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_vgoip.IVgoipEnregistreur.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_vgoip.IVgoipEnregistreur.xml
+179a180,184
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+> 	  <fv nom="flagDskPercentRoot" val="false" />
+> 	  <fv nom="flagMemBuffer" val="false" />
+> 	  <fv nom="flagMemCached" val="false" />
+> 	  <fv nom="flagMemTotalFree" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_vgoip.IVgoipRejeu.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_vgoip.IVgoipRejeu.xml
+179a180,184
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+> 	  <fv nom="flagDskPercentRoot" val="false" />
+> 	  <fv nom="flagMemBuffer" val="false" />
+> 	  <fv nom="flagMemCached" val="false" />
+> 	  <fv nom="flagMemTotalFree" val="false" />
+diff --color -r original/templ-squelette-cmoip/srsaip-skeleton-cmoip.xml_templParClasse/templ_vgoip.IVgoipSimulation.xml srsa-ip-skeleton-cmoip.xml_templParClasse/templ_vgoip.IVgoipSimulation.xml
+179a180,184
+> 	  <fv nom="flagCpuLoadPercent" val="false" />
+> 	  <fv nom="flagDskPercentRoot" val="false" />
+> 	  <fv nom="flagMemBuffer" val="false" />
+> 	  <fv nom="flagMemCached" val="false" />
+> 	  <fv nom="flagMemTotalFree" val="false" />
