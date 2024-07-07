@@ -27,33 +27,33 @@ def compareElement(element_new, element_old, attrib) -> Tuple[str, str, str, boo
         if attribValue_new == attribValue_old:
             result = '='
             texte = f""
-            compareLevel(element_new, element_old, attrib='nom')
+            compareLevel(element_new, element_old, path=attribValue_new, attrib='nom')
             attribValue = attribValue_new
             get_new = True
             get_old = True
         elif attribValue_new > attribValue_old:
             result = 's'
-            texte = "--> supprimé dans new"
+            texte = "--> supprimé"
             attribValue = attribValue_old
             get_new = False
             get_old = True
         elif attribValue_new < attribValue_old:
             result = 'a'
-            texte = "--> ajouté dans new"
+            texte = "--> ajouté"
             attribValue = attribValue_new
             get_new = True
             get_old = False
     elif element_new is not None:
         result = 'a'
         attribValue_new = element_new.get(attrib)
-        texte = "--> ajouté dans new"
+        texte = "--> ajouté"
         attribValue = attribValue_new
         get_new = True
         get_old = False
     elif element_old is not None:
         result = 's'
         attribValue_old = element_old.get(attrib)
-        texte = "--> supprimé dans new"
+        texte = "--> supprimé"
         attribValue = attribValue_old
         get_new = False
         get_old = True
@@ -72,7 +72,7 @@ def iterOneLevelXml(tree: ET.Element) -> Generator[ET.Element, None, None]:
         # print(f"iterOneLevelXml() tag={element.tag} classname={element.get('class-name')} nom={element.get('nom')}")
         yield element
 
-def compareLevel(tree_new, tree_old, attrib):
+def compareLevel(tree_new, tree_old, path, attrib):
     generator_new = iterOneLevelXml(tree_new)
     generator_old = iterOneLevelXml(tree_old)
     get_new = True
@@ -112,10 +112,10 @@ def compareLevel(tree_new, tree_old, attrib):
             print(f"===== {attrib} = {attribValue} =====")
         if result == 'a':
             logging.info(f"AJOUT    {attrib} {attribValue} {element_new.get(attrib)}")
-            print(f"{attrib} {attribValue} {texte}")
+            print(f"{path} / {attribValue} {texte}")
         elif result == 's':
             logging.info(f"SUPPR    {attrib}  {attribValue} {element_old.get(attrib)}")
-            print(f"{attrib} {attribValue} {texte}")
+            print(f"{path} / {attribValue} {texte}")
         elif result == '=':
             logging.info(f"EGAL    {attrib}  {attribValue}")
             # print(texte)
@@ -181,7 +181,7 @@ if nb_par == 3:
     root_old = arbre_old.getroot()
     gom_old = root_old[0][0]
     
-    diff = compareLevel(tree_new=gom_new, tree_old=gom_old, attrib='class-name')
+    diff = compareLevel(tree_new=gom_new, tree_old=gom_old, path='', attrib='class-name')
 else:
     parcours(tree=gom_new, texte="gom_new")
     diff = True
