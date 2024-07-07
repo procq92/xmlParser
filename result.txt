@@ -1,0 +1,1402 @@
+
+===== class-name = cmoip.ICMoIPDistant =====
+Serveur CMoIP Cie / flagMemPercent --> ajouté
+Serveur CMoIP Cie / listeCertificat --> ajouté
+Serveur CMoIP Cie / listeCRL --> ajouté
+Serveur CMoIP Cie / flagMemPercent --> ajouté
+Serveur CMoIP Cie / listeCertificat --> ajouté
+Serveur CMoIP Cie / listeCRL --> ajouté
+
+===== class-name = cmoip.ICmoipCie =====
+cmoip.ICmoipClient / flagEtatTechJaune --> ajouté
+cmoip.ICmoipClient / flagMemPercent --> ajouté
+cmoip.ICmoipClient / listeCertificat --> ajouté
+cmoip.ICmoipClient / listeCRL --> ajouté
+
+===== class-name = cmoip.ICmoipClient =====
+cmoip.ICmoipClientCie / flagMemPercent --> ajouté
+cmoip.ICmoipClientCie / listeCertificat --> ajouté
+cmoip.ICmoipClientCie / listeCRL --> ajouté
+
+===== class-name = cmoip.ICmoipClientCie =====
+cmoip.ICmoipServerStandaloneCie / ClusterCmoip --> supprimé
+cmoip.ICmoipServerStandaloneCie / flagMemPercent --> ajouté
+cmoip.ICmoipServerStandaloneCie / listeCertificat --> ajouté
+cmoip.ICmoipServerStandaloneCie / listeCRL --> ajouté
+
+===== class-name = cmoip.ICmoipServerStandaloneCie =====
+cmoip.ICmoipServerStandaloneSnmp / ClusterCmoip --> supprimé
+cmoip.ICmoipServerStandaloneSnmp / flagEtatTechJaune --> ajouté
+cmoip.ICmoipServerStandaloneSnmp / flagMemPercent --> ajouté
+cmoip.ICmoipServerStandaloneSnmp / listeCertificat --> ajouté
+cmoip.ICmoipServerStandaloneSnmp / listeCRL --> ajouté
+cmoip.ICmoipServerStandaloneSnmp / siteActif --> ajouté
+
+===== class-name = cmoip.ICmoipServerStandaloneSnmp =====
+Serveur CMoIP Snmp / ClusterCmoip --> supprimé
+Serveur CMoIP Snmp / flagEtatTechJaune --> ajouté
+Serveur CMoIP Snmp / flagMemPercent --> ajouté
+Serveur CMoIP Snmp / listeCertificat --> ajouté
+Serveur CMoIP Snmp / listeCRL --> ajouté
+Serveur CMoIP Snmp / ClusterCmoip --> supprimé
+Serveur CMoIP Snmp / flagEtatTechJaune --> ajouté
+Serveur CMoIP Snmp / flagMemPercent --> ajouté
+Serveur CMoIP Snmp / listeCertificat --> ajouté
+Serveur CMoIP Snmp / listeCRL --> ajouté
+cmoip.ICmoipSnmp / siteActif --> ajouté
+
+===== class-name = cmoip.ICmoipSnmp =====
+
+===== class-name = collecteur.alarmes.IBoucleOptoCie =====
+
+===== class-name = collecteur.alarmes.IBoucleOptoSnmp =====
+collecteur.alarmes.IOptoCie / listeBoucles --> ajouté
+
+===== class-name = collecteur.alarmes.IOptoCie =====
+collecteur.alarmes.IOptoSnmp / listeBoucles --> ajouté
+
+===== class-name = collecteur.alarmes.IOptoSnmp =====
+
+===== class-name = ithTphAnnuaire.ICategorieCorresp =====
+
+===== class-name = ithTphAnnuaire.ICei =====
+
+===== class-name = ithTphAnnuaire.IContactExterneED137 =====
+
+===== class-name = ithTphAnnuaire.ICorrespExterne =====
+ithTphAnnuaire.IFOA / listeRoleGroupeRoles --> ajouté
+
+===== class-name = ithTphAnnuaire.IFOA =====
+ithTphAnnuaire.IGroupe / listeRoles --> ajouté
+
+===== class-name = ithTphAnnuaire.IGroupe =====
+
+===== class-name = ithTphAnnuaire.IRole =====
+
+===== class-name = ithTphAnnuaire.ITelProfil =====
+ithTphCahiersDeVue.IConference / membreConf --> ajouté
+
+===== class-name = ithTphCahiersDeVue.IConference =====
+
+===== class-name = ithTphCahiersDeVue.ILoop =====
+ithTphCahiersDeVue.IPageITH / touche --> ajouté
+
+===== class-name = ithTphCahiersDeVue.IPageITH =====
+ithTphCahiersDeVue.IPageTPH / membres --> ajouté
+
+===== class-name = ithTphCahiersDeVue.IPageTPH =====
+ithTphCahiersDeVue.IRegleView / roleInterdit --> ajouté
+ithTphCahiersDeVue.IRegleView / roleObligatoire --> ajouté
+ithTphCahiersDeVue.IRegleView / typeRoleInterdit --> ajouté
+ithTphCahiersDeVue.IRegleView / typeRoleObligatoire --> ajouté
+
+===== class-name = ithTphCahiersDeVue.IRegleView =====
+ithTphCahiersDeVue.IRegleViewDefault / roleInterdit --> ajouté
+ithTphCahiersDeVue.IRegleViewDefault / roleObligatoire --> ajouté
+
+===== class-name = ithTphCahiersDeVue.IRegleViewDefault =====
+ithTphCahiersDeVue.IViewITH / boucles --> ajouté
+ithTphCahiersDeVue.IViewITH / page --> ajouté
+
+===== class-name = ithTphCahiersDeVue.IViewITH =====
+ithTphCahiersDeVue.IViewTPH / conf --> ajouté
+ithTphCahiersDeVue.IViewTPH / page --> ajouté
+
+===== class-name = ithTphCahiersDeVue.IViewTPH =====
+
+===== class-name = ithTphConfiguration.IConferenceMeetMe =====
+
+===== class-name = ithTphConfiguration.IDomains =====
+
+===== class-name = ithTphConfiguration.IFaisceau =====
+
+===== class-name = ithTphConfiguration.IGfu =====
+
+===== class-name = ithTphConfiguration.IGfuIndex =====
+ithTphConfiguration.IParamGenTph / dialinTimeout --> ajouté
+
+===== class-name = ithTphConfiguration.IParamGenTph =====
+
+===== class-name = ithTphConfiguration.IPlanNumerotation =====
+ithTphConfiguration.IRestrictionsAppels / numerosOuPatternsInterdits --> ajouté
+
+===== class-name = ithTphConfiguration.IRestrictionsAppels =====
+ithTphEquipements.ITsoip / qualify_r_and_s --> ajouté
+ithTphEquipements.ITsoip / qualifyfreqnotok_r_and_s --> ajouté
+ithTphEquipements.ITsoip / qualifyfreqok_r_and_s --> ajouté
+TSoIP_SERVEUR_EN_CLUSTER_0 / flagEtatTechJaune --> ajouté
+TSoIP_SERVEUR_EN_CLUSTER_0 / flagMemPercent --> ajouté
+TSoIP_SERVEUR_EN_CLUSTER_0 / listeCertificat --> ajouté
+TSoIP_SERVEUR_EN_CLUSTER_0 / listeCRL --> ajouté
+TSoIP_SERVEUR_EN_CLUSTER_0 / flagEtatTechJaune --> ajouté
+TSoIP_SERVEUR_EN_CLUSTER_0 / flagMemPercent --> ajouté
+TSoIP_SERVEUR_EN_CLUSTER_0 / listeCertificat --> ajouté
+TSoIP_SERVEUR_EN_CLUSTER_0 / listeCRL --> ajouté
+
+===== class-name = ithTphEquipements.ITsoip =====
+ithTphEquipements.ITsoipServerStandalone / flagEtatTechJaune --> ajouté
+ithTphEquipements.ITsoipServerStandalone / flagMemPercent --> ajouté
+ithTphEquipements.ITsoipServerStandalone / listeCertificat --> ajouté
+ithTphEquipements.ITsoipServerStandalone / listeCRL --> ajouté
+
+===== class-name = ithTphEquipements.ITsoipServerStandalone =====
+ithTphEquipements.ITsoipServerStandaloneCie / flagMemPercent --> ajouté
+ithTphEquipements.ITsoipServerStandaloneCie / listeCertificat --> ajouté
+ithTphEquipements.ITsoipServerStandaloneCie / listeCRL --> ajouté
+
+===== class-name = ithTphEquipements.ITsoipServerStandaloneCie =====
+
+===== class-name = mg2s.IARoIPLogiqueCie =====
+ / mg2s.IARoIPLogiqueCie --> ajouté
+mg2s.IAbstractChassisMcsCie / cartesMCRListe --> ajouté
+
+===== class-name = mg2s.IAbstractChassisMcsCie =====
+mg2s.IAbstractChassisMcsSnmp / cartesMCRListe --> ajouté
+
+===== class-name = mg2s.IAbstractChassisMcsSnmp =====
+
+===== class-name = mg2s.IAbstractPerEmetteurCie =====
+
+===== class-name = mg2s.IAbstractPerEmetteurRecepteurCie =====
+
+===== class-name = mg2s.IAbstractPerRecepteurCie =====
+
+===== class-name = mg2s.IAtelierEnergie =====
+
+===== class-name = mg2s.IAtelierEnergieCie =====
+
+===== class-name = mg2s.IAtelierEnergieV7 =====
+
+===== class-name = mg2s.IAtelierEnergieV7Cie =====
+mg2s.IBaieCie / tabEmplacements --> ajouté
+
+===== class-name = mg2s.IBaieCie =====
+mg2s.IBaieSnmp / tabEmplacements --> ajouté
+
+===== class-name = mg2s.IBaieSnmp =====
+
+===== class-name = mg2s.IBoucleCACie =====
+
+===== class-name = mg2s.IBoucleCASnmp =====
+mg2s.ICabine / id --> ajouté
+mg2s.ICabine / libelle --> ajouté
+mg2s.ICabine / tabEmplacements --> ajouté
+
+===== class-name = mg2s.ICabine =====
+
+===== class-name = mg2s.ICarteChassisCERCie =====
+
+===== class-name = mg2s.ICarteChassisCERSnmp =====
+
+===== class-name = mg2s.ICarteChassisCEXCie =====
+
+===== class-name = mg2s.ICarteChassisCEXSnmp =====
+mg2s.ICarteMcrSnmp / flagMemPercent --> ajouté
+mg2s.ICarteMcrSnmp / listeCertificat --> ajouté
+mg2s.ICarteMcrSnmp / listeCRL --> ajouté
+mg2s.ICarteMcrSnmp / listePO --> ajouté
+mg2s.ICarteMcrSnmp / necessiteMaintenanceScript1 --> ajouté
+mg2s.ICarteMcrSnmp / necessiteMaintenanceScript2 --> ajouté
+mg2s.ICarteMcrSnmp / necessiteMaintenanceScript3 --> ajouté
+mg2s.ICarteMcrSnmp / necessiteMaintenanceScript4 --> ajouté
+mg2s.ICarteMcrSnmp / nomScript1 --> ajouté
+mg2s.ICarteMcrSnmp / nomScript2 --> ajouté
+mg2s.ICarteMcrSnmp / nomScript3 --> ajouté
+mg2s.ICarteMcrSnmp / nomScript4 --> ajouté
+mg2s.ICarteMcrSnmp / script1 --> ajouté
+mg2s.ICarteMcrSnmp / script2 --> ajouté
+mg2s.ICarteMcrSnmp / script3 --> ajouté
+mg2s.ICarteMcrSnmp / script4 --> ajouté
+mg2s.ICarteMcrSnmp / timeoutLancerScript1 --> ajouté
+mg2s.ICarteMcrSnmp / timeoutLancerScript2 --> ajouté
+mg2s.ICarteMcrSnmp / timeoutLancerScript3 --> ajouté
+mg2s.ICarteMcrSnmp / timeoutLancerScript4 --> ajouté
+mg2s.ICarteMcrSnmp / timeSlots --> ajouté
+
+===== class-name = mg2s.ICarteMcrSnmp =====
+mg2s.IChassisSnmp / cartesMCRListe --> ajouté
+
+===== class-name = mg2s.IChassisSnmp =====
+
+===== class-name = mg2s.IChassisVGoIPCie =====
+ / mg2s.IChassisVGoIPCie --> ajouté
+
+===== class-name = mg2s.IChassisVGoIPSnmp =====
+ / mg2s.IChassisVGoIPSnmp --> ajouté
+mg2s.IChiffreurHorsClusterCie / flagMemPercent --> ajouté
+mg2s.IChiffreurHorsClusterCie / listeCertificat --> ajouté
+mg2s.IChiffreurHorsClusterCie / listeCRL --> ajouté
+mg2s.IChiffreurHorsClusterCie / listeliaisonsVPN --> ajouté
+
+===== class-name = mg2s.IChiffreurHorsClusterCie =====
+mg2s.IChiffreurHorsClusterSnmp / flagMemPercent --> ajouté
+mg2s.IChiffreurHorsClusterSnmp / listeCertificat --> ajouté
+mg2s.IChiffreurHorsClusterSnmp / listeCRL --> ajouté
+mg2s.IChiffreurHorsClusterSnmp / listeliaisonsVPN --> ajouté
+
+===== class-name = mg2s.IChiffreurHorsClusterSnmp =====
+alarmeNombreChiffreurActif / Nombre de chiffreur actif --> supprimé
+alarmeNombreChiffreurActif / Nombre de parefeu actif --> ajouté
+mg2s.IClusterDeNetasqCie / flagMemPercent --> ajouté
+mg2s.IClusterDeNetasqCie / listeCertificat --> ajouté
+mg2s.IClusterDeNetasqCie / listeCRL --> ajouté
+mg2s.IClusterDeNetasqCie / listeliaisonsVPN --> ajouté
+
+===== class-name = mg2s.IClusterDeNetasqCie =====
+alarmeNombreChiffreurActif / Nombre de chiffreur actif --> supprimé
+alarmeNombreChiffreurActif / Nombre de parefeu actif --> ajouté
+Chiffreur1 / ClusterDeNetasq --> supprimé
+Chiffreur2 / ClusterDeNetasq --> supprimé
+mg2s.IClusterDeNetasqSnmp / flagMemPercent --> ajouté
+mg2s.IClusterDeNetasqSnmp / listeCertificat --> ajouté
+mg2s.IClusterDeNetasqSnmp / listeCRL --> ajouté
+mg2s.IClusterDeNetasqSnmp / listeliaisonsVPN --> ajouté
+
+===== class-name = mg2s.IClusterDeNetasqSnmp =====
+mg2s.IConfigExterne / sites --> ajouté
+
+===== class-name = mg2s.IConfigExterne =====
+
+===== class-name = mg2s.ICoupleur =====
+
+===== class-name = mg2s.ICoupleurCie =====
+
+===== class-name = mg2s.IEquipementNonGere =====
+
+===== class-name = mg2s.IFarCerCie =====
+ / mg2s.IFarCerCie --> supprimé
+
+===== class-name = mg2s.IFarCerSnmp =====
+ / mg2s.IFarCerSnmp --> supprimé
+
+===== class-name = mg2s.IFarCexCie =====
+ / mg2s.IFarCexCie --> supprimé
+
+===== class-name = mg2s.IFarCexSnmp =====
+ / mg2s.IFarCexSnmp --> supprimé
+
+===== class-name = mg2s.ILiaisonVpnCie =====
+
+===== class-name = mg2s.ILiaisonVpnSnmp =====
+mg2s.ILocalCie / tabEmplacements --> ajouté
+
+===== class-name = mg2s.ILocalCie =====
+mg2s.ILocalSnmp / tabEmplacements --> ajouté
+
+===== class-name = mg2s.ILocalSnmp =====
+
+===== class-name = mg2s.IModuleAlimentationSnmp =====
+
+===== class-name = mg2s.IModuleFibreSnmp =====
+
+===== class-name = mg2s.IModuleVentilateurSnmp =====
+
+===== class-name = mg2s.IPOoIPLogiqueCie =====
+ / mg2s.IPOoIPLogiqueCie --> ajouté
+
+===== class-name = mg2s.IPXoIPLogiqueCie =====
+ / mg2s.IPXoIPLogiqueCie --> ajouté
+
+===== class-name = mg2s.IPerEVFCie =====
+
+===== class-name = mg2s.IPerEVFSnmp =====
+
+===== class-name = mg2s.IPerEmetteur =====
+
+===== class-name = mg2s.IPerEmetteurRecepteur =====
+
+===== class-name = mg2s.IPerRecepteur =====
+mg2s.IPeripheriqueCAEsclaveCie / listeBoucles --> ajouté
+
+===== class-name = mg2s.IPeripheriqueCAEsclaveCie =====
+mg2s.IPeripheriqueCAEsclaveSnmp / listeBoucles --> ajouté
+
+===== class-name = mg2s.IPeripheriqueCAEsclaveSnmp =====
+mg2s.IPeripheriqueCAMaitreCie / listeBoucles --> ajouté
+mg2s.IPeripheriqueCAMaitreCie / listePeripheriquesEsclave --> ajouté
+
+===== class-name = mg2s.IPeripheriqueCAMaitreCie =====
+mg2s.IPeripheriqueCAMaitreSnmp / listeBoucles --> ajouté
+mg2s.IPeripheriqueCAMaitreSnmp / listePeripheriquesEsclave --> ajouté
+
+===== class-name = mg2s.IPeripheriqueCAMaitreSnmp =====
+
+===== class-name = mg2s.IPortMcrCommun =====
+
+===== class-name = mg2s.IPortMcrMcsE1Cie =====
+
+===== class-name = mg2s.IPortMcrMcsE1Snmp =====
+
+===== class-name = mg2s.IPortMcrMcsEthCie =====
+
+===== class-name = mg2s.IPortMcrMcsEthSnmp =====
+
+===== class-name = mg2s.IPortMcrMcsPerCie =====
+
+===== class-name = mg2s.IPortMcrMcsPerSnmp =====
+
+===== class-name = mg2s.IPortMcrMcsS0Cie =====
+
+===== class-name = mg2s.IPortMcrMcsS0Snmp =====
+
+===== class-name = mg2s.IPortMcrMcsT2Cie =====
+
+===== class-name = mg2s.IPortMcrMcsT2Snmp =====
+mg2s.IRouteur / listeCertificat --> ajouté
+mg2s.IRouteur / listeCRL --> ajouté
+
+===== class-name = mg2s.IRouteur =====
+mg2s.IRouteurCie / listeCertificat --> ajouté
+mg2s.IRouteurCie / listeCRL --> ajouté
+
+===== class-name = mg2s.IRouteurCie =====
+label / siteActif --> ajouté
+mg2s.ISiteCCCie / tabLocaux --> ajouté
+mg2s.ISiteCCCie / typeCentre --> ajouté
+
+===== class-name = mg2s.ISiteCCCie =====
+mg2s.ISiteCCSnmp / tabLocaux --> ajouté
+mg2s.ISiteCCSnmp / typeCentre --> ajouté
+
+===== class-name = mg2s.ISiteCCSnmp =====
+label / siteActif --> ajouté
+mg2s.ISiteCDCCie / tabLocaux --> ajouté
+mg2s.ISiteCDCCie / typeCentre --> ajouté
+
+===== class-name = mg2s.ISiteCDCCie =====
+mg2s.ISiteCDCSnmp / tabLocaux --> ajouté
+mg2s.ISiteCDCSnmp / typeCentre --> ajouté
+
+===== class-name = mg2s.ISiteCDCSnmp =====
+mg2s.ISiteCERCie / listeSilencieux --> ajouté
+label / siteActif --> ajouté
+mg2s.ISiteCERCie / tabLocaux --> ajouté
+mg2s.ISiteCERCie / typeCentre --> ajouté
+
+===== class-name = mg2s.ISiteCERCie =====
+mg2s.ISiteCERSnmp / listeSilencieux --> ajouté
+mg2s.ISiteCERSnmp / tabLocaux --> ajouté
+mg2s.ISiteCERSnmp / typeCentre --> ajouté
+
+===== class-name = mg2s.ISiteCERSnmp =====
+label / siteActif --> ajouté
+mg2s.ISiteCMCCCie / tabLocaux --> ajouté
+mg2s.ISiteCMCCCie / typeCentre --> ajouté
+
+===== class-name = mg2s.ISiteCMCCCie =====
+mg2s.ISiteCMCCSnmp / tabLocaux --> ajouté
+mg2s.ISiteCMCCSnmp / typeCentre --> ajouté
+
+===== class-name = mg2s.ISiteCMCCSnmp =====
+label / siteActif --> ajouté
+mg2s.ISiteCOSCACie / tabLocaux --> ajouté
+mg2s.ISiteCOSCACie / typeCentre --> ajouté
+
+===== class-name = mg2s.ISiteCOSCACie =====
+mg2s.ISiteCOSCASnmp / tabLocaux --> ajouté
+mg2s.ISiteCOSCASnmp / typeCentre --> ajouté
+
+===== class-name = mg2s.ISiteCOSCASnmp =====
+mg2s.ISiteConfigExterne / capaciteH --> ajouté
+mg2s.ISiteConfigExterne / domaine --> ajouté
+mg2s.ISiteConfigExterne / NomSiteAffiche --> ajouté
+mg2s.ISiteConfigExterne / site1 --> ajouté
+mg2s.ISiteConfigExterne / site2 --> ajouté
+label_0 / domaine --> ajouté
+
+===== class-name = mg2s.ISiteConfigExterne =====
+mg2s.ISitePIUCie / siteActif --> ajouté
+
+===== class-name = mg2s.ISitePIUCie =====
+port1 / owner --> supprimé
+mg2s.ISwitch4507CdcSnmp / flagEtatTechJaune --> ajouté
+
+===== class-name = mg2s.ISwitch4507CdcSnmp =====
+port1 / owner --> supprimé
+mg2s.ISwitch4507Snmp / flagEtatTechJaune --> ajouté
+
+===== class-name = mg2s.ISwitch4507Snmp =====
+
+===== class-name = mg2s.IVGoIPDacCie =====
+ / mg2s.IVGoIPDacCie --> ajouté
+
+===== class-name = mg2s.IVGoIPServeurLogiqueCie =====
+ / mg2s.IVGoIPServeurLogiqueCie --> ajouté
+
+===== class-name = mg2s.IVRoIPClusterSnmp =====
+
+===== class-name = mg2s.IVRoIPCoteSnmp =====
+
+===== class-name = mg2s.IVRoIPNoeudSnmp =====
+mg2s.IVRoIPServeurSnmp / flagEtatTechJaune --> ajouté
+mg2s.IVRoIPServeurSnmp / flagMemPercent --> ajouté
+mg2s.IVRoIPServeurSnmp / listeCertificat --> ajouté
+mg2s.IVRoIPServeurSnmp / listeCRL --> ajouté
+
+===== class-name = mg2s.IVRoIPServeurSnmp =====
+
+===== class-name = mg2s.IVSoIPCie =====
+ / mg2s.IVSoIPCie --> ajouté
+
+===== class-name = mg2s.IZoneConfigExterne =====
+mg2s.Region / tableauSitesCC --> ajouté
+mg2s.Region / tableauSitesCDC --> ajouté
+mg2s.Region / tableauSitesCER --> ajouté
+mg2s.Region / tableauSitesCMCC --> ajouté
+mg2s.Region / tableauSitesCOSCA --> ajouté
+
+===== class-name = mg2s.Region =====
+
+===== class-name = mil.IARoIPLogiqueSnmp =====
+ / mil.IARoIPLogiqueSnmp --> ajouté
+
+===== class-name = mil.IAdpsServer =====
+
+===== class-name = mil.IAdpsSupervisedObject =====
+
+===== class-name = mil.IHttpServeurMilitaire =====
+ / mil.IHttpServeurMilitaire --> ajouté
+
+===== class-name = mil.IInstanceApplicationMetierSnmp =====
+ / mil.IInstanceApplicationMetierSnmp --> ajouté
+
+===== class-name = mil.IMCRVGoIPCie =====
+ / mil.IMCRVGoIPCie --> ajouté
+
+===== class-name = mil.IMCRVGoIPSnmp =====
+ / mil.IMCRVGoIPSnmp --> ajouté
+
+===== class-name = mil.IMiaeVGoIPCie =====
+ / mil.IMiaeVGoIPCie --> ajouté
+
+===== class-name = mil.IMiaeVGoIPSnmp =====
+ / mil.IMiaeVGoIPSnmp --> ajouté
+mil.IObjetDeSynthese / inputs --> ajouté
+
+===== class-name = mil.IObjetDeSynthese =====
+
+===== class-name = mil.IPOoIPContainer =====
+ / mil.IPOoIPContainer --> ajouté
+
+===== class-name = mil.IPOoIPContainerSnmp =====
+ / mil.IPOoIPContainerSnmp --> ajouté
+
+===== class-name = mil.IPOoIPLogiqueSnmp =====
+ / mil.IPOoIPLogiqueSnmp --> ajouté
+
+===== class-name = mil.IPXoIPLogiqueSnmp =====
+ / mil.IPXoIPLogiqueSnmp --> ajouté
+
+===== class-name = mil.IPerAnalogiqueMilitaireCie =====
+ / mil.IPerAnalogiqueMilitaireCie --> ajouté
+
+===== class-name = mil.IPerAnalogiqueMilitaireSnmp =====
+ / mil.IPerAnalogiqueMilitaireSnmp --> ajouté
+
+===== class-name = mil.IPerEd137MilitaireCie =====
+ / mil.IPerEd137MilitaireCie --> ajouté
+
+===== class-name = mil.IPerEd137MilitaireSnmp =====
+ / mil.IPerEd137MilitaireSnmp --> ajouté
+
+===== class-name = mil.IPingSupervisedObject =====
+
+===== class-name = mil.IPodmanPodMilitaire =====
+ / mil.IPodmanPodMilitaire --> ajouté
+
+===== class-name = mil.IVGoIPDacSnmp =====
+ / mil.IVGoIPDacSnmp --> ajouté
+
+===== class-name = mil.IVGoIPServeurLogiqueSnmp =====
+ / mil.IVGoIPServeurLogiqueSnmp --> ajouté
+
+===== class-name = mil.IVSoIP =====
+ / mil.IVSoIP --> ajouté
+
+===== class-name = pocConfiguration.IDSCPSettings =====
+
+===== class-name = pocConfiguration.IEnregIpTsoipSettingsConf =====
+pocConfiguration.ILevelsVpoip / defaultBeep --> ajouté
+pocConfiguration.ILevelsVpoip / defaultChannel --> supprimé
+pocConfiguration.ILevelsVpoip / defaultIntercomC --> supprimé
+pocConfiguration.ILevelsVpoip / defaultIntercomI --> supprimé
+pocConfiguration.ILevelsVpoip / defaultIthBell --> ajouté
+pocConfiguration.ILevelsVpoip / defaultPrioBell --> ajouté
+pocConfiguration.ILevelsVpoip / maxChannel --> supprimé
+pocConfiguration.ILevelsVpoip / maxIntercomC --> supprimé
+pocConfiguration.ILevelsVpoip / maxIntercomI --> supprimé
+pocConfiguration.ILevelsVpoip / maxIthBell --> ajouté
+pocConfiguration.ILevelsVpoip / maxPrioBell --> ajouté
+pocConfiguration.ILevelsVpoip / minChannel --> supprimé
+pocConfiguration.ILevelsVpoip / minIntercomC --> supprimé
+pocConfiguration.ILevelsVpoip / minIntercomI --> supprimé
+pocConfiguration.ILevelsVpoip / minIthBell --> ajouté
+pocConfiguration.ILevelsVpoip / minPrioBell --> ajouté
+
+===== class-name = pocConfiguration.ILevelsVpoip =====
+pocConfiguration.IMission / ithSigningRole --> ajouté
+pocConfiguration.IMission / roleIth --> ajouté
+pocConfiguration.IMission / roleTph --> ajouté
+pocConfiguration.IMission / tphSigningRole --> ajouté
+pocConfiguration.IMission / views --> supprimé
+pocConfiguration.IMission / viewsIth --> ajouté
+pocConfiguration.IMission / viewsTph --> ajouté
+
+===== class-name = pocConfiguration.IMission =====
+pocConfiguration.IParametresGeneraux / screenSaverClosedPosition --> supprimé
+pocConfiguration.IParametresGeneraux / screenSaverOpenedPosition --> supprimé
+
+===== class-name = pocConfiguration.IParametresGeneraux =====
+
+===== class-name = pocEquipement.IAudioProfiles =====
+pocEquipement.IVPoIP / listeCertificat --> ajouté
+pocEquipement.IVPoIP / listeCRL --> ajouté
+pocEquipement.IVPoIP / listeRolesAutorises --> ajouté
+Memory / dskPercentConfigAcquisition --> ajouté
+
+===== class-name = pocEquipement.IVPoIP =====
+
+===== class-name = port.ILienEth =====
+
+===== class-name = port.ILienEthCie =====
+
+===== class-name = rdoConfiguration.ICategorieVoie =====
+rdoConfiguration.IEQF / pas833 --> ajouté
+
+===== class-name = rdoConfiguration.IEQF =====
+rdoConfiguration.IPageTOV / page --> ajouté
+
+===== class-name = rdoConfiguration.IPageTOV =====
+rdoConfiguration.IParametresGenerauxRDO / aorType --> ajouté
+rdoConfiguration.IParametresGenerauxRDO / nomDomaineSite --> supprimé
+rdoConfiguration.IParametresGenerauxRDO / pxoipFqdn --> ajouté
+rdoConfiguration.IParametresGenerauxRDO / regleAor --> supprimé
+rdoConfiguration.IParametresGenerauxRDO / regleAorCouverture --> ajouté
+rdoConfiguration.IParametresGenerauxRDO / regleAorVp --> ajouté
+
+===== class-name = rdoConfiguration.IParametresGenerauxRDO =====
+rdoConfiguration.IProfilRadioMg2s / listeCahiersTOV --> ajouté
+rdoConfiguration.IProfilRadioMg2s / listeEqf --> ajouté
+rdoConfiguration.IProfilRadioMg2s / listePagesTOV --> ajouté
+
+===== class-name = rdoConfiguration.IProfilRadioMg2s =====
+1 / owner --> supprimé
+2 / owner --> supprimé
+3 / owner --> supprimé
+4 / owner --> supprimé
+5 / owner --> supprimé
+6 / owner --> supprimé
+7 / owner --> supprimé
+8 / owner --> supprimé
+9 / owner --> supprimé
+10 / owner --> supprimé
+11 / owner --> supprimé
+12 / owner --> supprimé
+13 / owner --> supprimé
+14 / owner --> supprimé
+15 / owner --> supprimé
+16 / owner --> supprimé
+17 / owner --> supprimé
+18 / owner --> supprimé
+19 / owner --> supprimé
+20 / owner --> supprimé
+21 / owner --> supprimé
+22 / owner --> supprimé
+23 / owner --> supprimé
+24 / owner --> supprimé
+25 / owner --> supprimé
+26 / owner --> supprimé
+27 / owner --> supprimé
+28 / owner --> supprimé
+
+===== class-name = reseau.Cisco2960X24PortsCie =====
+1 / owner --> supprimé
+2 / owner --> supprimé
+3 / owner --> supprimé
+4 / owner --> supprimé
+5 / owner --> supprimé
+6 / owner --> supprimé
+7 / owner --> supprimé
+8 / owner --> supprimé
+9 / owner --> supprimé
+10 / owner --> supprimé
+11 / owner --> supprimé
+12 / owner --> supprimé
+13 / owner --> supprimé
+14 / owner --> supprimé
+15 / owner --> supprimé
+16 / owner --> supprimé
+17 / owner --> supprimé
+18 / owner --> supprimé
+19 / owner --> supprimé
+20 / owner --> supprimé
+21 / owner --> supprimé
+22 / owner --> supprimé
+23 / owner --> supprimé
+24 / owner --> supprimé
+25 / owner --> supprimé
+26 / owner --> supprimé
+27 / owner --> supprimé
+28 / owner --> supprimé
+
+===== class-name = reseau.ICisco2960X24PortsSnmp =====
+1 / owner --> supprimé
+2 / owner --> supprimé
+3 / owner --> supprimé
+4 / owner --> supprimé
+5 / owner --> supprimé
+6 / owner --> supprimé
+7 / owner --> supprimé
+8 / owner --> supprimé
+9 / owner --> supprimé
+10 / owner --> supprimé
+11 / owner --> supprimé
+12 / owner --> supprimé
+13 / owner --> supprimé
+14 / owner --> supprimé
+15 / owner --> supprimé
+16 / owner --> supprimé
+17 / owner --> supprimé
+18 / owner --> supprimé
+19 / owner --> supprimé
+20 / owner --> supprimé
+21 / owner --> supprimé
+22 / owner --> supprimé
+23 / owner --> supprimé
+24 / owner --> supprimé
+25 / owner --> supprimé
+26 / owner --> supprimé
+27 / owner --> supprimé
+28 / owner --> supprimé
+29 / owner --> supprimé
+30 / owner --> supprimé
+31 / owner --> supprimé
+32 / owner --> supprimé
+33 / owner --> supprimé
+34 / owner --> supprimé
+35 / owner --> supprimé
+36 / owner --> supprimé
+37 / owner --> supprimé
+38 / owner --> supprimé
+39 / owner --> supprimé
+40 / owner --> supprimé
+41 / owner --> supprimé
+42 / owner --> supprimé
+43 / owner --> supprimé
+44 / owner --> supprimé
+45 / owner --> supprimé
+46 / owner --> supprimé
+47 / owner --> supprimé
+48 / owner --> supprimé
+49 / owner --> supprimé
+50 / owner --> supprimé
+51 / owner --> supprimé
+52 / owner --> supprimé
+
+===== class-name = reseau.ICisco2960X48PortsSnmp =====
+1 / owner --> supprimé
+2 / owner --> supprimé
+3 / owner --> supprimé
+4 / owner --> supprimé
+5 / owner --> supprimé
+6 / owner --> supprimé
+7 / owner --> supprimé
+8 / owner --> supprimé
+9 / owner --> supprimé
+10 / owner --> supprimé
+11 / owner --> supprimé
+12 / owner --> supprimé
+13 / owner --> supprimé
+14 / owner --> supprimé
+15 / owner --> supprimé
+16 / owner --> supprimé
+17 / owner --> supprimé
+18 / owner --> supprimé
+19 / owner --> supprimé
+20 / owner --> supprimé
+21 / owner --> supprimé
+22 / owner --> supprimé
+23 / owner --> supprimé
+24 / owner --> supprimé
+25 / owner --> supprimé
+26 / owner --> supprimé
+27 / owner --> supprimé
+28 / owner --> supprimé
+
+===== class-name = reseau.ICisco365024PortsSnmp =====
+1 / owner --> supprimé
+2 / owner --> supprimé
+3 / owner --> supprimé
+4 / owner --> supprimé
+5 / owner --> supprimé
+6 / owner --> supprimé
+7 / owner --> supprimé
+8 / owner --> supprimé
+9 / owner --> supprimé
+10 / owner --> supprimé
+11 / owner --> supprimé
+12 / owner --> supprimé
+13 / owner --> supprimé
+14 / owner --> supprimé
+15 / owner --> supprimé
+16 / owner --> supprimé
+17 / owner --> supprimé
+18 / owner --> supprimé
+19 / owner --> supprimé
+20 / owner --> supprimé
+21 / owner --> supprimé
+22 / owner --> supprimé
+23 / owner --> supprimé
+24 / owner --> supprimé
+25 / owner --> supprimé
+26 / owner --> supprimé
+27 / owner --> supprimé
+28 / owner --> supprimé
+29 / owner --> supprimé
+30 / owner --> supprimé
+31 / owner --> supprimé
+32 / owner --> supprimé
+33 / owner --> supprimé
+34 / owner --> supprimé
+35 / owner --> supprimé
+36 / owner --> supprimé
+37 / owner --> supprimé
+38 / owner --> supprimé
+39 / owner --> supprimé
+40 / owner --> supprimé
+41 / owner --> supprimé
+42 / owner --> supprimé
+43 / owner --> supprimé
+44 / owner --> supprimé
+45 / owner --> supprimé
+46 / owner --> supprimé
+47 / owner --> supprimé
+48 / owner --> supprimé
+56 / owner --> supprimé
+57 / owner --> supprimé
+58 / owner --> supprimé
+59 / owner --> supprimé
+
+===== class-name = reseau.ICisco365048PortsSnmp =====
+Port 1 / owner --> supprimé
+Port 2 / owner --> supprimé
+Port 3 / owner --> supprimé
+Port 4 / owner --> supprimé
+Port 5 / owner --> supprimé
+Port 6 / owner --> supprimé
+Port 7 / owner --> supprimé
+Port 8 / owner --> supprimé
+Port 9 / owner --> supprimé
+Port 10 / owner --> supprimé
+Port 11 / owner --> supprimé
+Port 12 / owner --> supprimé
+Port 13 / owner --> supprimé
+Port 14 / owner --> supprimé
+Port 15 / owner --> supprimé
+Port 16 / owner --> supprimé
+Port 17 / owner --> supprimé
+Port 18 / owner --> supprimé
+Port 19 / owner --> supprimé
+Port 20 / owner --> supprimé
+Port 21 / owner --> supprimé
+Port 22 / owner --> supprimé
+Port 23 / owner --> supprimé
+Port 24 / owner --> supprimé
+Port 25 / owner --> supprimé
+Port 26 / owner --> supprimé
+Port 27 / owner --> supprimé
+Port 28 / owner --> supprimé
+Switch 1 / owner --> supprimé
+Port01 / owner --> supprimé
+Port02 / owner --> supprimé
+Port 1 / owner --> supprimé
+Port 2 / owner --> supprimé
+Port 3 / owner --> supprimé
+Port 4 / owner --> supprimé
+Port 5 / owner --> supprimé
+Port 6 / owner --> supprimé
+Port 7 / owner --> supprimé
+Port 8 / owner --> supprimé
+Port 9 / owner --> supprimé
+Port 10 / owner --> supprimé
+Port 11 / owner --> supprimé
+Port 12 / owner --> supprimé
+Port 13 / owner --> supprimé
+Port 14 / owner --> supprimé
+Port 15 / owner --> supprimé
+Port 16 / owner --> supprimé
+Port 17 / owner --> supprimé
+Port 18 / owner --> supprimé
+Port 19 / owner --> supprimé
+Port 20 / owner --> supprimé
+Port 21 / owner --> supprimé
+Port 22 / owner --> supprimé
+Port 23 / owner --> supprimé
+Port 24 / owner --> supprimé
+Port 25 / owner --> supprimé
+Port 26 / owner --> supprimé
+Port 27 / owner --> supprimé
+Port 28 / owner --> supprimé
+Switch 2 / owner --> supprimé
+Port01 / owner --> supprimé
+Port02 / owner --> supprimé
+
+===== class-name = reseau.IStackOf2SwitchCie =====
+Port 1 / owner --> supprimé
+Port 2 / owner --> supprimé
+Port 3 / owner --> supprimé
+Port 4 / owner --> supprimé
+Port 5 / owner --> supprimé
+Port 6 / owner --> supprimé
+Port 7 / owner --> supprimé
+Port 8 / owner --> supprimé
+Port 9 / owner --> supprimé
+Port 10 / owner --> supprimé
+Port 11 / owner --> supprimé
+Port 12 / owner --> supprimé
+Port 13 / owner --> supprimé
+Port 14 / owner --> supprimé
+Port 15 / owner --> supprimé
+Port 16 / owner --> supprimé
+Port 17 / owner --> supprimé
+Port 18 / owner --> supprimé
+Port 19 / owner --> supprimé
+Port 20 / owner --> supprimé
+Port 21 / owner --> supprimé
+Port 22 / owner --> supprimé
+Port 23 / owner --> supprimé
+Port 24 / owner --> supprimé
+Port 25 / owner --> supprimé
+Port 26 / owner --> supprimé
+Port 27 / owner --> supprimé
+Port 28 / owner --> supprimé
+Switch 1 / owner --> supprimé
+Port01 / owner --> supprimé
+Port02 / owner --> supprimé
+Port 1 / owner --> supprimé
+Port 2 / owner --> supprimé
+Port 3 / owner --> supprimé
+Port 4 / owner --> supprimé
+Port 5 / owner --> supprimé
+Port 6 / owner --> supprimé
+Port 7 / owner --> supprimé
+Port 8 / owner --> supprimé
+Port 9 / owner --> supprimé
+Port 10 / owner --> supprimé
+Port 11 / owner --> supprimé
+Port 12 / owner --> supprimé
+Port 13 / owner --> supprimé
+Port 14 / owner --> supprimé
+Port 15 / owner --> supprimé
+Port 16 / owner --> supprimé
+Port 17 / owner --> supprimé
+Port 18 / owner --> supprimé
+Port 19 / owner --> supprimé
+Port 20 / owner --> supprimé
+Port 21 / owner --> supprimé
+Port 22 / owner --> supprimé
+Port 23 / owner --> supprimé
+Port 24 / owner --> supprimé
+Port 25 / owner --> supprimé
+Port 26 / owner --> supprimé
+Port 27 / owner --> supprimé
+Port 28 / owner --> supprimé
+Switch 2 / owner --> supprimé
+Port01 / owner --> supprimé
+Port02 / owner --> supprimé
+
+===== class-name = reseau.IStackOf2SwitchSnmp =====
+Port 1 / owner --> supprimé
+Port 2 / owner --> supprimé
+Port 3 / owner --> supprimé
+Port 4 / owner --> supprimé
+Port 5 / owner --> supprimé
+Port 6 / owner --> supprimé
+Port 7 / owner --> supprimé
+Port 8 / owner --> supprimé
+Port 9 / owner --> supprimé
+Port 10 / owner --> supprimé
+Port 11 / owner --> supprimé
+Port 12 / owner --> supprimé
+Port 13 / owner --> supprimé
+Port 14 / owner --> supprimé
+Port 15 / owner --> supprimé
+Port 16 / owner --> supprimé
+Port 17 / owner --> supprimé
+Port 18 / owner --> supprimé
+Port 19 / owner --> supprimé
+Port 20 / owner --> supprimé
+Port 21 / owner --> supprimé
+Port 22 / owner --> supprimé
+Port 23 / owner --> supprimé
+Port 24 / owner --> supprimé
+Port 25 / owner --> supprimé
+Port 26 / owner --> supprimé
+Port 27 / owner --> supprimé
+Port 28 / owner --> supprimé
+Port 29 / owner --> supprimé
+Port 30 / owner --> supprimé
+Port 31 / owner --> supprimé
+Port 32 / owner --> supprimé
+Port 33 / owner --> supprimé
+Port 34 / owner --> supprimé
+Port 35 / owner --> supprimé
+Port 36 / owner --> supprimé
+Port 37 / owner --> supprimé
+Port 38 / owner --> supprimé
+Port 39 / owner --> supprimé
+Port 40 / owner --> supprimé
+Port 41 / owner --> supprimé
+Port 42 / owner --> supprimé
+Port 43 / owner --> supprimé
+Port 44 / owner --> supprimé
+Port 45 / owner --> supprimé
+Port 46 / owner --> supprimé
+Port 47 / owner --> supprimé
+Port 48 / owner --> supprimé
+Switch 1 / owner --> supprimé
+Port01 / owner --> supprimé
+Port02 / owner --> supprimé
+Port 1 / owner --> supprimé
+Port 2 / owner --> supprimé
+Port 3 / owner --> supprimé
+Port 4 / owner --> supprimé
+Port 5 / owner --> supprimé
+Port 6 / owner --> supprimé
+Port 7 / owner --> supprimé
+Port 8 / owner --> supprimé
+Port 9 / owner --> supprimé
+Port 10 / owner --> supprimé
+Port 11 / owner --> supprimé
+Port 12 / owner --> supprimé
+Port 13 / owner --> supprimé
+Port 14 / owner --> supprimé
+Port 15 / owner --> supprimé
+Port 16 / owner --> supprimé
+Port 17 / owner --> supprimé
+Port 18 / owner --> supprimé
+Port 19 / owner --> supprimé
+Port 20 / owner --> supprimé
+Port 21 / owner --> supprimé
+Port 22 / owner --> supprimé
+Port 23 / owner --> supprimé
+Port 24 / owner --> supprimé
+Port 25 / owner --> supprimé
+Port 26 / owner --> supprimé
+Port 27 / owner --> supprimé
+Port 28 / owner --> supprimé
+Port 29 / owner --> supprimé
+Port 30 / owner --> supprimé
+Port 31 / owner --> supprimé
+Port 32 / owner --> supprimé
+Port 33 / owner --> supprimé
+Port 34 / owner --> supprimé
+Port 35 / owner --> supprimé
+Port 36 / owner --> supprimé
+Port 37 / owner --> supprimé
+Port 38 / owner --> supprimé
+Port 39 / owner --> supprimé
+Port 40 / owner --> supprimé
+Port 41 / owner --> supprimé
+Port 42 / owner --> supprimé
+Port 43 / owner --> supprimé
+Port 44 / owner --> supprimé
+Port 45 / owner --> supprimé
+Port 46 / owner --> supprimé
+Port 47 / owner --> supprimé
+Port 48 / owner --> supprimé
+Switch 2 / owner --> supprimé
+Port01 / owner --> supprimé
+Port02 / owner --> supprimé
+Port 1 / owner --> supprimé
+Port 2 / owner --> supprimé
+Port 3 / owner --> supprimé
+Port 4 / owner --> supprimé
+Port 5 / owner --> supprimé
+Port 6 / owner --> supprimé
+Port 7 / owner --> supprimé
+Port 8 / owner --> supprimé
+Port 9 / owner --> supprimé
+Port 10 / owner --> supprimé
+Port 11 / owner --> supprimé
+Port 12 / owner --> supprimé
+Port 13 / owner --> supprimé
+Port 14 / owner --> supprimé
+Port 15 / owner --> supprimé
+Port 16 / owner --> supprimé
+Port 17 / owner --> supprimé
+Port 18 / owner --> supprimé
+Port 19 / owner --> supprimé
+Port 20 / owner --> supprimé
+Port 21 / owner --> supprimé
+Port 22 / owner --> supprimé
+Port 23 / owner --> supprimé
+Port 24 / owner --> supprimé
+Port 25 / owner --> supprimé
+Port 26 / owner --> supprimé
+Port 27 / owner --> supprimé
+Port 28 / owner --> supprimé
+Port 29 / owner --> supprimé
+Port 30 / owner --> supprimé
+Port 31 / owner --> supprimé
+Port 32 / owner --> supprimé
+Port 33 / owner --> supprimé
+Port 34 / owner --> supprimé
+Port 35 / owner --> supprimé
+Port 36 / owner --> supprimé
+Port 37 / owner --> supprimé
+Port 38 / owner --> supprimé
+Port 39 / owner --> supprimé
+Port 40 / owner --> supprimé
+Port 41 / owner --> supprimé
+Port 42 / owner --> supprimé
+Port 43 / owner --> supprimé
+Port 44 / owner --> supprimé
+Port 45 / owner --> supprimé
+Port 46 / owner --> supprimé
+Port 47 / owner --> supprimé
+Port 48 / owner --> supprimé
+Switch 3 / owner --> supprimé
+Port01 / owner --> supprimé
+Port02 / owner --> supprimé
+Port 1 / owner --> supprimé
+Port 2 / owner --> supprimé
+Port 3 / owner --> supprimé
+Port 4 / owner --> supprimé
+Port 5 / owner --> supprimé
+Port 6 / owner --> supprimé
+Port 7 / owner --> supprimé
+Port 8 / owner --> supprimé
+Port 9 / owner --> supprimé
+Port 10 / owner --> supprimé
+Port 11 / owner --> supprimé
+Port 12 / owner --> supprimé
+Port 13 / owner --> supprimé
+Port 14 / owner --> supprimé
+Port 15 / owner --> supprimé
+Port 16 / owner --> supprimé
+Port 17 / owner --> supprimé
+Port 18 / owner --> supprimé
+Port 19 / owner --> supprimé
+Port 20 / owner --> supprimé
+Port 21 / owner --> supprimé
+Port 22 / owner --> supprimé
+Port 23 / owner --> supprimé
+Port 24 / owner --> supprimé
+Port 25 / owner --> supprimé
+Port 26 / owner --> supprimé
+Port 27 / owner --> supprimé
+Port 28 / owner --> supprimé
+Port 29 / owner --> supprimé
+Port 30 / owner --> supprimé
+Port 31 / owner --> supprimé
+Port 32 / owner --> supprimé
+Port 33 / owner --> supprimé
+Port 34 / owner --> supprimé
+Port 35 / owner --> supprimé
+Port 36 / owner --> supprimé
+Port 37 / owner --> supprimé
+Port 38 / owner --> supprimé
+Port 39 / owner --> supprimé
+Port 40 / owner --> supprimé
+Port 41 / owner --> supprimé
+Port 42 / owner --> supprimé
+Port 43 / owner --> supprimé
+Port 44 / owner --> supprimé
+Port 45 / owner --> supprimé
+Port 46 / owner --> supprimé
+Port 47 / owner --> supprimé
+Port 48 / owner --> supprimé
+Switch 4 / owner --> supprimé
+Port01 / owner --> supprimé
+Port02 / owner --> supprimé
+
+===== class-name = reseau.IStackOfSwitchSnmp =====
+1 / owner --> supprimé
+2 / owner --> supprimé
+3 / owner --> supprimé
+4 / owner --> supprimé
+5 / owner --> supprimé
+6 / owner --> supprimé
+7 / owner --> supprimé
+8 / owner --> supprimé
+9 / owner --> supprimé
+10 / owner --> supprimé
+11 / owner --> supprimé
+12 / owner --> supprimé
+13 / owner --> supprimé
+14 / owner --> supprimé
+15 / owner --> supprimé
+16 / owner --> supprimé
+17 / owner --> supprimé
+18 / owner --> supprimé
+19 / owner --> supprimé
+20 / owner --> supprimé
+21 / owner --> supprimé
+22 / owner --> supprimé
+23 / owner --> supprimé
+24 / owner --> supprimé
+25 / owner --> supprimé
+26 / owner --> supprimé
+27 / owner --> supprimé
+28 / owner --> supprimé
+29 / owner --> supprimé
+30 / owner --> supprimé
+31 / owner --> supprimé
+32 / owner --> supprimé
+33 / owner --> supprimé
+34 / owner --> supprimé
+35 / owner --> supprimé
+36 / owner --> supprimé
+37 / owner --> supprimé
+38 / owner --> supprimé
+39 / owner --> supprimé
+40 / owner --> supprimé
+41 / owner --> supprimé
+42 / owner --> supprimé
+43 / owner --> supprimé
+44 / owner --> supprimé
+45 / owner --> supprimé
+46 / owner --> supprimé
+47 / owner --> supprimé
+48 / owner --> supprimé
+49 / owner --> supprimé
+50 / owner --> supprimé
+
+===== class-name = reseau.ISwitch48PortsCie =====
+
+===== class-name = securite.ICertificat =====
+
+===== class-name = securite.ICertificatCIE =====
+
+===== class-name = securite.ICertificatPFC =====
+
+===== class-name = securite.ICertificatRevocationList =====
+
+===== class-name = securite.ICertificatRevocationListCIE =====
+
+===== class-name = securite.ICertificatRevocationListPFC =====
+
+===== class-name = securite.IIntegrityChecker =====
+
+===== class-name = securite.IIntegrityCheckerCIE =====
+
+===== class-name = securite.IVirusChecker =====
+
+===== class-name = securite.IVirusCheckerCIE =====
+
+===== class-name = serveurs.IClusterUCGenerique =====
+serveurs.IClusterUCGeneriquePIU / siteActif --> ajouté
+
+===== class-name = serveurs.IClusterUCGeneriquePIU =====
+serveurs.IServeurSeducs / flagEtatTechJaune --> ajouté
+serveurs.IServeurSeducs / flagMemPercent --> ajouté
+serveurs.IServeurSeducs / listeCertificat --> ajouté
+serveurs.IServeurSeducs / listeCRL --> ajouté
+
+===== class-name = serveurs.IServeurSeducs =====
+serveurs.IServeurUCGeneriqueCie / alarmeEtatSynthAdmin --> ajouté
+serveurs.IServeurUCGeneriqueCie / flagMemPercent --> ajouté
+serveurs.IServeurUCGeneriqueCie / listeCertificat --> ajouté
+serveurs.IServeurUCGeneriqueCie / listeCRL --> ajouté
+serveurs.IServeurUCGeneriqueCie / timeoutMaintenance --> ajouté
+
+===== class-name = serveurs.IServeurUCGeneriqueCie =====
+serveurs.IServeurUCGeneriquePIUSnmp / flagEtatTechJaune --> ajouté
+serveurs.IServeurUCGeneriquePIUSnmp / flagMemPercent --> ajouté
+serveurs.IServeurUCGeneriquePIUSnmp / listeCertificat --> ajouté
+serveurs.IServeurUCGeneriquePIUSnmp / listeCRL --> ajouté
+serveurs.IServeurUCGeneriquePIUSnmp / siteActif --> ajouté
+
+===== class-name = serveurs.IServeurUCGeneriquePIUSnmp =====
+serveurs.IServeurUCGeneriqueSnmp / flagEtatTechJaune --> ajouté
+serveurs.IServeurUCGeneriqueSnmp / flagMemPercent --> ajouté
+serveurs.IServeurUCGeneriqueSnmp / listeCertificat --> ajouté
+serveurs.IServeurUCGeneriqueSnmp / listeCRL --> ajouté
+
+===== class-name = serveurs.IServeurUCGeneriqueSnmp =====
+
+===== class-name = site.IVoieParCentre =====
+srsa.edcdc.IPlanRemplacement / sites --> ajouté
+srsa.edcdc.IPlanRemplacement / voiesRadioBicMeteor --> ajouté
+srsa.edcdc.IPlanRemplacement / voiesRadioPermanentes --> ajouté
+
+===== class-name = srsa.edcdc.IPlanRemplacement =====
+
+===== class-name = srsa.edcdc.IPlanRemplacementAActiver =====
+
+===== class-name = srsa.edcdc.shared.ICahierTOV =====
+ / srsa.edcdc.shared.ICahierTOV --> ajouté
+srsa.edcdc.shared.ICvr / droiEnvoiTOD --> ajouté
+srsa.edcdc.shared.ICvr / droiInitialisateur --> ajouté
+srsa.edcdc.shared.ICvr / droiInitialisateurRestrictionInitialisateur --> ajouté
+srsa.edcdc.shared.ICvr / droitAddRemoveCentre --> ajouté
+srsa.edcdc.shared.ICvr / droitAddRemoveCentreRestrictionInitialisateur --> ajouté
+srsa.edcdc.shared.ICvr / droitCouplage --> ajouté
+srsa.edcdc.shared.ICvr / droitCreation --> ajouté
+srsa.edcdc.shared.ICvr / droitEcoute --> ajouté
+srsa.edcdc.shared.ICvr / droitForceCenter --> ajouté
+srsa.edcdc.shared.ICvr / droitForceCenterRestrictionInitialisateur --> ajouté
+srsa.edcdc.shared.ICvr / droitInclusionExclusionCentreRestrictionInitialisateur --> ajouté
+srsa.edcdc.shared.ICvr / droitMontage --> ajouté
+srsa.edcdc.shared.ICvr / droitTrafic --> ajouté
+srsa.edcdc.shared.ICvr / evfInterdit --> ajouté
+srsa.edcdc.shared.ICvr / squConfirmationIsActive --> ajouté
+
+===== class-name = srsa.edcdc.shared.ICvr =====
+srsa.edcdc.shared.IEqfFixe / pas833 --> ajouté
+
+===== class-name = srsa.edcdc.shared.IEqfFixe =====
+
+===== class-name = srsa.edcdc.shared.IFrequence =====
+srsa.edcdc.shared.IGroupeUtilisateurCdc / dispositionProfilsClavier --> ajouté
+
+===== class-name = srsa.edcdc.shared.IGroupeUtilisateurCdc =====
+srsa.edcdc.shared.IPageTov / dispositionCvrClavier --> ajouté
+srsa.edcdc.shared.IPageTov / page --> ajouté
+
+===== class-name = srsa.edcdc.shared.IPageTov =====
+srsa.edcdc.shared.IProfilRepli / cabines --> ajouté
+srsa.edcdc.shared.IProfilRepli / droiInitialisateur --> ajouté
+srsa.edcdc.shared.IProfilRepli / droitAddRemoveCentre --> ajouté
+srsa.edcdc.shared.IProfilRepli / droitCreation --> ajouté
+srsa.edcdc.shared.IProfilRepli / droitInclusionExclusionCentre --> ajouté
+srsa.edcdc.shared.IProfilRepli / droitMontage --> ajouté
+srsa.edcdc.shared.IProfilRepli / droitTrafic --> ajouté
+srsa.edcdc.shared.IProfilRepli / listeCahiersTOV --> ajouté
+srsa.edcdc.shared.IProfilRepli / listeEqf --> ajouté
+srsa.edcdc.shared.IProfilRepli / listePagesTOV --> ajouté
+srsa.edcdc.shared.IProfilRepli / prioriteCasque2 --> supprimé
+srsa.edcdc.shared.IProfilRepli / prioriteMicroCasque2 --> supprimé
+label_0 / choixCentreManuel --> ajouté
+label_0 / droiEnvoiTOD --> ajouté
+label_0 / droiInitialisateur --> ajouté
+label_0 / droitCreation --> ajouté
+label_0 / droitEncryption --> supprimé
+label_0 / droitInclusionExclusionCentre --> ajouté
+label_0 / evfInterdit --> ajouté
+label_0 / sav --> ajouté
+srsa.edcdc.shared.IProfilRepli / zones --> ajouté
+
+===== class-name = srsa.edcdc.shared.IProfilRepli =====
+srsa.edcdc.shared.IProfilUtilisateur / cabines --> ajouté
+srsa.edcdc.shared.IProfilUtilisateur / droiInitialisateur --> ajouté
+srsa.edcdc.shared.IProfilUtilisateur / droitAddRemoveCentre --> ajouté
+srsa.edcdc.shared.IProfilUtilisateur / droitCreation --> ajouté
+srsa.edcdc.shared.IProfilUtilisateur / droitInclusionExclusionCentre --> ajouté
+srsa.edcdc.shared.IProfilUtilisateur / droitMontage --> ajouté
+srsa.edcdc.shared.IProfilUtilisateur / droitTrafic --> ajouté
+srsa.edcdc.shared.IProfilUtilisateur / listeCahiersTOV --> ajouté
+srsa.edcdc.shared.IProfilUtilisateur / listeEqf --> ajouté
+srsa.edcdc.shared.IProfilUtilisateur / listePagesTOV --> ajouté
+srsa.edcdc.shared.IProfilUtilisateur / prioriteCasque2 --> supprimé
+srsa.edcdc.shared.IProfilUtilisateur / prioriteMicroCasque2 --> supprimé
+label_0 / choixCentreManuel --> ajouté
+label_0 / droiEnvoiTOD --> ajouté
+label_0 / droiInitialisateur --> ajouté
+label_0 / droitCreation --> ajouté
+label_0 / droitEncryption --> supprimé
+label_0 / droitInclusionExclusionCentre --> ajouté
+label_0 / evfInterdit --> ajouté
+label_0 / sav --> ajouté
+srsa.edcdc.shared.IProfilUtilisateur / zones --> ajouté
+
+===== class-name = srsa.edcdc.shared.IProfilUtilisateur =====
+srsa.edcdc.shared.IToc / centre1 --> ajouté
+srsa.edcdc.shared.IToc / centre2 --> ajouté
+srsa.edcdc.shared.IToc / centre3 --> ajouté
+srsa.edcdc.shared.IToc / centre4 --> ajouté
+srsa.edcdc.shared.IToc / centre5 --> ajouté
+srsa.edcdc.shared.IToc / centre6 --> ajouté
+
+===== class-name = srsa.edcdc.shared.IToc =====
+
+===== class-name = srsa.edcdc.shared.ITocF =====
+ / srsa.edcdc.shared.ITocF --> ajouté
+srsa.edcdc.shared.IVoiePermanente / couvertureActive --> ajouté
+srsa.edcdc.shared.IVoiePermanente / exclusionType --> ajouté
+srsa.edcdc.shared.IVoiePermanente / ordreCentres --> ajouté
+srsa.edcdc.shared.IVoiePermanente / sav --> ajouté
+srsa.edcdc.shared.IVoiePermanente / sidetone --> supprimé
+srsa.edcdc.shared.IVoiePermanente / testStatusType --> ajouté
+srsa.edcdc.shared.IVoiePermanente / todType --> ajouté
+
+===== class-name = srsa.edcdc.shared.IVoiePermanente =====
+srsa.edcdc.shared.IZoneTravail / couvertureH --> ajouté
+srsa.edcdc.shared.IZoneTravail / couvertureS --> ajouté
+srsa.edcdc.shared.IZoneTravail / couvertureTypeH --> ajouté
+srsa.edcdc.shared.IZoneTravail / couvertureU --> ajouté
+srsa.edcdc.shared.IZoneTravail / couvertureV --> ajouté
+srsa.edcdc.shared.IZoneTravail / idCentreIdVoieH --> ajouté
+
+===== class-name = srsa.edcdc.shared.IZoneTravail =====
+
+===== class-name = supervision.IMission =====
+
+===== class-name = supervision.IMissionCOSCA =====
+
+===== class-name = supervision.ISilencieuxCdcCie =====
+
+===== class-name = supervision.ISilencieuxCer =====
+
+===== class-name = supervision.IVoieCentreCie =====
+ / supervision.IVoieCentreCie --> supprimé
+
+===== class-name = supervision.IVoieCentreCorrelee =====
+ / supervision.IVoieCentreCorrelee --> supprimé
+
+===== class-name = supervision.IVoieCentreParVoieRadio =====
+
+===== class-name = supervision.IVoieCentreSnmp =====
+ / supervision.IVoieCentreSnmp --> supprimé
+
+===== class-name = supervision.IVoieRadioCie =====
+ / supervision.IVoieRadioCie --> supprimé
+
+===== class-name = supervision.IVoieRadioSnmp =====
+ / supervision.IVoieRadioSnmp --> supprimé
+
+===== class-name = system.IHttpServeur =====
+ / system.IHttpServeur --> ajouté
+
+===== class-name = system.IOperatingStateAbnormalStatusConfiguration =====
+
+===== class-name = system.IPodmanContainer =====
+ / system.IPodmanContainer --> ajouté
+
+===== class-name = system.piu.IVersionAntiVirusCie =====
+ / system.piu.IVersionAntiVirusCie --> supprimé
+
+===== class-name = system.piu.IVersionAntiVirusSnmp =====
+ / system.piu.IVersionAntiVirusSnmp --> supprimé
+
+===== class-name = system.piu.IVersionElementSecretCie =====
+ / system.piu.IVersionElementSecretCie --> supprimé
+
+===== class-name = system.piu.IVersionElementSecretSnmp =====
+ / system.piu.IVersionElementSecretSnmp --> supprimé
+
+===== class-name = system.piu.IVersionSystemeCie =====
+ / system.piu.IVersionSystemeCie --> supprimé
+
+===== class-name = system.piu.IVersionSystemeSnmp =====
+ / system.piu.IVersionSystemeSnmp --> supprimé
+
+===== class-name = system.piu.IVersionTorrentCie =====
+ / system.piu.IVersionTorrentCie --> supprimé
+vgoip.IVgoipEnregistreur / flagMemPercent --> ajouté
+vgoip.IVgoipEnregistreur / listeCertificat --> ajouté
+vgoip.IVgoipEnregistreur / listeCRL --> ajouté
+
+===== class-name = vgoip.IVgoipEnregistreur =====
+vgoip.IVgoipRejeu / flagMemPercent --> ajouté
+vgoip.IVgoipRejeu / listeCertificat --> ajouté
+vgoip.IVgoipRejeu / listeCRL --> ajouté
+
+===== class-name = vgoip.IVgoipRejeu =====
+vgoip.IVgoipSimulation / flagMemPercent --> ajouté
+vgoip.IVgoipSimulation / listeCertificat --> ajouté
+vgoip.IVgoipSimulation / listeCRL --> ajouté
+
+===== class-name = vgoip.IVgoipSimulation =====
+1.0749130249023438
