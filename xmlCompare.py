@@ -3,6 +3,7 @@ import sys
 import time
 import logging
 from typing import Generator, Tuple
+from enum import Enum
 
 """
 Ce programme fonctionne avec 2 arguments supplémentaires (donc 3 au total), et fonctionne comme suit :
@@ -15,6 +16,11 @@ Soit :
 python xml-Parser.py fichier_recent.xml fichier_ancien.xml
 Il faut inclure les 3 arguments, dans le cas contraire le programme ne fonctionnera pas.
 """
+class CompareResult(Enum):
+    EGAL = 0
+    ADD = 1
+    SUPPR = 2
+    INC = 3
 
 def compareElement(element_new, element_old, attrib) -> Tuple[str, str, str, bool, bool]:
     result = '?'
@@ -23,11 +29,11 @@ def compareElement(element_new, element_old, attrib) -> Tuple[str, str, str, boo
         # on a obtenu 1 element dans new et dans old
         attribValue_new = element_new.get(attrib)
         attribValue_old = element_old.get(attrib)
-        # print(f"{attribValue_new} <--> {attribValue_old}")
+        # print(f"compareElement() attrib={attrib} {attribValue_new} <--> {attribValue_old}")
         if attribValue_new == attribValue_old:
             result = '='
             texte = f""
-            compareLevel(element_new, element_old, path=attribValue_new, attrib='nom')
+            # compareLevel(element_new, element_old, path=f"{path} / {attribValue_new}", attrib='nom')
             attribValue = attribValue_new
             get_new = True
             get_old = True
@@ -72,7 +78,7 @@ def iterOneLevelXml(tree: ET.Element) -> Generator[ET.Element, None, None]:
         # print(f"iterOneLevelXml() tag={element.tag} classname={element.get('class-name')} nom={element.get('nom')}")
         yield element
 
-def compareLevel(tree_new, tree_old, path, attrib):
+def compareLevel(tree_new, tree_old, attrib, path, level):
     generator_new = iterOneLevelXml(tree_new)
     generator_old = iterOneLevelXml(tree_old)
     get_new = True
@@ -92,39 +98,47 @@ def compareLevel(tree_new, tree_old, path, attrib):
             except StopIteration:
                 # print("FIN_old")
                 element_old = None
+        if element_new is None and element_old is None:
+            break
         result, texte, attribValue, get_new, get_old = compareElement(element_new, element_old, attrib)
         logging.info(f"result={result}, texte={texte}, attribValue={attribValue}, get_new={get_new}, get_old={get_old}")
-        if not attribValue and not texte:
-            break
-        if element_new is not None:
-            if element_old is not None:
-                logging.info(f"{result}    {attrib} = {attribValue} {element_new.get(attrib)} <-> {element_old.get(attrib)}")
-            else:
-                logging.info(f"{result}    {attrib} = {attribValue} {element_new.get(attrib)} <-> None")
-        else:
-            if element_old is not None:
-                logging.info(f"{result}    {attrib} = {attribValue} None <-> {element_old.get(attrib)}")
-            else:
-                logging.info(f"{result}    {attrib} = {attribValue} None <-> None")
-        # 
-        if attrib == 'class-name':
+
+        if level == 0:
             print("")
             print(f"===== {attrib} = {attribValue} =====")
+
+        if path == '':
+            textePath = f'{attribValue}'
+        else:
+            textePath = f"{path} / {attribValue}"
         if result == 'a':
             logging.info(f"AJOUT    {attrib} {attribValue} {element_new.get(attrib)}")
-            print(f"{path} / {attribValue} {texte}")
+            print(f"{textePath} {texte}")
         elif result == 's':
             logging.info(f"SUPPR    {attrib}  {attribValue} {element_old.get(attrib)}")
-            print(f"{path} / {attribValue} {texte}")
+            print(f"{textePath} {texte}")
         elif result == '=':
             logging.info(f"EGAL    {attrib}  {attribValue}")
             # print(texte)
         elif result == '?':
-            logging.warning(f"????    {attrib}  {attribValue} {element_new.get(attrib)} {element_old.get(attrib)}")
+            print(f"???? result={result} attrib={attrib}  attribValue={attribValue} ")
             # print(texte)
         else:
-            print(f"???? {result}   {attrib}  {attribValue} {element_new.get(attrib)} {element_old.get(attrib)}")
-        
+            logging.warning(f"???? result={result}   attrib={attrib}  attribValue={attribValue} ")
+        if element_new is None:
+            lg = '--'
+        else:
+            lg = len(element_new)
+        # print(f"compareLevel(attrib={attrib}, path={path}, level={level}) result={result}, texte={texte}, attribValue={attribValue}, get_new={get_new}, get_old={get_old} len(element_new)={lg}")
+        if result == '=' and len(element_new) > 0:
+            logging.info(f"EGAL => compareLevel()    {attrib}  {attribValue}")
+            if level == 0:
+                pathForCompare = f""
+            elif level == 1:
+                pathForCompare = f"{attribValue}"
+            else:
+                pathForCompare=f"{path} / {attribValue}"
+            compareLevel(element_new, element_old, attrib='nom', path=pathForCompare, level=level + 1)
     # print("TERMINE")
 
 def parcours(tree, texte):
@@ -181,7 +195,7 @@ if nb_par == 3:
     root_old = arbre_old.getroot()
     gom_old = root_old[0][0]
     
-    diff = compareLevel(tree_new=gom_new, tree_old=gom_old, path='', attrib='class-name')
+    diff = compareLevel(tree_new=gom_new, tree_old=gom_old, attrib='class-name', path='', level=0)
 else:
     parcours(tree=gom_new, texte="gom_new")
     diff = True
