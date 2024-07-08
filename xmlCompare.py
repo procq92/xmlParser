@@ -4,6 +4,7 @@ import time
 import logging
 from typing import Generator, Tuple
 from enum import Enum
+from infosClasses import numeros_de_classe, classes_a_exclure
 
 """
 Ce programme fonctionne avec 2 arguments supplémentaires (donc 3 au total), et fonctionne comme suit :
@@ -22,11 +23,25 @@ class CompareResult(Enum):
     SUPPR = 2
     INC = 3
 
-def compareElement(element_new, element_old, attrib) -> Tuple[str, str, str, bool, bool]:
+def getAttribFromTag(tag: str) -> str:
+    if tag == 'obj':
+        attrib = 'class-name'
+    elif tag == 'fv':
+        attrib = 'nom'
+    elif tag == 'a':
+        attrib = 'i'
+    return attrib
+
+def compareElement(element_new: ET.Element, element_old: ET.Element, attrib: str) -> Tuple[str, str, str, bool, bool]:
     result = '?'
     texte = "--------"
     if element_new is not None and element_old is not None:
         # on a obtenu 1 element dans new et dans old
+        tagValueNew = element_new.tag
+        tagValueOld = element_old.tag
+        if tagValueNew != tagValueOld or tagValueNew is None:
+            return '?', None, None, None, None
+        attrib = getAttribFromTag(tag=tagValueNew)
         attribValue_new = element_new.get(attrib)
         attribValue_old = element_old.get(attrib)
         # print(f"compareElement() attrib={attrib} {attribValue_new} <--> {attribValue_old}")
@@ -51,6 +66,8 @@ def compareElement(element_new, element_old, attrib) -> Tuple[str, str, str, boo
             get_old = False
     elif element_new is not None:
         result = 'a'
+        tagValueNew = element_new.tag
+        attrib = getAttribFromTag(tag=tagValueNew)
         attribValue_new = element_new.get(attrib)
         texte = "--> ajouté"
         attribValue = attribValue_new
@@ -58,6 +75,8 @@ def compareElement(element_new, element_old, attrib) -> Tuple[str, str, str, boo
         get_old = False
     elif element_old is not None:
         result = 's'
+        tagValueOld = element_old.tag
+        attrib = getAttribFromTag(tag=tagValueOld)
         attribValue_old = element_old.get(attrib)
         texte = "--> supprimé"
         attribValue = attribValue_old
@@ -100,12 +119,16 @@ def compareLevel(tree_new, tree_old, attrib, path, level):
                 element_old = None
         if element_new is None and element_old is None:
             break
+
         result, texte, attribValue, get_new, get_old = compareElement(element_new, element_old, attrib)
         logging.info(f"result={result}, texte={texte}, attribValue={attribValue}, get_new={get_new}, get_old={get_old}")
 
         if level == 0:
             print("")
-            print(f"===== {attrib} = {attribValue} =====")
+            print(f"===== {attrib} = {attribValue} [{numeros_de_classe.get(attribValue)}] =====")
+
+            if attribValue in classes_a_exclure:
+                continue
 
         if path == '':
             textePath = f'{attribValue}'
