@@ -1,13 +1,10 @@
 classes_a_exclure = (
-                    "cmoip.ICmoipCie",
-                    "cmoip.ICmoipClient",
-                    "cmoip.ICmoipClientCie",
-                    "cmoip.ICmoipServerStandaloneCie",
-                    "cmoip.ICmoipServerStandaloneSnmp",
-                    "cmoip.ICmoipSnmp",
+                    "cmoip.ICmoipClient", "cmoip.ICmoipClientCie",
+                    "cmoip.ICmoipServerStandaloneSnmp", "cmoip.ICmoipServerStandaloneCie",
+                    "cmoip.ICmoipSnmp", "cmoip.ICmoipCie",
                     "ithTphAnnuaire.ICorrespExterne",
-                    "mg2s.IAtelierEnergie",
-                    "mg2s.IAtelierEnergieCie"
+                    "mg2s.IAtelierEnergie", "mg2s.IAtelierEnergieCie",
+                    "ithTphEquipements.ITsoipServerStandalone", "ithTphEquipements.ITsoipServerStandaloneCie"
                     )
 
 numeros_de_classe = {
