@@ -36,6 +36,7 @@ p = Path.cwd()
 parser = argparse.ArgumentParser()
 parser.add_argument('-v', '--verbose', help='ajoute des traces', action='store_true')
 parser.add_argument('filename', help='nom du fichier xml à parser')
+parser.add_argument('version', help='version CMoIP')
 #parser.add_argument('resultFolder', default='templ', help='répertoire où placer les templates')
 args = parser.parse_args()
 # if args.resultFolder:
@@ -66,7 +67,10 @@ tree = etree.parse(args.filename)
 root = tree.getroot()
 groupObjectModel = root[0][0]
 
-texte_description = f"<!-- date : {dateTexte} -->\n<!-- dossier : {p} -->\n<!-- squelette : {args.filename} -->\n<!-- sw_cmoip_version : {root.attrib.get('sw_cmoip_version', '?????')} -->\n"
+version_cmoip = root.attrib.get('sw_cmoip_version')
+if version_cmoip is None:
+    version_cmoip = args.version
+texte_description = f"<!-- date : {dateTexte} -->\n<!-- dossier : {p} -->\n<!-- squelette : {args.filename} -->\n<!-- sw_cmoip_version : {version_cmoip} -->\n"
 print("texte_description=" + texte_description)
 
 # print(type(p))
