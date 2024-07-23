@@ -1,10 +1,12 @@
 import xml.etree.ElementTree as ET
+from lxml import etree
 import sys
 import time
 import logging
 from typing import Generator, Tuple
 from enum import Enum
 from infosClasses import numeros_de_classe, classes_a_exclure
+from pprint import pprint
 
 """
 Ce programme fonctionne avec 2 arguments supplémentaires (donc 3 au total), et fonctionne comme suit :
@@ -17,11 +19,26 @@ Soit :
 python xml-Parser.py fichier_recent.xml fichier_ancien.xml
 Il faut inclure les 3 arguments, dans le cas contraire le programme ne fonctionnera pas.
 """
+
+listeClassesExclues = []
+listeClassesAjoutees = []
+listeClassesSupprimees = []
+modificationsClasse = []
+modificationsAjoutsClasse = []
+modificationsSuppressionsClasse = []
+listeModifications = {}
+verbose = False
+
 class CompareResult(Enum):
     EGAL = 0
     ADD = 1
     SUPPR = 2
     INC = 3
+
+def verbosePrint(texte: str):
+    global verbose
+    if verbose:
+        print(texte)
 
 def getAttribFromTag(tag: str) -> str:
     if tag == 'obj':
@@ -97,7 +114,10 @@ def iterOneLevelXml(tree: ET.Element) -> Generator[ET.Element, None, None]:
         # print(f"iterOneLevelXml() tag={element.tag} classname={element.get('class-name')} nom={element.get('nom')}")
         yield element
 
-def compareLevel(tree_new, tree_old, attrib, path, level):
+def compareLevel(tree_new, tree_old, attrib, path, level, nomClasse):
+    global listeClassesExclues, listeClassesAjoutees, listeClassesSupprimees, listeModifications
+    global modificationsClasse, modificationsAjoutsClasse, modificationsSuppressionsClasse
+    
     generator_new = iterOneLevelXml(tree_new)
     generator_old = iterOneLevelXml(tree_old)
     get_new = True
@@ -124,27 +144,45 @@ def compareLevel(tree_new, tree_old, attrib, path, level):
         logging.info(f"result={result}, texte={texte}, attribValue={attribValue}, get_new={get_new}, get_old={get_old}")
 
         if level == 0:
-            print("")
-            print(f"===== {attrib} = {attribValue} [{numeros_de_classe.get(attribValue)}] =====")
-
-            if attribValue in classes_a_exclure:
+            nomClasse = attribValue
+            verbosePrint("")
+            verbosePrint(f"===== {attrib} = {nomClasse} [{numeros_de_classe.get(nomClasse)}] =====")
+            if nomClasse in classes_a_exclure:
+                verbosePrint("--------> IGNOREE")
+                listeClassesExclues.append(nomClasse)
                 continue
 
         if path == '':
             textePath = f'{attribValue}'
         else:
             textePath = f"{path} / {attribValue}"
+
         if result == 'a':
+            ### AJOUT ###
             logging.info(f"AJOUT    {attrib} {attribValue} {element_new.get(attrib)}")
-            print(f"{textePath} {texte}")
+            if level == 0:
+                # on est au premier niveau  => ajout de classe
+                listeClassesAjoutees.append(nomClasse)
+                verbosePrint(f"CLASSE {texte}")
+            else:
+                modificationsClasse.append(f"{textePath} {texte}")
+                modificationsAjoutsClasse.append(textePath)
+                verbosePrint(f"{textePath} {texte}")
         elif result == 's':
+            ### SUPPRESSION ###
             logging.info(f"SUPPR    {attrib}  {attribValue} {element_old.get(attrib)}")
-            print(f"{textePath} {texte}")
+            if level == 0:
+                listeClassesSupprimees.append(nomClasse)
+                verbosePrint(f"CLASSE {texte}")
+            else:
+                modificationsClasse.append(f"{textePath} {texte}")
+                modificationsSuppressionsClasse.append(textePath)
+                verbosePrint(f"{textePath} {texte}")
         elif result == '=':
             logging.info(f"EGAL    {attrib}  {attribValue}")
             # print(texte)
         elif result == '?':
-            print(f"???? result={result} attrib={attrib}  attribValue={attribValue} ")
+            verbosePrint(f"???? result={result} attrib={attrib}  attribValue={attribValue} ")
             # print(texte)
         else:
             logging.warning(f"???? result={result}   attrib={attrib}  attribValue={attribValue} ")
@@ -157,21 +195,35 @@ def compareLevel(tree_new, tree_old, attrib, path, level):
             logging.info(f"EGAL => compareLevel()    {attrib}  {attribValue}")
             if level == 0:
                 pathForCompare = f""
+                modificationsClasse = []
+                modificationsAjoutsClasse = []
+                modificationsSuppressionsClasse = []
             elif level == 1:
                 pathForCompare = f"{attribValue}"
             else:
                 pathForCompare=f"{path} / {attribValue}"
-            compareLevel(element_new, element_old, attrib='nom', path=pathForCompare, level=level + 1)
+            compareLevel(element_new, element_old, attrib='nom', path=pathForCompare, level=level + 1, nomClasse=nomClasse)
+            if level == 0:
+                if len(modificationsClasse) > 0:
+                    listeModifications[nomClasse] = {}
+                    listeModifications[nomClasse]['AJOUT'] = modificationsAjoutsClasse
+                    listeModifications[nomClasse]['SUPPR'] = modificationsSuppressionsClasse
+
+                # on a terminé de parcourir toute la classe
+
     # print("TERMINE")
 
 def parcours(tree, texte):
     # print(f"DEB parcours() : texte={texte} len={len(tree)}_______________")
     generator = iterOneLevelXml(tree)
+    pprint(tree)
+    print(f"len(tree)={len(tree)}")
     cpt = 0
     while True:
         try:
             cpt += 1
             element = next(generator)
+            # print(f"cpt={cpt} -> {element}")
             
         except StopIteration:
             # print("FIN_new")
@@ -209,6 +261,7 @@ start_time = time.time()
 fichier_new = sys.argv[1]
 arbre_new = ET.parse(fichier_new)
 root_new = arbre_new.getroot()
+pprint(root_new)
 gom_new = root_new[0][0]
 
 if nb_par == 3:
@@ -217,8 +270,7 @@ if nb_par == 3:
     arbre_old = ET.parse(fichier_old)
     root_old = arbre_old.getroot()
     gom_old = root_old[0][0]
-    
-    diff = compareLevel(tree_new=gom_new, tree_old=gom_old, attrib='class-name', path='', level=0)
+    diff = compareLevel(tree_new=gom_new, tree_old=gom_old, attrib='class-name', path='', level=0, nomClasse=None)
 else:
     parcours(tree=gom_new, texte="gom_new")
     diff = True
@@ -226,6 +278,22 @@ else:
 end_time = time.time()
 execution_time = end_time - start_time
 print(execution_time)
+
+print("============= listeClassesExclues =============")
+pprint(listeClassesExclues)
+print("")
+
+print("============= listeClassesAjoutees =============")
+pprint(listeClassesAjoutees)
+print("")
+
+print("============= listeClassesSupprimees =============")
+pprint(listeClassesSupprimees)
+print("")
+
+print("============= listeModifications =============")
+pprint(listeModifications)
+print("")
 
 if diff:
     exit(1)
