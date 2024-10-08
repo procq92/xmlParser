@@ -70,7 +70,7 @@ groupObjectModel = root[0][0]
 version_cmoip = root.attrib.get('sw_cmoip_version')
 if version_cmoip is None:
     version_cmoip = args.version
-texte_description = f"<!-- date : {dateTexte} -->\n<!-- dossier : {p} -->\n<!-- squelette : {args.filename} -->\n<!-- sw_cmoip_version : {version_cmoip} -->\n"
+texte_description = f"<!-- date : {dateTexte} squelette : {args.filename} -->\n"
 print("texte_description=" + texte_description)
 
 # print(type(p))
@@ -94,23 +94,34 @@ for enfant in groupObjectModel:
         #print (class_name)
         #if class_name == "ithTphConfiguration.IDomains":
         #    print (enfant)
-        numero_classe = numeros_de_classe.get(class_name)
-        if numero_classe:
-            if numero_classe == "":
-                texte_numero = "na"
-                print("class_name={} -> numéro vide".format(class_name))
+        info_classe = numeros_de_classe.get(class_name)
+        if info_classe is not None:
+            numero_classe = info_classe.get('numero')
+            if numero_classe is not None:
+                if numero_classe == "":
+                    texte_numero = "na"
+                    print("class_name={} -> numéro vide".format(class_name))
+                else:
+                    texte_numero = f"{numero_classe}"
             else:
-                texte_numero = f"{numero_classe}"
-        else:
-            texte_numero = "null"
-            print("class_name={} -> pas de numéro".format(class_name))
-        texte_fichier =  f'<!-- fichier : {"templ_" + texte_numero + class_name + ".xml"} -->\n'
-        texte_classe = f'<!-- classe : {texte_numero + " === " + class_name} -->\n\n'
+                texte_numero = "null"
+                print("class_name={} -> pas de numéro".format(class_name))
+            dossier_classe = info_classe.get('dossier', "inconnu")
+            resultFolderClasse = resultFolder / dossier_classe
+            if not resultFolderClasse.exists():
+                resultFolderClasse.mkdir()
+                print(f"Création du dossier {resultFolderClasse.name}")
+            if resultFolderClasse.is_file():
+                logging.error(f"Le répertoire de destination est un fichier, et pas un répertoire")
+                exit(1)
+
+        texte_fichier =  f'<!-- fichier : {"templ_" + texte_numero + class_name + ".xml"} classe : {texte_numero + " === " + class_name} -->\n\n'
         texteListeClassesInclues += "\n" + class_name
-        filename = resultFolder / ("templ_" + texte_numero + "_" + class_name + ".xml")
-        #print(f"======  {filename.name} {filename.stem} {filename.suffix} {filename.parts}")
+        filename = resultFolderClasse / ("templ_" + texte_numero + "_" + class_name + ".xml")
+        print(f"======  name={filename.name} stem={filename.stem} suffix={filename.suffix} parts={filename.parts}")
         enfant_str = etree.tostring(enfant, encoding='unicode')
-        filename.write_text(texte_description + texte_fichier + texte_classe + enfant_str, encoding='utf-8')
+        print(f"Ecriture du fichier {filename.name}")
+        filename.write_text(texte_description + texte_fichier + enfant_str, encoding='utf-8')
         # with open(filename, "w", encoding="utf-8") as f:
         #     f.write(xml.etree.ElementTree.tostring(enfant, encoding='unicode'))
 listeClasses.write_text(texteListeClasses)
