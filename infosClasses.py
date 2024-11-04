@@ -33,6 +33,7 @@ numeros_de_classe = {
     "srsa.edcdc.IPlanRemplacement":             { 'numero': "0312", 'dossier': "03_configurationCdc" },
     "srsa.edcdc.IPlanRemplacementAActiver":     { 'numero': "0313", 'dossier': "03_configurationCdc" },
     "srsa.edcdc.shared.ICahierTOV":             { 'numero': "0314", 'dossier': "03_configurationCdc" },
+    "srsa.edcdc.shared.IVoieStatic":            { 'numero': "0315", 'dossier': "03_configurationCdc" },
 ### 40 ITH-TPH Equipements
     "ithTphEquipements.ITsoip":                     { 'numero': "401", 'dossier': "40_ithTphEquipement" },
     "ithTphEquipements.ITsoipServerStandalone":     { 'numero': "402", 'dossier': "40_ithTphEquipement" },
